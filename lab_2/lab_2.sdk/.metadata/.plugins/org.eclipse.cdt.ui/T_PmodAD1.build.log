@@ -1,0 +1,23 @@
+13:44:11 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Pmod.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pmod.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pmod.d" -MT"src/Pmod.o" -o "src/Pmod.o" "../src/Pmod.c"
+'Finished building: ../src/Pmod.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Pmod.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72764	   2612	  23392	  98768	  181d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+
+13:44:13 Build Finished (took 1s.423ms)
+

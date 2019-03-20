@@ -1,0 +1,173 @@
+
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_io.h"
+#include "xil_types.h"
+#include "xil_cache.h"
+#include "PmodAD1.h"
+#include "sleep.h"
+#include "xgpio.h"
+#include "xstatus.h"
+#include "xil_printf.h"
+
+// Definitions
+#define SWTS_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID
+#define LEDS_DEVICE_ID XPAR_AXI_GPIO_1_DEVICE_ID
+#define SWTS_CHANNEL 2
+#define LEDS_CHANNEL 1
+#define FIVE_SEC 5000000
+
+// Creating global items
+XGpio SWTInst, LEDInst;
+PmodAD1 myDevice;
+const float ReferenceVoltage = 3.3;
+float averageVoltage[2] = {0,0};
+
+// Prototyping functions
+void DemoInitialize();
+void DemoRun();
+void DemoCleanup();
+void EnableCaches();
+void DisableCaches();
+
+int main ()
+{
+	int status;
+
+	// Initialize switches
+	status = XGpio_Initialize(&SWTInst, SWTS_DEVICE_ID);
+	if (status != XST_SUCCESS) return XST_FAILURE;
+	// Initialize LEDs
+	status = XGpio_Initialize(&LEDInst, LEDS_DEVICE_ID);
+	if (status != XST_SUCCESS) return XST_FAILURE;
+	// Set switches direction to inputs
+	XGpio_SetDataDirection(&SWTInst, SWTS_CHANNEL, 0xFF);
+	// Set LEDs direction to outputs
+	XGpio_SetDataDirection(&LEDInst, LEDS_CHANNEL, 0x00);
+
+	DemoInitialize();
+	DemoRun();
+	DemoCleanup();
+	return 0;
+}
+
+void DemoInitialize()
+{
+	EnableCaches();
+
+	AD1_begin(&myDevice, XPAR_PMODAD1_0_AXI_LITE_SAMPLE_BASEADDR);
+
+	//wait for AD1 to finish powering on
+	usleep(1); // 1 us (minimum)
+}
+
+void DemoRun()
+{
+	AD1_RawData RawData;
+	AD1_PhysicalData PhysicalData;
+	// Variable to for storing switch input
+	int switchRead;
+
+	while (1) {
+		AD1_GetSample (&myDevice, &RawData); // capture raw samples
+		AD1_RawToPhysical(ReferenceVoltage, RawData, &PhysicalData); // convert raw samples into floats scaled to 0 - VDD
+
+		// Read switch input
+		switchRead = XGpio_DiscreteRead(&SWTInst, SWTS_CHANNEL);
+
+		// Switch-case block to handle all the cases detailed in the lab report
+		switch(switchRead)
+		{
+			// Handling neither of the switches being on
+			case 0:
+			{
+				// Writing to the LEDs making sure they're blank
+				XGpio_DiscreteWrite(&LEDInst, LEDS_CHANNEL, 0);
+				printf("ECE3622 Lab 2\n");
+				// Making the system wait 5 seconds
+				usleep(FIVE_SEC);
+			}
+			break;
+
+			// Handling when only SW0 is flipped on
+			case 1:
+			{
+				// Each if statement is what it says on the box, where PhysicalData[0] = input voltage
+				if (PhysicalData[0] <= 0.2)
+					XGpio_DiscreteWrite(&LEDInst, LEDS_CHANNEL, 0);
+				if (PhysicalData[0] <= 0.4 && PhysicalData[0] > 0.2)
+					XGpio_DiscreteWrite(&LEDInst, LEDS_CHANNEL, 1);
+				if (PhysicalData[0] <= 0.6 && PhysicalData[0] > 0.4)
+					XGpio_DiscreteWrite(&LEDInst, LEDS_CHANNEL, 3);
+				if (PhysicalData[0] <= 0.8 && PhysicalData[0] > 0.6)
+					XGpio_DiscreteWrite(&LEDInst, LEDS_CHANNEL, 7);
+				if (PhysicalData[0] > 1)
+					XGpio_DiscreteWrite(&LEDInst, LEDS_CHANNEL, 15);
+			}
+			break;
+
+			case 2:
+			{
+				// Similar to first case, ensuring nothing is being written to LEDs
+				XGpio_DiscreteWrite(&LEDInst, LEDS_CHANNEL, 0);
+				// Putting each voltage value into first slot of array
+				averageVoltage[0] = PhysicalData[0];
+				// If case for the beginning of this, where the array is still initialized to 0.
+				// averageVoltage[1] is meant to hold the running average value, if there is only one value
+				// then that is the average
+				if (averageVoltage[1] == 0)
+					averageVoltage[1] = averageVoltage[0];
+				// Handles all other cases, in which there is more than one value being entered into
+				// the running average
+				else
+				{
+					// Sets averageVoltage[1] to be the average of the newly entered value and the
+					// existing running average
+					averageVoltage[1] = (averageVoltage[1] + averageVoltage[0]) / 2;
+					printf("Running average: %.02f\n", averageVoltage[1]);
+				}
+			}
+			break;
+
+			// Default to having blank LEDs
+			default:
+				XGpio_DiscreteWrite(&LEDInst, LEDS_CHANNEL, 0);
+		}
+
+//		printf("Input Data 1: %.02f;   ", PhysicalData[0]);
+//		printf("Input Data 2: %.02f\r\n", PhysicalData[1]);
+
+		// do this 10x per second
+//		usleep(100000);
+	}
+}
+
+void DemoCleanup()
+{
+	DisableCaches();
+}
+
+void EnableCaches()
+{
+#ifdef __MICROBLAZE__
+#ifdef XPAR_MICROBLAZE_USE_ICACHE
+    Xil_ICacheEnable();
+#endif
+#ifdef XPAR_MICROBLAZE_USE_DCACHE
+    Xil_DCacheEnable();
+#endif
+#endif
+}
+
+void DisableCaches()
+{
+#ifdef __MICROBLAZE__
+#ifdef XPAR_MICROBLAZE_USE_DCACHE
+	Xil_DCacheDisable();
+#endif
+#ifdef XPAR_MICROBLAZE_USE_ICACHE
+	Xil_ICacheDisable();
+#endif
+#endif
+}
+

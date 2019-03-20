@@ -1,0 +1,2992 @@
+20:52:58 **** Build of project lab_2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling PmodAD1..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project lab_2 ****
+
+Nothing to build for project lab_2
+20:54:41 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../lab_2_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: lab_2.elf] Error 1
+21:12:36 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73200	   2580	  23344	  99124	  18334	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+21:20:33 **** Incremental Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:23:30 **** Incremental Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:24:31 **** Incremental Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:15:03 **** Build of project T_PmodAD1_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling PmodAD1..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project T_PmodAD1 ****
+
+Nothing to build for project T_PmodAD1
+22:15:42 **** Build of project lab_2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling PmodAD1..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+22:16:19 **** Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73200	   2580	  23344	  99124	  18334	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+22:23:26 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../T_PmodAD1_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\vivado_proj\lab_2\lab_2.sdk\T_PmodAD1_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: T_PmodAD1.elf] Error 1
+22:26:03 **** Incremental Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:26:31 **** Incremental Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:00:04 **** Clean-only build of configuration Debug for project T_PmodAD1 ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  T_PmodAD1.elf.size  T_PmodAD1.elf
+' '
+00:00:06 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pmod_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pmod_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pmod_main.d" -MT"src/pmod_main.o" -o "src/pmod_main.o" "../src/pmod_main.c"
+'Finished building: ../src/pmod_main.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/pmod_main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../T_PmodAD1_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\vivado_proj\lab_2\lab_2.sdk\T_PmodAD1_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: T_PmodAD1.elf] Error 1
+00:01:12 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/pmod_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pmod_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pmod_main.d" -MT"src/pmod_main.o" -o "src/pmod_main.o" "../src/pmod_main.c"
+'Finished building: ../src/pmod_main.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/pmod_main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../T_PmodAD1_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\vivado_proj\lab_2\lab_2.sdk\T_PmodAD1_bsp\ps7_cortexa9_0\libsrc\standalone_v6_8\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: T_PmodAD1.elf] Error 1
+00:01:39 **** Clean-only build of configuration Debug for project T_PmodAD1 ****
+make clean 
+rm -rf  ./src/pmod_main.o  ./src/pmod_main.d  T_PmodAD1.elf.size  T_PmodAD1.elf
+' '
+
+****  of configuration Debug for project T_PmodAD1 ****
+
+Nothing to build for project T_PmodAD1
+00:02:35 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+../src/led_controller_test_tut_4A.c:17:10: fatal error: led_controller.h: No such file or directory
+ #include "led_controller.h"
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:23: src/led_controller_test_tut_4A.o] Error 1
+00:02:50 **** Clean-only build of configuration Debug for project T_PmodAD1 ****
+make clean 
+rm -rf  ./src/led_controller_test_tut_4A.o  ./src/led_controller_test_tut_4A.d  T_PmodAD1.elf.size  T_PmodAD1.elf
+' '
+
+****  of configuration Debug for project T_PmodAD1 ****
+
+Nothing to build for project T_PmodAD1
+00:03:23 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_test_tut_1C.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+'Finished building: ../src/LED_test_tut_1C.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/LED_test_tut_1C.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23380	   1184	  22600	  47164	   b83c	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+00:05:06 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_test_tut_1C.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c:14:8: error: no macro name given in #define directive
+ #define
+        ^
+../src/LED_test_tut_1C.c: In function 'LEDOutputExample':
+../src/LED_test_tut_1C.c:26:36: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'LED_DEVICE_ID'?
+   Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                    ^~~~~~~~~~~~~~
+                                    LED_DEVICE_ID
+../src/LED_test_tut_1C.c:26:36: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/LED_test_tut_1C.o] Error 1
+00:05:16 **** Clean-only build of configuration Debug for project T_PmodAD1 ****
+make clean 
+rm -rf  ./src/LED_test_tut_1C.o  ./src/LED_test_tut_1C.d  T_PmodAD1.elf.size  T_PmodAD1.elf
+' '
+00:05:16 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Pmod_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pmod_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pmod_main.d" -MT"src/Pmod_main.o" -o "src/Pmod_main.o" "../src/Pmod_main.c"
+../src/Pmod_main.c:14:8: error: no macro name given in #define directive
+ #define
+        ^
+../src/Pmod_main.c: In function 'LEDOutputExample':
+../src/Pmod_main.c:26:36: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'LED_DEVICE_ID'?
+   Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                    ^~~~~~~~~~~~~~
+                                    LED_DEVICE_ID
+../src/Pmod_main.c:26:36: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/Pmod_main.o] Error 1
+00:09:56 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Pmod_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pmod_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pmod_main.d" -MT"src/Pmod_main.o" -o "src/Pmod_main.o" "../src/Pmod_main.c"
+../src/Pmod_main.c: In function 'LEDOutputExample':
+../src/Pmod_main.c:25:12: error: 'LED' undeclared (first use in this function)
+  int led = LED; /* Hold current LED value. Initialise to LED definition */
+            ^~~
+../src/Pmod_main.c:25:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/Pmod_main.c:28:36: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'LED_DEVICE_ID'?
+   Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                    ^~~~~~~~~~~~~~
+                                    LED_DEVICE_ID
+../src/Pmod_main.c:34:33: error: 'LED_CHANNEL' undeclared (first use in this function); did you mean 'SWS_CHANNEL'?
+   XGpio_SetDataDirection(&Gpio, LED_CHANNEL, 0x0);
+                                 ^~~~~~~~~~~
+                                 SWS_CHANNEL
+make: *** [src/subdir.mk:23: src/Pmod_main.o] Error 1
+00:15:37 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Pmod_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pmod_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pmod_main.d" -MT"src/Pmod_main.o" -o "src/Pmod_main.o" "../src/Pmod_main.c"
+../src/Pmod_main.c: In function 'LEDOutputExample':
+../src/Pmod_main.c:31:12: error: 'LED' undeclared (first use in this function)
+  int led = LED; /* Hold current LED value. Initialise to LED definition */
+            ^~~
+../src/Pmod_main.c:31:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/Pmod_main.c:34:30: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                              ^~~~
+                              XGpio
+../src/Pmod_main.c:34:36: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'LED_DEVICE_ID'?
+   Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                    ^~~~~~~~~~~~~~
+                                    LED_DEVICE_ID
+../src/Pmod_main.c:40:33: error: 'LED_CHANNEL' undeclared (first use in this function); did you mean 'SWS_CHANNEL'?
+   XGpio_SetDataDirection(&Gpio, LED_CHANNEL, 0x0);
+                                 ^~~~~~~~~~~
+                                 SWS_CHANNEL
+../src/Pmod_main.c: In function 'main':
+../src/Pmod_main.c:63:39: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'LED_DEVICE_ID'?
+  Status = XGpio_Initialize(&led_inst, GPIO_DEVICE_ID);
+                                       ^~~~~~~~~~~~~~
+                                       LED_DEVICE_ID
+../src/Pmod_main.c:65:3: error: 'retunr' undeclared (first use in this function)
+   retunr XST_FAILURE;
+   ^~~~~~
+In file included from ../../T_PmodAD1_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/Pmod_main.c:4:
+../../T_PmodAD1_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: error: expected ';' before numeric constant
+ #define XST_FAILURE                     1L
+                                         ^
+../src/Pmod_main.c:65:10: note: in expansion of macro 'XST_FAILURE'
+   retunr XST_FAILURE;
+          ^~~~~~~~~~~
+../src/Pmod_main.c:68:29: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+  Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                             ^~~~
+                             XGpio
+In file included from ../../T_PmodAD1_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/Pmod_main.c:4:
+../../T_PmodAD1_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: error: expected ';' before numeric constant
+ #define XST_FAILURE                     1L
+                                         ^
+../src/Pmod_main.c:70:11: note: in expansion of macro 'XST_FAILURE'
+    retunr XST_FAILURE;
+           ^~~~~~~~~~~
+../../T_PmodAD1_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: error: expected ';' before numeric constant
+ #define XST_FAILURE                     1L
+                                         ^
+../src/Pmod_main.c:75:12: note: in expansion of macro 'XST_FAILURE'
+     retunr XST_FAILURE;
+            ^~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Pmod_main.o] Error 1
+00:15:54 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Pmod_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pmod_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pmod_main.d" -MT"src/Pmod_main.o" -o "src/Pmod_main.o" "../src/Pmod_main.c"
+../src/Pmod_main.c: In function 'LEDOutputExample':
+../src/Pmod_main.c:31:12: error: 'LED' undeclared (first use in this function)
+  int led = LED; /* Hold current LED value. Initialise to LED definition */
+            ^~~
+../src/Pmod_main.c:31:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/Pmod_main.c:34:30: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                              ^~~~
+                              XGpio
+../src/Pmod_main.c:34:36: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'LED_DEVICE_ID'?
+   Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                    ^~~~~~~~~~~~~~
+                                    LED_DEVICE_ID
+../src/Pmod_main.c:40:33: error: 'LED_CHANNEL' undeclared (first use in this function); did you mean 'SWS_CHANNEL'?
+   XGpio_SetDataDirection(&Gpio, LED_CHANNEL, 0x0);
+                                 ^~~~~~~~~~~
+                                 SWS_CHANNEL
+../src/Pmod_main.c: In function 'main':
+../src/Pmod_main.c:65:3: error: 'retunr' undeclared (first use in this function)
+   retunr XST_FAILURE;
+   ^~~~~~
+In file included from ../../T_PmodAD1_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/Pmod_main.c:4:
+../../T_PmodAD1_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: error: expected ';' before numeric constant
+ #define XST_FAILURE                     1L
+                                         ^
+../src/Pmod_main.c:65:10: note: in expansion of macro 'XST_FAILURE'
+   retunr XST_FAILURE;
+          ^~~~~~~~~~~
+../src/Pmod_main.c:68:29: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+  Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                             ^~~~
+                             XGpio
+../src/Pmod_main.c:68:35: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'LED_DEVICE_ID'?
+  Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                   ^~~~~~~~~~~~~~
+                                   LED_DEVICE_ID
+In file included from ../../T_PmodAD1_bsp/ps7_cortexa9_0/include/xgpio.h:131:0,
+                 from ../src/Pmod_main.c:4:
+../../T_PmodAD1_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: error: expected ';' before numeric constant
+ #define XST_FAILURE                     1L
+                                         ^
+../src/Pmod_main.c:70:11: note: in expansion of macro 'XST_FAILURE'
+    retunr XST_FAILURE;
+           ^~~~~~~~~~~
+../../T_PmodAD1_bsp/ps7_cortexa9_0/include/xstatus.h:61:41: error: expected ';' before numeric constant
+ #define XST_FAILURE                     1L
+                                         ^
+../src/Pmod_main.c:75:12: note: in expansion of macro 'XST_FAILURE'
+     retunr XST_FAILURE;
+            ^~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Pmod_main.o] Error 1
+00:16:35 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Pmod_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pmod_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pmod_main.d" -MT"src/Pmod_main.o" -o "src/Pmod_main.o" "../src/Pmod_main.c"
+../src/Pmod_main.c: In function 'LEDOutputExample':
+../src/Pmod_main.c:31:12: error: 'LED' undeclared (first use in this function)
+  int led = LED; /* Hold current LED value. Initialise to LED definition */
+            ^~~
+../src/Pmod_main.c:31:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/Pmod_main.c:34:30: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                              ^~~~
+                              XGpio
+../src/Pmod_main.c:34:36: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'LED_DEVICE_ID'?
+   Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                    ^~~~~~~~~~~~~~
+                                    LED_DEVICE_ID
+../src/Pmod_main.c:40:33: error: 'LED_CHANNEL' undeclared (first use in this function); did you mean 'SWS_CHANNEL'?
+   XGpio_SetDataDirection(&Gpio, LED_CHANNEL, 0x0);
+                                 ^~~~~~~~~~~
+                                 SWS_CHANNEL
+../src/Pmod_main.c: In function 'main':
+../src/Pmod_main.c:68:39: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'LED_DEVICE_ID'?
+  Status = XGpio_Initialize(&btn_inst, GPIO_DEVICE_ID);
+                                       ^~~~~~~~~~~~~~
+                                       LED_DEVICE_ID
+make: *** [src/subdir.mk:23: src/Pmod_main.o] Error 1
+13:16:45 **** Clean-only build of configuration Debug for project T_PmodAD1 ****
+make clean 
+rm -rf  ./src/Pmod_main.o  ./src/Pmod_main.d  T_PmodAD1.elf.size  T_PmodAD1.elf
+' '
+13:16:47 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Pmod_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pmod_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pmod_main.d" -MT"src/Pmod_main.o" -o "src/Pmod_main.o" "../src/Pmod_main.c"
+../src/Pmod_main.c: In function 'main':
+../src/Pmod_main.c:103:40: error: 'GPIO_DEVICE_ID' undeclared (first use in this function); did you mean 'LED_DEVICE_ID'?
+   Status = XGpio_Initialize(&sws_inst, GPIO_DEVICE_ID);
+                                        ^~~~~~~~~~~~~~
+                                        LED_DEVICE_ID
+../src/Pmod_main.c:103:40: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/Pmod_main.o] Error 1
+13:16:57 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Pmod_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pmod_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pmod_main.d" -MT"src/Pmod_main.o" -o "src/Pmod_main.o" "../src/Pmod_main.c"
+'Finished building: ../src/Pmod_main.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Pmod_main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23780	   1184	  22632	  47596	   b9ec	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+14:14:22 **** Build of project test_1_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/PmodAD1_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling PmodAD1..."
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project test_1 ****
+
+Nothing to build for project test_1
+14:16:48 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_BUTTON_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON_T.d" -MT"src/LED_BUTTON_T.o" -o "src/LED_BUTTON_T.o" "../src/LED_BUTTON_T.c"
+'Finished building: ../src/LED_BUTTON_T.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/LED_BUTTON_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_1.elf  |tee "test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24468	   1184	  22616	  48268	   bc8c	test_1.elf
+'Finished building: test_1.elf.size'
+' '
+14:19:41 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_BUTTON_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON_T.d" -MT"src/LED_BUTTON_T.o" -o "src/LED_BUTTON_T.o" "../src/LED_BUTTON_T.c"
+../src/LED_BUTTON_T.c: In function 'LEDOutputExample':
+../src/LED_BUTTON_T.c:94:3: error: duplicate case value
+   case 0x2 && 0x8:
+   ^~~~
+../src/LED_BUTTON_T.c:80:3: note: previously used here
+   case 0x1 && 0x2:
+   ^~~~
+../src/LED_BUTTON_T.c:114:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main(void) {
+     ^~~~
+../src/LED_BUTTON_T.c:125:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/LED_BUTTON_T.c:125:1: error: expected declaration or statement at end of input
+../src/LED_BUTTON_T.c:55:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+At top level:
+../src/LED_BUTTON_T.c:114:5: warning: 'main' defined but not used [-Wunused-function]
+ int main(void) {
+     ^~~~
+make: *** [src/subdir.mk:23: src/LED_BUTTON_T.o] Error 1
+14:21:21 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_BUTTON_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON_T.d" -MT"src/LED_BUTTON_T.o" -o "src/LED_BUTTON_T.o" "../src/LED_BUTTON_T.c"
+../src/LED_BUTTON_T.c:46:1: warning: data definition has no type or storage class
+ LEDProblem1;
+ ^~~~~~~~~~~
+../src/LED_BUTTON_T.c:46:1: warning: type defaults to 'int' in declaration of 'LEDProblem1' [-Wimplicit-int]
+../src/LED_BUTTON_T.c:51:5: error: 'LEDProblem1' redeclared as different kind of symbol
+ int LEDProblem1(void) {
+     ^~~~~~~~~~~
+../src/LED_BUTTON_T.c:46:1: note: previous declaration of 'LEDProblem1' was here
+ LEDProblem1;
+ ^~~~~~~~~~~
+../src/LED_BUTTON_T.c: In function 'LEDProblem1':
+../src/LED_BUTTON_T.c:85:3: error: duplicate case value
+   case 0x2 && 0x8:
+   ^~~~
+../src/LED_BUTTON_T.c:71:3: note: previously used here
+   case 0x1 && 0x2:
+   ^~~~
+../src/LED_BUTTON_T.c:105:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main(void) {
+     ^~~~
+../src/LED_BUTTON_T.c:126:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/LED_BUTTON_T.c:126:1: error: expected declaration or statement at end of input
+../src/LED_BUTTON_T.c:57:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/LED_BUTTON_T.c:54:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+At top level:
+../src/LED_BUTTON_T.c:105:5: warning: 'main' defined but not used [-Wunused-function]
+ int main(void) {
+     ^~~~
+make: *** [src/subdir.mk:23: src/LED_BUTTON_T.o] Error 1
+14:21:34 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_BUTTON_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON_T.d" -MT"src/LED_BUTTON_T.o" -o "src/LED_BUTTON_T.o" "../src/LED_BUTTON_T.c"
+../src/LED_BUTTON_T.c: In function 'LEDProblem1':
+../src/LED_BUTTON_T.c:85:3: error: duplicate case value
+   case 0x2 && 0x8:
+   ^~~~
+../src/LED_BUTTON_T.c:71:3: note: previously used here
+   case 0x1 && 0x2:
+   ^~~~
+../src/LED_BUTTON_T.c:105:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main(void) {
+     ^~~~
+../src/LED_BUTTON_T.c:126:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/LED_BUTTON_T.c:126:1: error: expected declaration or statement at end of input
+../src/LED_BUTTON_T.c:57:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/LED_BUTTON_T.c:54:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+At top level:
+../src/LED_BUTTON_T.c:105:5: warning: 'main' defined but not used [-Wunused-function]
+ int main(void) {
+     ^~~~
+make: *** [src/subdir.mk:23: src/LED_BUTTON_T.o] Error 1
+14:21:47 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_BUTTON_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON_T.d" -MT"src/LED_BUTTON_T.o" -o "src/LED_BUTTON_T.o" "../src/LED_BUTTON_T.c"
+../src/LED_BUTTON_T.c: In function 'LEDProblem1':
+../src/LED_BUTTON_T.c:85:3: error: duplicate case value
+   case (0x2 && 0x8):
+   ^~~~
+../src/LED_BUTTON_T.c:71:3: note: previously used here
+   case 0x1 && 0x2:
+   ^~~~
+../src/LED_BUTTON_T.c:105:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main(void) {
+     ^~~~
+../src/LED_BUTTON_T.c:126:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/LED_BUTTON_T.c:126:1: error: expected declaration or statement at end of input
+../src/LED_BUTTON_T.c:57:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/LED_BUTTON_T.c:54:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+At top level:
+../src/LED_BUTTON_T.c:105:5: warning: 'main' defined but not used [-Wunused-function]
+ int main(void) {
+     ^~~~
+make: *** [src/subdir.mk:23: src/LED_BUTTON_T.o] Error 1
+14:22:01 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_BUTTON_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON_T.d" -MT"src/LED_BUTTON_T.o" -o "src/LED_BUTTON_T.o" "../src/LED_BUTTON_T.c"
+../src/LED_BUTTON_T.c: In function 'LEDProblem1':
+../src/LED_BUTTON_T.c:85:3: error: duplicate case value
+   case (0x2 && 0x8):
+   ^~~~
+../src/LED_BUTTON_T.c:71:3: note: previously used here
+   case (0x1 && 0x2):
+   ^~~~
+../src/LED_BUTTON_T.c:105:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main(void) {
+     ^~~~
+../src/LED_BUTTON_T.c:126:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/LED_BUTTON_T.c:126:1: error: expected declaration or statement at end of input
+../src/LED_BUTTON_T.c:57:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/LED_BUTTON_T.c:54:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+At top level:
+../src/LED_BUTTON_T.c:105:5: warning: 'main' defined but not used [-Wunused-function]
+ int main(void) {
+     ^~~~
+make: *** [src/subdir.mk:23: src/LED_BUTTON_T.o] Error 1
+14:24:46 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_BUTTON_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON_T.d" -MT"src/LED_BUTTON_T.o" -o "src/LED_BUTTON_T.o" "../src/LED_BUTTON_T.c"
+../src/LED_BUTTON_T.c: In function 'LEDProblem1':
+../src/LED_BUTTON_T.c:57:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/LED_BUTTON_T.c:54:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/LED_BUTTON_T.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/LED_BUTTON_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_1.elf  |tee "test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20640	   1176	  22616	  44432	   ad90	test_1.elf
+'Finished building: test_1.elf.size'
+' '
+14:26:18 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_BUTTON_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON_T.d" -MT"src/LED_BUTTON_T.o" -o "src/LED_BUTTON_T.o" "../src/LED_BUTTON_T.c"
+../src/LED_BUTTON_T.c: In function 'LEDProblem1':
+../src/LED_BUTTON_T.c:59:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/LED_BUTTON_T.c:56:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/LED_BUTTON_T.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/LED_BUTTON_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_1.elf  |tee "test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20640	   1176	  22632	  44448	   ada0	test_1.elf
+'Finished building: test_1.elf.size'
+' '
+14:26:22 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_BUTTON_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON_T.d" -MT"src/LED_BUTTON_T.o" -o "src/LED_BUTTON_T.o" "../src/LED_BUTTON_T.c"
+../src/LED_BUTTON_T.c: In function 'LEDProblem1':
+../src/LED_BUTTON_T.c:59:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/LED_BUTTON_T.c:56:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/LED_BUTTON_T.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/LED_BUTTON_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_1.elf  |tee "test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20640	   1176	  22632	  44448	   ada0	test_1.elf
+'Finished building: test_1.elf.size'
+' '
+14:26:25 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_BUTTON_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON_T.d" -MT"src/LED_BUTTON_T.o" -o "src/LED_BUTTON_T.o" "../src/LED_BUTTON_T.c"
+../src/LED_BUTTON_T.c: In function 'LEDProblem1':
+../src/LED_BUTTON_T.c:58:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/LED_BUTTON_T.c:55:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/LED_BUTTON_T.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/LED_BUTTON_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_1.elf  |tee "test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20640	   1176	  22632	  44448	   ada0	test_1.elf
+'Finished building: test_1.elf.size'
+' '
+14:27:06 **** Clean-only build of configuration Debug for project test_1 ****
+make clean 
+rm -rf  ./src/LED_BUTTON_T.o  ./src/LED_BUTTON_T.d  test_1.elf.size  test_1.elf
+' '
+14:27:06 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1SP19Prob1_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1SP19Prob1_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1SP19Prob1_T.d" -MT"src/Exam1SP19Prob1_T.o" -o "src/Exam1SP19Prob1_T.o" "../src/Exam1SP19Prob1_T.c"
+../src/Exam1SP19Prob1_T.c: In function 'LEDProblem1':
+../src/Exam1SP19Prob1_T.c:58:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/Exam1SP19Prob1_T.c:55:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Exam1SP19Prob1_T.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/Exam1SP19Prob1_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_1.elf  |tee "test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20640	   1176	  22632	  44448	   ada0	test_1.elf
+'Finished building: test_1.elf.size'
+' '
+14:27:33 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/Exam1SP19Prob1_T.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\vivado_proj\lab_2\lab_2.sdk\test_1\Debug/../src/main.c:63: multiple definition of `main'
+./src/Exam1SP19Prob1_T.o:C:\vivado_proj\lab_2\lab_2.sdk\test_1\Debug/../src/Exam1SP19Prob1_T.c:109: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: test_1.elf] Error 1
+14:28:30 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/Exam1SP19Prob1_T.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\vivado_proj\lab_2\lab_2.sdk\test_1\Debug/../src/main.c:155: multiple definition of `main'
+./src/Exam1SP19Prob1_T.o:C:\vivado_proj\lab_2\lab_2.sdk\test_1\Debug/../src/Exam1SP19Prob1_T.c:109: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: test_1.elf] Error 1
+14:28:42 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1SP19Prob1_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1SP19Prob1_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1SP19Prob1_T.d" -MT"src/Exam1SP19Prob1_T.o" -o "src/Exam1SP19Prob1_T.o" "../src/Exam1SP19Prob1_T.c"
+../src/Exam1SP19Prob1_T.c: In function 'LEDProblem1':
+../src/Exam1SP19Prob1_T.c:27:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/Exam1SP19Prob1_T.c:24:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Exam1SP19Prob1_T.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/Exam1SP19Prob1_T.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\vivado_proj\lab_2\lab_2.sdk\test_1\Debug/../src/main.c:155: multiple definition of `main'
+./src/Exam1SP19Prob1_T.o:C:\vivado_proj\lab_2\lab_2.sdk\test_1\Debug/../src/Exam1SP19Prob1_T.c:78: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: test_1.elf] Error 1
+14:29:10 **** Clean-only build of configuration Debug for project test_1 ****
+make clean 
+rm -rf  ./src/Exam1SP19Prob1_T.o ./src/main.o  ./src/Exam1SP19Prob1_T.d ./src/main.d  test_1.elf.size  test_1.elf
+' '
+14:29:10 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_1.elf  |tee "test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	test_1.elf
+'Finished building: test_1.elf.size'
+' '
+14:29:13 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1SP19Prob1_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1SP19Prob1_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1SP19Prob1_T.d" -MT"src/Exam1SP19Prob1_T.o" -o "src/Exam1SP19Prob1_T.o" "../src/Exam1SP19Prob1_T.c"
+../src/Exam1SP19Prob1_T.c: In function 'LEDProblem1':
+../src/Exam1SP19Prob1_T.c:27:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/Exam1SP19Prob1_T.c:24:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Exam1SP19Prob1_T.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/Exam1SP19Prob1_T.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+C:\vivado_proj\lab_2\lab_2.sdk\test_1\Debug/../src/main.c:155: multiple definition of `main'
+./src/Exam1SP19Prob1_T.o:C:\vivado_proj\lab_2\lab_2.sdk\test_1\Debug/../src/Exam1SP19Prob1_T.c:78: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: test_1.elf] Error 1
+14:29:18 **** Clean-only build of configuration Debug for project test_1 ****
+make clean 
+rm -rf  ./src/Exam1SP19Prob1_T.o ./src/main.o  ./src/Exam1SP19Prob1_T.d ./src/main.d  test_1.elf.size  test_1.elf
+' '
+14:29:19 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1SP19Prob1_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1SP19Prob1_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1SP19Prob1_T.d" -MT"src/Exam1SP19Prob1_T.o" -o "src/Exam1SP19Prob1_T.o" "../src/Exam1SP19Prob1_T.c"
+../src/Exam1SP19Prob1_T.c: In function 'LEDProblem1':
+../src/Exam1SP19Prob1_T.c:27:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/Exam1SP19Prob1_T.c:24:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Exam1SP19Prob1_T.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/Exam1SP19Prob1_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_1.elf  |tee "test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20640	   1176	  22632	  44448	   ada0	test_1.elf
+'Finished building: test_1.elf.size'
+' '
+14:30:08 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Pmod_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pmod_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pmod_main.d" -MT"src/Pmod_main.o" -o "src/Pmod_main.o" "../src/Pmod_main.c"
+../src/Pmod_main.c: In function 'DemoRun':
+../src/Pmod_main.c:54:7: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if (swsInput = 0){
+       ^~~~~~~~
+../src/Pmod_main.c:57:3: error: expected ';' before '}' token
+   }
+   ^
+make: *** [src/subdir.mk:23: src/Pmod_main.o] Error 1
+14:30:18 **** Clean-only build of configuration Debug for project T_PmodAD1 ****
+make clean 
+rm -rf  ./src/Pmod_main.o  ./src/Pmod_main.d  T_PmodAD1.elf.size  T_PmodAD1.elf
+' '
+14:30:19 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c: In function 'DemoRun':
+../src/Exam1Sp19Prob2_T.c:54:7: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if (swsInput = 0){
+       ^~~~~~~~
+../src/Exam1Sp19Prob2_T.c:57:3: error: expected ';' before '}' token
+   }
+   ^
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+14:31:11 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+14:31:38 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c: In function 'DemoInitialize':
+../src/Exam1Sp19Prob2_T.c:59:2: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+  EnableCaches();
+  ^~~~~~~~~~~~
+../src/Exam1Sp19Prob2_T.c: In function 'DemoCleanup':
+../src/Exam1Sp19Prob2_T.c:150:2: warning: implicit declaration of function 'DisableCaches' [-Wimplicit-function-declaration]
+  DisableCaches();
+  ^~~~~~~~~~~~~
+../src/Exam1Sp19Prob2_T.c: At top level:
+../src/Exam1Sp19Prob2_T.c:153:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches()
+      ^~~~~~~~~~~~
+../src/Exam1Sp19Prob2_T.c:59:2: note: previous implicit declaration of 'EnableCaches' was here
+  EnableCaches();
+  ^~~~~~~~~~~~
+../src/Exam1Sp19Prob2_T.c:165:6: warning: conflicting types for 'DisableCaches'
+ void DisableCaches()
+      ^~~~~~~~~~~~~
+../src/Exam1Sp19Prob2_T.c:150:2: note: previous implicit declaration of 'DisableCaches' was here
+  DisableCaches();
+  ^~~~~~~~~~~~~
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+14:31:47 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+14:39:54 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1SP19Prob1_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1SP19Prob1_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1SP19Prob1_T.d" -MT"src/Exam1SP19Prob1_T.o" -o "src/Exam1SP19Prob1_T.o" "../src/Exam1SP19Prob1_T.c"
+../src/Exam1SP19Prob1_T.c: In function 'LEDProblem1':
+../src/Exam1SP19Prob1_T.c:26:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/Exam1SP19Prob1_T.c:23:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Exam1SP19Prob1_T.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/Exam1SP19Prob1_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_1.elf  |tee "test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20652	   1176	  22632	  44460	   adac	test_1.elf
+'Finished building: test_1.elf.size'
+' '
+14:40:07 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c: In function 'DemoRun':
+../src/Exam1Sp19Prob2_T.c:93:5: error: 'averageVoltage' undeclared (first use in this function); did you mean 'ReferenceVoltage'?
+     averageVoltage[0] = PhysicalData[0];
+     ^~~~~~~~~~~~~~
+     ReferenceVoltage
+../src/Exam1Sp19Prob2_T.c:93:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/Exam1Sp19Prob2_T.c: At top level:
+../src/Exam1Sp19Prob2_T.c:109:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+14:40:17 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c: In function 'DemoRun':
+../src/Exam1Sp19Prob2_T.c:96:22: error: 'averageVoltage' undeclared (first use in this function); did you mean 'ReferenceVoltage'?
+      RMSVoltage[1] = averageVoltage[0];
+                      ^~~~~~~~~~~~~~
+                      ReferenceVoltage
+../src/Exam1Sp19Prob2_T.c:96:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/Exam1Sp19Prob2_T.c: At top level:
+../src/Exam1Sp19Prob2_T.c:109:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+14:40:29 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c: In function 'DemoRun':
+../src/Exam1Sp19Prob2_T.c:102:37: error: 'averageVoltage' undeclared (first use in this function); did you mean 'ReferenceVoltage'?
+      printf("Running RMS: %.02f\n", averageVoltage[1]);
+                                     ^~~~~~~~~~~~~~
+                                     ReferenceVoltage
+../src/Exam1Sp19Prob2_T.c:102:37: note: each undeclared identifier is reported only once for each function it appears in
+../src/Exam1Sp19Prob2_T.c: At top level:
+../src/Exam1Sp19Prob2_T.c:109:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+14:40:37 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c:109:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+14:40:55 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72184	   2612	  23392	  98188	  17f8c	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+14:44:01 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72248	   2612	  23392	  98252	  17fcc	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+14:44:47 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/Exam1Sp19Prob2_T.o: In function `DemoRun':
+C:\vivado_proj\lab_2\lab_2.sdk\T_PmodAD1\Debug/../src/Exam1Sp19Prob2_T.c:75: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: T_PmodAD1.elf] Error 1
+14:45:40 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/Exam1Sp19Prob2_T.o: In function `DemoRun':
+C:\vivado_proj\lab_2\lab_2.sdk\T_PmodAD1\Debug/../src/Exam1Sp19Prob2_T.c:75: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: T_PmodAD1.elf] Error 1
+14:51:28 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/Exam1Sp19Prob2_T.o: In function `DemoRun':
+C:\vivado_proj\lab_2\lab_2.sdk\T_PmodAD1\Debug/../src/Exam1Sp19Prob2_T.c:76: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: T_PmodAD1.elf] Error 1
+15:01:08 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/Exam1Sp19Prob2_T.o: In function `DemoRun':
+C:\vivado_proj\lab_2\lab_2.sdk\T_PmodAD1\Debug/../src/Exam1Sp19Prob2_T.c:79: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: T_PmodAD1.elf] Error 1
+15:03:40 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/Exam1Sp19Prob2_T.o: In function `DemoRun':
+C:\vivado_proj\lab_2\lab_2.sdk\T_PmodAD1\Debug/../src/Exam1Sp19Prob2_T.c:79: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: T_PmodAD1.elf] Error 1
+15:06:43 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/Exam1Sp19Prob2_T.o: In function `DemoRun':
+C:\vivado_proj\lab_2\lab_2.sdk\T_PmodAD1\Debug/../src/Exam1Sp19Prob2_T.c:79: undefined reference to `sqrt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: T_PmodAD1.elf] Error 1
+18:20:43 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c: In function 'DemoRun':
+../src/Exam1Sp19Prob2_T.c:65:25: error: 'led_inst' undeclared (first use in this function); did you mean 'llrint'?
+    XGpio_DiscreteWrite(&led_inst, LEDS_CHANNEL, 0);
+                         ^~~~~~~~
+                         llrint
+../src/Exam1Sp19Prob2_T.c:65:25: note: each undeclared identifier is reported only once for each function it appears in
+../src/Exam1Sp19Prob2_T.c:72:21: error: invalid operands to binary <= (have 'float *' and 'double')
+    if (PhysicalData <= 0.2){
+        ~~~~~~~~~~~~ ^~
+../src/Exam1Sp19Prob2_T.c:75:21: error: invalid operands to binary > (have 'float *' and 'double')
+    if (PhysicalData > 0.2 && PhysicalData <= 0.4){
+        ~~~~~~~~~~~~ ^
+../src/Exam1Sp19Prob2_T.c:75:43: error: invalid operands to binary <= (have 'float *' and 'double')
+    if (PhysicalData > 0.2 && PhysicalData <= 0.4){
+                           ~~              ^~
+../src/Exam1Sp19Prob2_T.c:78:21: error: invalid operands to binary > (have 'float *' and 'double')
+    if (PhysicalData > 0.4 && PhysicalData <= 0.6){
+        ~~~~~~~~~~~~ ^
+../src/Exam1Sp19Prob2_T.c:78:43: error: invalid operands to binary <= (have 'float *' and 'double')
+    if (PhysicalData > 0.4 && PhysicalData <= 0.6){
+                           ~~              ^~
+../src/Exam1Sp19Prob2_T.c:81:21: error: invalid operands to binary > (have 'float *' and 'double')
+    if (PhysicalData > 0.6 && PhysicalData <= 0.8){
+        ~~~~~~~~~~~~ ^
+../src/Exam1Sp19Prob2_T.c:81:43: error: invalid operands to binary <= (have 'float *' and 'double')
+    if (PhysicalData > 0.6 && PhysicalData <= 0.8){
+                           ~~              ^~
+../src/Exam1Sp19Prob2_T.c:106:13: error: 'TWO_SEC' undeclared (first use in this function)
+      usleep(TWO_SEC);
+             ^~~~~~~
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+18:24:27 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c: In function 'DemoRun':
+../src/Exam1Sp19Prob2_T.c:60:36: error: 'SWTInst' undeclared (first use in this function)
+   switchRead = XGpio_DiscreteRead(&SWTInst, SWTS_CHANNEL);
+                                    ^~~~~~~
+../src/Exam1Sp19Prob2_T.c:60:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/Exam1Sp19Prob2_T.c:75:21: error: invalid operands to binary > (have 'float *' and 'double')
+    if (PhysicalData > 0.2 && PhysicalData <= 0.4){
+        ~~~~~~~~~~~~ ^
+../src/Exam1Sp19Prob2_T.c:75:43: error: invalid operands to binary <= (have 'float *' and 'double')
+    if (PhysicalData > 0.2 && PhysicalData <= 0.4){
+                           ~~              ^~
+../src/Exam1Sp19Prob2_T.c:78:21: error: invalid operands to binary > (have 'float *' and 'double')
+    if (PhysicalData > 0.4 && PhysicalData <= 0.6){
+        ~~~~~~~~~~~~ ^
+../src/Exam1Sp19Prob2_T.c:78:43: error: invalid operands to binary <= (have 'float *' and 'double')
+    if (PhysicalData > 0.4 && PhysicalData <= 0.6){
+                           ~~              ^~
+../src/Exam1Sp19Prob2_T.c:81:21: error: invalid operands to binary > (have 'float *' and 'double')
+    if (PhysicalData > 0.6 && PhysicalData <= 0.8){
+        ~~~~~~~~~~~~ ^
+../src/Exam1Sp19Prob2_T.c:81:43: error: invalid operands to binary <= (have 'float *' and 'double')
+    if (PhysicalData > 0.6 && PhysicalData <= 0.8){
+                           ~~              ^~
+../src/Exam1Sp19Prob2_T.c:84:21: error: invalid operands to binary > (have 'float *' and 'double')
+    if (PhysicalData > 0.8) {
+        ~~~~~~~~~~~~ ^
+../src/Exam1Sp19Prob2_T.c:109:13: error: 'TWO_SEC' undeclared (first use in this function)
+      usleep(TWO_SEC);
+             ^~~~~~~
+../src/Exam1Sp19Prob2_T.c: In function 'main':
+../src/Exam1Sp19Prob2_T.c:155:29: error: 'SWTInst' undeclared (first use in this function)
+  status = XGpio_Initialize(&SWTInst, SWTS_DEVICE_ID);
+                             ^~~~~~~
+../src/Exam1Sp19Prob2_T.c:158:29: error: 'LEDInst' undeclared (first use in this function); did you mean 'SWTInst'?
+  status = XGpio_Initialize(&LEDInst, LEDS_DEVICE_ID);
+                             ^~~~~~~
+                             SWTInst
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+18:24:44 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c: In function 'DemoRun':
+../src/Exam1Sp19Prob2_T.c:75:21: error: invalid operands to binary > (have 'float *' and 'double')
+    if (PhysicalData > 0.2 && PhysicalData <= 0.4){
+        ~~~~~~~~~~~~ ^
+../src/Exam1Sp19Prob2_T.c:75:43: error: invalid operands to binary <= (have 'float *' and 'double')
+    if (PhysicalData > 0.2 && PhysicalData <= 0.4){
+                           ~~              ^~
+../src/Exam1Sp19Prob2_T.c:78:21: error: invalid operands to binary > (have 'float *' and 'double')
+    if (PhysicalData > 0.4 && PhysicalData <= 0.6){
+        ~~~~~~~~~~~~ ^
+../src/Exam1Sp19Prob2_T.c:78:43: error: invalid operands to binary <= (have 'float *' and 'double')
+    if (PhysicalData > 0.4 && PhysicalData <= 0.6){
+                           ~~              ^~
+../src/Exam1Sp19Prob2_T.c:81:21: error: invalid operands to binary > (have 'float *' and 'double')
+    if (PhysicalData > 0.6 && PhysicalData <= 0.8){
+        ~~~~~~~~~~~~ ^
+../src/Exam1Sp19Prob2_T.c:81:43: error: invalid operands to binary <= (have 'float *' and 'double')
+    if (PhysicalData > 0.6 && PhysicalData <= 0.8){
+                           ~~              ^~
+../src/Exam1Sp19Prob2_T.c:84:21: error: invalid operands to binary > (have 'float *' and 'double')
+    if (PhysicalData > 0.8) {
+        ~~~~~~~~~~~~ ^
+../src/Exam1Sp19Prob2_T.c:109:13: error: 'TWO_SEC' undeclared (first use in this function)
+      usleep(TWO_SEC);
+             ^~~~~~~
+../src/Exam1Sp19Prob2_T.c:109:13: note: each undeclared identifier is reported only once for each function it appears in
+../src/Exam1Sp19Prob2_T.c: In function 'main':
+../src/Exam1Sp19Prob2_T.c:155:29: error: 'SWTInst' undeclared (first use in this function)
+  status = XGpio_Initialize(&SWTInst, SWTS_DEVICE_ID);
+                             ^~~~~~~
+../src/Exam1Sp19Prob2_T.c:158:29: error: 'LEDInst' undeclared (first use in this function); did you mean 'SWTInst'?
+  status = XGpio_Initialize(&LEDInst, LEDS_DEVICE_ID);
+                             ^~~~~~~
+                             SWTInst
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+18:27:45 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c: In function 'DemoRun':
+../src/Exam1Sp19Prob2_T.c:109:13: error: 'TWO_SEC' undeclared (first use in this function)
+      usleep(TWO_SEC);
+             ^~~~~~~
+../src/Exam1Sp19Prob2_T.c:109:13: note: each undeclared identifier is reported only once for each function it appears in
+../src/Exam1Sp19Prob2_T.c: In function 'main':
+../src/Exam1Sp19Prob2_T.c:155:29: error: 'SWTInst' undeclared (first use in this function)
+  status = XGpio_Initialize(&SWTInst, SWTS_DEVICE_ID);
+                             ^~~~~~~
+../src/Exam1Sp19Prob2_T.c:158:29: error: 'LEDInst' undeclared (first use in this function); did you mean 'SWTInst'?
+  status = XGpio_Initialize(&LEDInst, LEDS_DEVICE_ID);
+                             ^~~~~~~
+                             SWTInst
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+18:28:10 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c: In function 'DemoRun':
+../src/Exam1Sp19Prob2_T.c:109:13: error: 'TWO_SEC' undeclared (first use in this function)
+      usleep(TWO_SEC);
+             ^~~~~~~
+../src/Exam1Sp19Prob2_T.c:109:13: note: each undeclared identifier is reported only once for each function it appears in
+../src/Exam1Sp19Prob2_T.c: In function 'main':
+../src/Exam1Sp19Prob2_T.c:161:26: error: 'SWTInst' undeclared (first use in this function)
+  XGpio_SetDataDirection(&SWTInst, SWTS_CHANNEL, 0xFF);
+                          ^~~~~~~
+../src/Exam1Sp19Prob2_T.c:163:26: error: 'LEDInst' undeclared (first use in this function); did you mean 'SWTInst'?
+  XGpio_SetDataDirection(&LEDInst, LEDS_CHANNEL, 0x00);
+                          ^~~~~~~
+                          SWTInst
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+18:28:30 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c: In function 'DemoRun':
+../src/Exam1Sp19Prob2_T.c:109:13: error: 'TWO_SEC' undeclared (first use in this function)
+      usleep(TWO_SEC);
+             ^~~~~~~
+../src/Exam1Sp19Prob2_T.c:109:13: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+18:28:40 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72764	   2612	  23392	  98768	  181d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+18:33:18 **** Clean-only build of configuration Debug for project test_1 ****
+make clean 
+rm -rf  ./src/Exam1SP19Prob1_T.o  ./src/Exam1SP19Prob1_T.d  test_1.elf.size  test_1.elf
+' '
+18:33:18 **** Auto Build of configuration Debug for project test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1SP19Prob1_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1SP19Prob1_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1SP19Prob1_T.d" -MT"src/Exam1SP19Prob1_T.o" -o "src/Exam1SP19Prob1_T.o" "../src/Exam1SP19Prob1_T.c"
+../src/Exam1SP19Prob1_T.c: In function 'LEDProblem1':
+../src/Exam1SP19Prob1_T.c:23:6: warning: unused variable 'buttonRead' [-Wunused-variable]
+  int buttonRead;
+      ^~~~~~~~~~
+../src/Exam1SP19Prob1_T.c:20:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/Exam1SP19Prob1_T.c'
+' '
+'Building target: test_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_1_bsp/ps7_cortexa9_0/lib -o "test_1.elf"  ./src/Exam1SP19Prob1_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test_1.elf  |tee "test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20652	   1176	  22632	  44460	   adac	test_1.elf
+'Finished building: test_1.elf.size'
+' '
+18:38:43 **** Incremental Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:05:48 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+../src/Exam1Sp19Prob2_T.c:123:2: error: expected identifier or '(' before '}' token
+  }
+  ^
+make: *** [src/subdir.mk:23: src/Exam1Sp19Prob2_T.o] Error 1
+19:05:59 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33680	   2216	  22680	  58576	   e4d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+19:17:41 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:18:47 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33680	   2216	  22680	  58576	   e4d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+19:19:02 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:19:49 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72764	   2612	  23392	  98768	  181d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+19:20:01 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:21:21 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33680	   2216	  22680	  58576	   e4d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+19:21:48 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:22:00 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:22:56 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:23:10 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33680	   2216	  22680	  58576	   e4d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+19:23:30 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:24:04 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34000	   2216	  22680	  58896	   e610	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+19:24:26 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+19:26:30 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34000	   2216	  22680	  58896	   e610	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+19:26:49 **** Clean-only build of configuration Debug for project T_PmodAD1 ****
+make clean 
+rm -rf  ./src/Exam1Sp19Prob2_T.o  ./src/Exam1Sp19Prob2_T.d  T_PmodAD1.elf.size  T_PmodAD1.elf
+' '
+
+****  of configuration Debug for project T_PmodAD1 ****
+
+Nothing to build for project T_PmodAD1
+19:26:49 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/Exam1Sp19Prob2_T.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:12: multiple definition of `ReferenceVoltage'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:26: first defined here
+./src/main.o: In function `main':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:20: multiple definition of `main'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:157: first defined here
+./src/main.o: In function `DemoInitialize':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:27: multiple definition of `DemoInitialize'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:38: first defined here
+./src/main.o: In function `DemoRun':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:33: multiple definition of `DemoRun'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:48: first defined here
+./src/main.o: In function `DemoCleanup':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:48: multiple definition of `DemoCleanup'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:127: first defined here
+./src/main.o: In function `EnableCaches':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:52: multiple definition of `EnableCaches'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:132: first defined here
+./src/main.o: In function `DisableCaches':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:57: multiple definition of `DisableCaches'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:144: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: lab_2.elf] Error 1
+19:27:09 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+19:27:40 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:29:09 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+21:31:29 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+21:42:41 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:43:59 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:27:44 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:46:40 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/Exam1Sp19Prob2_T.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:12: multiple definition of `ReferenceVoltage'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:26: first defined here
+./src/main.o: In function `main':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:20: multiple definition of `main'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:157: first defined here
+./src/main.o: In function `DemoInitialize':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:27: multiple definition of `DemoInitialize'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:38: first defined here
+./src/main.o: In function `DemoRun':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:33: multiple definition of `DemoRun'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:48: first defined here
+./src/main.o: In function `DemoCleanup':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:48: multiple definition of `DemoCleanup'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:127: first defined here
+./src/main.o: In function `EnableCaches':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:52: multiple definition of `EnableCaches'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:132: first defined here
+./src/main.o: In function `DisableCaches':
+C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/main.c:57: multiple definition of `DisableCaches'
+./src/Exam1Sp19Prob2_T.o:C:\vivado_proj\lab_2\lab_2.sdk\lab_2\Debug/../src/Exam1Sp19Prob2_T.c:144: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: lab_2.elf] Error 1
+22:46:52 **** Clean-only build of configuration Debug for project T_PmodAD1 ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  T_PmodAD1.elf.size  T_PmodAD1.elf
+' '
+
+****  of configuration Debug for project T_PmodAD1 ****
+
+Nothing to build for project T_PmodAD1
+22:46:57 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33680	   2216	  22680	  58576	   e4d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+22:46:59 **** Clean-only build of configuration Debug for project lab_2 ****
+make clean 
+rm -rf  ./src/Exam1Sp19Prob2_T.o ./src/main.o  ./src/Exam1Sp19Prob2_T.d ./src/main.d  lab_2.elf.size  lab_2.elf
+' '
+22:47:00 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73200	   2580	  23344	  99124	  18334	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+22:47:22 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:47:54 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33680	   2216	  22680	  58576	   e4d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+22:48:14 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:49:44 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34000	   2216	  22680	  58896	   e610	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+22:49:52 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72764	   2612	  23392	  98768	  181d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+22:50:09 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:52:24 **** Incremental Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:22:57 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:29:16 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72764	   2612	  23392	  98768	  181d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+23:29:41 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:30:43 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:05:25 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Exam1Sp19Prob2_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Exam1Sp19Prob2_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Exam1Sp19Prob2_T.d" -MT"src/Exam1Sp19Prob2_T.o" -o "src/Exam1Sp19Prob2_T.o" "../src/Exam1Sp19Prob2_T.c"
+'Finished building: ../src/Exam1Sp19Prob2_T.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Exam1Sp19Prob2_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72764	   2612	  23392	  98768	  181d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+11:06:38 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:07:25 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:09:19 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:14:16 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:14:53 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:16:34 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:20:37 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:23:48 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:54:46 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+11:56:21 **** Incremental Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:10:06 **** Incremental Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:17:28 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+12:17:45 **** Incremental Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+12:18:17 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+12:19:11 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+12:19:31 **** Incremental Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:27:16 **** Clean-only build of configuration Debug for project T_PmodAD1 ****
+make clean 
+rm -rf  ./src/Exam1Sp19Prob2_T.o  ./src/Exam1Sp19Prob2_T.d  T_PmodAD1.elf.size  T_PmodAD1.elf
+' '
+16:27:17 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Pmod.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pmod.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pmod.d" -MT"src/Pmod.o" -o "src/Pmod.o" "../src/Pmod.c"
+'Finished building: ../src/Pmod.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Pmod.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72764	   2612	  23392	  98768	  181d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+16:27:35 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:41:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Input Data 1: %.02f;   ", PhysicalData[0]);
+   ^~~~~~
+../src/main.c:41:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/main.c:41:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main.c: At top level:
+../src/main.c:61:2: error: expected identifier or '(' before '/' token
+ */
+  ^
+../src/main.c:84:13: error: redefinition of 'ReferenceVoltage'
+ const float ReferenceVoltage = 3.3;
+             ^~~~~~~~~~~~~~~~
+../src/main.c:12:13: note: previous definition of 'ReferenceVoltage' was here
+ const float ReferenceVoltage = 3.3;
+             ^~~~~~~~~~~~~~~~
+../src/main.c:94:5: error: redefinition of 'main'
+ int main ()
+     ^~~~
+../src/main.c:20:5: note: previous definition of 'main' was here
+ int main () {
+     ^~~~
+../src/main.c:115:6: error: redefinition of 'DemoInitialize'
+ void DemoInitialize()
+      ^~~~~~~~~~~~~~
+../src/main.c:27:6: note: previous definition of 'DemoInitialize' was here
+ void DemoInitialize(){
+      ^~~~~~~~~~~~~~
+../src/main.c:125:6: error: redefinition of 'DemoRun'
+ void DemoRun()
+      ^~~~~~~
+../src/main.c:33:6: note: previous definition of 'DemoRun' was here
+ void DemoRun() {
+      ^~~~~~~
+../src/main.c:206:6: error: redefinition of 'DemoCleanup'
+ void DemoCleanup()
+      ^~~~~~~~~~~
+../src/main.c:48:6: note: previous definition of 'DemoCleanup' was here
+ void DemoCleanup() {
+      ^~~~~~~~~~~
+../src/main.c:211:6: error: redefinition of 'EnableCaches'
+ void EnableCaches()
+      ^~~~~~~~~~~~
+../src/main.c:52:6: note: previous definition of 'EnableCaches' was here
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:223:6: error: redefinition of 'DisableCaches'
+ void DisableCaches()
+      ^~~~~~~~~~~~~
+../src/main.c:57:6: note: previous definition of 'DisableCaches' was here
+ void DisableCaches() {
+      ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:30:00 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+16:31:20 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72836	   2612	  23392	  98840	  18218	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+16:32:26 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72772	   2612	  23392	  98776	  181d8	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+16:35:50 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:76:3: error: 'readSws' undeclared (first use in this function)
+   readSws = XGpio_DiscreteRead(&SWTInst, SWTS_CHANNEL);
+   ^~~~~~~
+../src/main.c:76:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:69:6: warning: unused variable 'switchRead' [-Wunused-variable]
+  int switchRead;
+      ^~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:38:40 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:76:3: error: 'readSws' undeclared (first use in this function)
+   readSws = XGpio_DiscreteRead(&SWTInst, SWTS_CHANNEL);
+   ^~~~~~~
+../src/main.c:76:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:117:5: error: 'avgVoltage' undeclared (first use in this function); did you mean 'averageVoltage'?
+     avgVoltage[0] = PhysicalData[0];
+     ^~~~~~~~~~
+     averageVoltage
+../src/main.c:121:9: error: 'avg' undeclared (first use in this function)
+     if (avg[1] == 0)
+         ^~~
+../src/main.c:69:6: warning: unused variable 'switchRead' [-Wunused-variable]
+  int switchRead;
+      ^~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:39:03 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:76:3: error: 'readSws' undeclared (first use in this function)
+   readSws = XGpio_DiscreteRead(&SWTInst, SWTS_CHANNEL);
+   ^~~~~~~
+../src/main.c:76:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:121:9: error: 'avg' undeclared (first use in this function)
+     if (avg[1] == 0)
+         ^~~
+../src/main.c:129:6: error: 'averageVoltage' undeclared (first use in this function); did you mean 'avgVoltage'?
+      averageVoltage[1] = (averageVoltage[1] + averageVoltage[0]) / 2;
+      ^~~~~~~~~~~~~~
+      avgVoltage
+../src/main.c:69:6: warning: unused variable 'switchRead' [-Wunused-variable]
+  int switchRead;
+      ^~~~~~~~~~
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:40:01 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:121:9: error: 'avg' undeclared (first use in this function)
+     if (avg[1] == 0)
+         ^~~
+../src/main.c:121:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:129:6: error: 'averageVoltage' undeclared (first use in this function); did you mean 'avgVoltage'?
+      averageVoltage[1] = (averageVoltage[1] + averageVoltage[0]) / 2;
+      ^~~~~~~~~~~~~~
+      avgVoltage
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:40:11 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:122:6: error: 'avg' undeclared (first use in this function)
+      avg[1] = avgVoltage[0];
+      ^~~
+../src/main.c:122:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:129:6: error: 'averageVoltage' undeclared (first use in this function); did you mean 'avgVoltage'?
+      averageVoltage[1] = (averageVoltage[1] + averageVoltage[0]) / 2;
+      ^~~~~~~~~~~~~~
+      avgVoltage
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:40:16 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:129:6: error: 'averageVoltage' undeclared (first use in this function); did you mean 'avgVoltage'?
+      averageVoltage[1] = (averageVoltage[1] + averageVoltage[0]) / 2;
+      ^~~~~~~~~~~~~~
+      avgVoltage
+../src/main.c:129:6: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:40:25 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:129:23: error: 'averageVoltage' undeclared (first use in this function); did you mean 'avgVoltage'?
+      avgVoltage[1] = (averageVoltage[1] + averageVoltage[0]) / 2;
+                       ^~~~~~~~~~~~~~
+                       avgVoltage
+../src/main.c:129:23: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:40:36 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'DemoRun':
+../src/main.c:130:41: error: 'averageVoltage' undeclared (first use in this function); did you mean 'avgVoltage'?
+      printf("Running average: %.02f\n", averageVoltage[1]);
+                                         ^~~~~~~~~~~~~~
+                                         avgVoltage
+../src/main.c:130:41: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/main.o] Error 1
+16:40:43 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72772	   2612	  23392	  98776	  181d8	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+16:42:37 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72772	   2612	  23392	  98776	  181d8	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+13:44:11 **** Clean-only build of configuration Debug for project T_PmodAD1 ****
+make clean 
+rm -rf  ./src/Pmod.o  ./src/Pmod.d  T_PmodAD1.elf.size  T_PmodAD1.elf
+' '
+13:44:11 **** Auto Build of configuration Debug for project T_PmodAD1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Pmod.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pmod.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../T_PmodAD1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Pmod.d" -MT"src/Pmod.o" -o "src/Pmod.o" "../src/Pmod.c"
+'Finished building: ../src/Pmod.c'
+' '
+'Building target: T_PmodAD1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../T_PmodAD1_bsp/ps7_cortexa9_0/lib -o "T_PmodAD1.elf"  ./src/Pmod.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: T_PmodAD1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size T_PmodAD1.elf  |tee "T_PmodAD1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72764	   2612	  23392	  98768	  181d0	T_PmodAD1.elf
+'Finished building: T_PmodAD1.elf.size'
+' '
+13:44:16 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+13:44:30 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72772	   2612	  23392	  98776	  181d8	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '
+16:18:34 **** Auto Build of configuration Debug for project lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: lab_2.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_2_bsp/ps7_cortexa9_0/lib -o "lab_2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_2.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_2.elf  |tee "lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  72772	   2612	  23392	  98776	  181d8	lab_2.elf
+'Finished building: lab_2.elf.size'
+' '

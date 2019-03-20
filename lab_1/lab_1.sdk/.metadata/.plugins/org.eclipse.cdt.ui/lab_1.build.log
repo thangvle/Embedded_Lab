@@ -1,0 +1,23 @@
+23:33:35 **** Auto Build of configuration Debug for project lab_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/LED_BUTTON_T.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_BUTTON_T.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_BUTTON_T.d" -MT"src/LED_BUTTON_T.o" -o "src/LED_BUTTON_T.o" "../src/LED_BUTTON_T.c"
+'Finished building: ../src/LED_BUTTON_T.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/ps7_cortexa9_0/lib -o "lab_1.elf"  ./src/LED_BUTTON_T.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24468	   1184	  22616	  48268	   bc8c	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+
+23:33:37 Build Finished (took 2s.142ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;T_PmodAD1/src/Exam1Sp19Prob2_T.c&apos; to &apos;Pmod.c&apos;" description="Rename resource &apos;Exam1Sp19Prob2_T.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Exam1Sp19Prob2_T.c" name="Pmod.c" stamp="1550179636265" updateReferences="true"/>
+</session>

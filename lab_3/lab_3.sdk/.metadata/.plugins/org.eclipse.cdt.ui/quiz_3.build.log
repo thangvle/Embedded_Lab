@@ -1,0 +1,60 @@
+15:23:37 **** Auto Build of configuration Debug for project quiz_3 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/T_SNAP2.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/T_SNAP2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../quiz_3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/T_SNAP2.d" -MT"src/T_SNAP2.o" -o "src/T_SNAP2.o" "../src/T_SNAP2.c"
+../src/T_SNAP2.c: In function 'SW_Intr_Handler':
+../src/T_SNAP2.c:58:26: error: 'sw_value' undeclared (first use in this function); did you mean 'btn_value'?
+    led_data = led_data + sw_value;
+                          ^~~~~~~~
+                          btn_value
+../src/T_SNAP2.c:58:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/T_SNAP2.c: In function 'main':
+../src/T_SNAP2.c:107:39: error: 'BTNS_DEVICE_ID' undeclared (first use in this function); did you mean 'TMR_DEVICE_ID'?
+   status = XGpio_Initialize(&BTNInst, BTNS_DEVICE_ID);
+                                       ^~~~~~~~~~~~~~
+                                       TMR_DEVICE_ID
+../src/T_SNAP2.c:120:32: warning: passing argument 2 of 'XTmrCtr_SetHandler' from incompatible pointer type [-Wincompatible-pointer-types]
+   XTmrCtr_SetHandler(&TMRInst, TMR_Intr_Handler, &TMRInst);
+                                ^~~~~~~~~~~~~~~~
+In file included from ../src/T_SNAP2.c:3:0:
+../../quiz_3_bsp/ps7_cortexa9_0/include/xtmrctr.h:314:6: note: expected 'XTmrCtr_Handler {aka void (*)(void *, unsigned char)}' but argument is of type 'void (*)(void *)'
+ void XTmrCtr_SetHandler(XTmrCtr * InstancePtr, XTmrCtr_Handler FuncPtr,
+      ^~~~~~~~~~~~~~~~~~
+../src/T_SNAP2.c:18:20: error: invalid suffix "h" on integer constant
+ #define TMR_LOAD   0xAFFFFFFFh
+                    ^
+../src/T_SNAP2.c:121:38: note: in expansion of macro 'TMR_LOAD'
+   XTmrCtr_SetResetValue(&TMRInst, 0, TMR_LOAD);
+                                      ^~~~~~~~
+../src/T_SNAP2.c:139:8: error: 'sw' undeclared (first use in this function); did you mean 's8'?
+    if (sw == 0b0000){
+        ^~
+        s8
+../src/T_SNAP2.c:140:35: error: 'LED_CHANNEL' undeclared (first use in this function)
+     XGpio_DiscreteWrite(&LEDInst, LED_CHANNEL, 0b1111);
+                                   ^~~~~~~~~~~
+../src/T_SNAP2.c:146:9: error: 'led' undeclared (first use in this function)
+         led = 0;
+         ^~~
+../src/T_SNAP2.c:99:7: warning: unused variable 'led_data' [-Wunused-variable]
+   int led_data, sw_read;
+       ^~~~~~~~
+../src/T_SNAP2.c: In function 'InterruptSystemSetup':
+../src/T_SNAP2.c:192:34: error: 'BTN_INT' undeclared (first use in this function); did you mean 'SW_INT'?
+  XGpio_InterruptEnable(&BTNInst, BTN_INT);
+                                  ^~~~~~~
+                                  SW_INT
+../src/T_SNAP2.c: At top level:
+../src/T_SNAP2.c:30:13: warning: 'BTN_Intr_Handler' used but never defined
+ static void BTN_Intr_Handler(void *baseaddr_p);
+             ^~~~~~~~~~~~~~~~
+../src/T_SNAP2.c:24:12: warning: 'btn_value' defined but not used [-Wunused-variable]
+ static int btn_value;
+            ^~~~~~~~~
+make: *** [src/subdir.mk:23: src/T_SNAP2.o] Error 1
+
+15:23:38 Build Finished (took 1s.231ms)
+

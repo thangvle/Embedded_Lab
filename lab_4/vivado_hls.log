@@ -1,0 +1,22 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'tshot' on host 'desktop-p52mvk7' (Windows NT_amd64 version 6.2) on Thu Mar 14 14:59:46 -0400 2019
+INFO: [HLS 200-10] In directory 'C:/vivado_proj/lab_4'
+INFO: [HLS 200-10] Opening project 'C:/vivado_proj/lab_4/lab_4_hls'.
+INFO: [HLS 200-10] Opening solution 'C:/vivado_proj/lab_4/lab_4_hls/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z010clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+4
+    while executing
+"source C:/vivado_proj/lab_4/lab_4_hls/solution1/csim.tcl"
+    invoked from within
+"hls::main C:/vivado_proj/lab_4/lab_4_hls/solution1/csim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"

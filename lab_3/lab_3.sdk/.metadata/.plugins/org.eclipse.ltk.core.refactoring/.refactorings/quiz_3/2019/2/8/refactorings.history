@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;quiz_3/src/interrupt_counter_tut_2D_fixed.c&apos; to &apos;T_SNAP2.c&apos;" description="Rename resource &apos;interrupt_counter_tut_2D_fixed.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/interrupt_counter_tut_2D_fixed.c" name="T_SNAP2.c" stamp="1550778551446" updateReferences="true"/>
+</session>
