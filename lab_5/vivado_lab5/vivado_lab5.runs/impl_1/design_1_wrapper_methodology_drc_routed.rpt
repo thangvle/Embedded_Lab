@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Wed Mar 20 01:40:51 2019
+| Date         : Wed Mar 20 20:58:38 2019
 | Host         : DESKTOP-1I8V5J3 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
 | Design       : design_1_wrapper
@@ -23,24 +23,18 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 48
-+-----------+----------+-------------------------------------------------+------------+
-| Rule      | Severity | Description                                     | Violations |
-+-----------+----------+-------------------------------------------------+------------+
-| PDRC-190  | Warning  | Suboptimally placed synchronized register chain | 1          |
-| TIMING-6  | Warning  | No common primary clock between related clocks  | 2          |
-| TIMING-7  | Warning  | No common node between related clocks           | 2          |
-| TIMING-18 | Warning  | Missing input or output delay                   | 12         |
-| TIMING-20 | Warning  | Non-clocked latch                               | 31         |
-+-----------+----------+-------------------------------------------------+------------+
+             Violations found: 39
++-----------+----------+------------------------------------------------+------------+
+| Rule      | Severity | Description                                    | Violations |
++-----------+----------+------------------------------------------------+------------+
+| TIMING-6  | Warning  | No common primary clock between related clocks | 2          |
+| TIMING-7  | Warning  | No common node between related clocks          | 2          |
+| TIMING-18 | Warning  | Missing input or output delay                  | 4          |
+| TIMING-20 | Warning  | Non-clocked latch                              | 31         |
++-----------+----------+------------------------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
-PDRC-190#1 Warning
-Suboptimally placed synchronized register chain  
-The FDRE cell design_1_i/PmodACL2_0/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to in site SLICE_X18Y31 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell design_1_i/PmodACL2_0/inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1_CDC_1 is not placed in the same (SLICE) site.
-Related violations: <none>
-
 TIMING-6#1 Warning
 No common primary clock between related clocks  
 The clocks clk_fpga_0 and clk_fpga_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_fpga_0] -to [get_clocks clk_fpga_1]
@@ -63,60 +57,20 @@ Related violations: <none>
 
 TIMING-18#1 Warning
 Missing input or output delay  
-An input delay is missing on je_pin10_io relative to clock(s) clk_fpga_0
+An output delay is missing on DA2dat1_0 relative to clock(s) clk_fpga_1
 Related violations: <none>
 
 TIMING-18#2 Warning
 Missing input or output delay  
-An input delay is missing on je_pin1_io relative to clock(s) clk_fpga_0
+An output delay is missing on DA2dat2_0 relative to clock(s) clk_fpga_1
 Related violations: <none>
 
 TIMING-18#3 Warning
 Missing input or output delay  
-An input delay is missing on je_pin2_io relative to clock(s) clk_fpga_0
-Related violations: <none>
-
-TIMING-18#4 Warning
-Missing input or output delay  
-An input delay is missing on je_pin3_io relative to clock(s) clk_fpga_0
-Related violations: <none>
-
-TIMING-18#5 Warning
-Missing input or output delay  
-An input delay is missing on je_pin4_io relative to clock(s) clk_fpga_0
-Related violations: <none>
-
-TIMING-18#6 Warning
-Missing input or output delay  
-An input delay is missing on je_pin7_io relative to clock(s) clk_fpga_0
-Related violations: <none>
-
-TIMING-18#7 Warning
-Missing input or output delay  
-An input delay is missing on je_pin8_io relative to clock(s) clk_fpga_0
-Related violations: <none>
-
-TIMING-18#8 Warning
-Missing input or output delay  
-An input delay is missing on je_pin9_io relative to clock(s) clk_fpga_0
-Related violations: <none>
-
-TIMING-18#9 Warning
-Missing input or output delay  
-An output delay is missing on DA2dat1_0 relative to clock(s) clk_fpga_1
-Related violations: <none>
-
-TIMING-18#10 Warning
-Missing input or output delay  
-An output delay is missing on DA2dat2_0 relative to clock(s) clk_fpga_1
-Related violations: <none>
-
-TIMING-18#11 Warning
-Missing input or output delay  
 An output delay is missing on DA2sclk_0 relative to clock(s) clk_fpga_1
 Related violations: <none>
 
-TIMING-18#12 Warning
+TIMING-18#4 Warning
 Missing input or output delay  
 An output delay is missing on DA2sync_0 relative to clock(s) clk_fpga_1
 Related violations: <none>

@@ -1,7 +1,7 @@
 //Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-//Date        : Wed Mar 20 00:52:47 2019
+//Date        : Wed Mar 20 20:56:11 2019
 //Host        : DESKTOP-1I8V5J3 running 64-bit major release  (build 9200)
 //Command     : generate_target design_1_wrapper.bd
 //Design      : design_1_wrapper
@@ -34,15 +34,7 @@ module design_1_wrapper
     FIXED_IO_mio,
     FIXED_IO_ps_clk,
     FIXED_IO_ps_porb,
-    FIXED_IO_ps_srstb,
-    je_pin10_io,
-    je_pin1_io,
-    je_pin2_io,
-    je_pin3_io,
-    je_pin4_io,
-    je_pin7_io,
-    je_pin8_io,
-    je_pin9_io);
+    FIXED_IO_ps_srstb);
   output DA2dat1_0;
   output DA2dat2_0;
   output DA2sclk_0;
@@ -68,14 +60,6 @@ module design_1_wrapper
   inout FIXED_IO_ps_clk;
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
-  inout je_pin10_io;
-  inout je_pin1_io;
-  inout je_pin2_io;
-  inout je_pin3_io;
-  inout je_pin4_io;
-  inout je_pin7_io;
-  inout je_pin8_io;
-  inout je_pin9_io;
 
   wire DA2dat1_0;
   wire DA2dat2_0;
@@ -102,38 +86,6 @@ module design_1_wrapper
   wire FIXED_IO_ps_clk;
   wire FIXED_IO_ps_porb;
   wire FIXED_IO_ps_srstb;
-  wire je_pin10_i;
-  wire je_pin10_io;
-  wire je_pin10_o;
-  wire je_pin10_t;
-  wire je_pin1_i;
-  wire je_pin1_io;
-  wire je_pin1_o;
-  wire je_pin1_t;
-  wire je_pin2_i;
-  wire je_pin2_io;
-  wire je_pin2_o;
-  wire je_pin2_t;
-  wire je_pin3_i;
-  wire je_pin3_io;
-  wire je_pin3_o;
-  wire je_pin3_t;
-  wire je_pin4_i;
-  wire je_pin4_io;
-  wire je_pin4_o;
-  wire je_pin4_t;
-  wire je_pin7_i;
-  wire je_pin7_io;
-  wire je_pin7_o;
-  wire je_pin7_t;
-  wire je_pin8_i;
-  wire je_pin8_io;
-  wire je_pin8_o;
-  wire je_pin8_t;
-  wire je_pin9_i;
-  wire je_pin9_io;
-  wire je_pin9_o;
-  wire je_pin9_t;
 
   design_1 design_1_i
        (.DA2dat1_0(DA2dat1_0),
@@ -160,69 +112,5 @@ module design_1_wrapper
         .FIXED_IO_mio(FIXED_IO_mio),
         .FIXED_IO_ps_clk(FIXED_IO_ps_clk),
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
-        .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
-        .je_pin10_i(je_pin10_i),
-        .je_pin10_o(je_pin10_o),
-        .je_pin10_t(je_pin10_t),
-        .je_pin1_i(je_pin1_i),
-        .je_pin1_o(je_pin1_o),
-        .je_pin1_t(je_pin1_t),
-        .je_pin2_i(je_pin2_i),
-        .je_pin2_o(je_pin2_o),
-        .je_pin2_t(je_pin2_t),
-        .je_pin3_i(je_pin3_i),
-        .je_pin3_o(je_pin3_o),
-        .je_pin3_t(je_pin3_t),
-        .je_pin4_i(je_pin4_i),
-        .je_pin4_o(je_pin4_o),
-        .je_pin4_t(je_pin4_t),
-        .je_pin7_i(je_pin7_i),
-        .je_pin7_o(je_pin7_o),
-        .je_pin7_t(je_pin7_t),
-        .je_pin8_i(je_pin8_i),
-        .je_pin8_o(je_pin8_o),
-        .je_pin8_t(je_pin8_t),
-        .je_pin9_i(je_pin9_i),
-        .je_pin9_o(je_pin9_o),
-        .je_pin9_t(je_pin9_t));
-  IOBUF je_pin10_iobuf
-       (.I(je_pin10_o),
-        .IO(je_pin10_io),
-        .O(je_pin10_i),
-        .T(je_pin10_t));
-  IOBUF je_pin1_iobuf
-       (.I(je_pin1_o),
-        .IO(je_pin1_io),
-        .O(je_pin1_i),
-        .T(je_pin1_t));
-  IOBUF je_pin2_iobuf
-       (.I(je_pin2_o),
-        .IO(je_pin2_io),
-        .O(je_pin2_i),
-        .T(je_pin2_t));
-  IOBUF je_pin3_iobuf
-       (.I(je_pin3_o),
-        .IO(je_pin3_io),
-        .O(je_pin3_i),
-        .T(je_pin3_t));
-  IOBUF je_pin4_iobuf
-       (.I(je_pin4_o),
-        .IO(je_pin4_io),
-        .O(je_pin4_i),
-        .T(je_pin4_t));
-  IOBUF je_pin7_iobuf
-       (.I(je_pin7_o),
-        .IO(je_pin7_io),
-        .O(je_pin7_i),
-        .T(je_pin7_t));
-  IOBUF je_pin8_iobuf
-       (.I(je_pin8_o),
-        .IO(je_pin8_io),
-        .O(je_pin8_i),
-        .T(je_pin8_t));
-  IOBUF je_pin9_iobuf
-       (.I(je_pin9_o),
-        .IO(je_pin9_io),
-        .O(je_pin9_i),
-        .T(je_pin9_t));
+        .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb));
 endmodule

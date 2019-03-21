@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Wed Mar 20 01:23:01 2019
-# Process ID: 7936
+# Start of session at: Wed Mar 20 20:57:22 2019
+# Process ID: 8952
 # Current directory: D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1
 # Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/design_1_wrapper.vds
@@ -18,71 +18,34 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 5252 
+INFO: Helper process launched with PID 4208 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 454.629 ; gain = 104.754
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 447.223 ; gain = 100.160
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_DA2Pmod_0_0' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_DA2Pmod_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_DA2Pmod_0_0' (1#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_DA2Pmod_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_PmodACL2_0_0' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_PmodACL2_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_PmodACL2_0_0' (2#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_PmodACL2_0_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'PmodACL2_0' of module 'design_1_PmodACL2_0_0' requires 62 connections, but only 61 given [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:313]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (3#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_processing_system7_0_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' requires 74 connections, but only 66 given [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:375]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ps7_0_axi_periph_0' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:553]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_15SPJYW' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:1242]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_15SPJYW' (4#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:1242]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_XU9C55' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:1388]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_XU9C55' (5#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:1388]
-INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_14WQB4R' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:1520]
-INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_14WQB4R' (6#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:1520]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:1652]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (7#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (8#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:1652]
-INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (9#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_xbar_0_stub.v:6]
-WARNING: [Synth 8-689] width (3) of port connection 'm_axi_arprot' does not match port width (9) of module 'design_1_xbar_0' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:1203]
-WARNING: [Synth 8-689] width (3) of port connection 'm_axi_awprot' does not match port width (9) of module 'design_1_xbar_0' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:1207]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_0' (10#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:553]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_50M_0' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_50M_0' (11#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-7936-DESKTOP-1I8V5J3/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'rst_ps7_0_50M' of module 'design_1_rst_ps7_0_50M_0' requires 10 connections, but only 6 given [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:544]
-INFO: [Synth 8-6155] done synthesizing module 'design_1' (12#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'IOBUF' [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
-	Parameter DRIVE bound to: 12 - type: integer 
-	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
-	Parameter IOSTANDARD bound to: DEFAULT - type: string 
-	Parameter SLEW bound to: SLOW - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (13#1) [D:/Xilinx/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (14#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_1_DA2Pmod_0_1' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-8952-DESKTOP-1I8V5J3/realtime/design_1_DA2Pmod_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_DA2Pmod_0_1' (1#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-8952-DESKTOP-1I8V5J3/realtime/design_1_DA2Pmod_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-8952-DESKTOP-1I8V5J3/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (2#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-8952-DESKTOP-1I8V5J3/realtime/design_1_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' requires 74 connections, but only 66 given [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:183]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ps7_0_axi_periph_1' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:323]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:638]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-8952-DESKTOP-1I8V5J3/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (3#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-8952-DESKTOP-1I8V5J3/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (4#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:638]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_1' (5#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:323]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-8952-DESKTOP-1I8V5J3/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (6#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/.Xil/Vivado-8952-DESKTOP-1I8V5J3/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_ps7_0_100M' of module 'design_1_rst_ps7_0_100M_0' requires 10 connections, but only 6 given [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:314]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (7#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (8#1) [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design m02_couplers_imp_14WQB4R has unconnected port M_ACLK
-WARNING: [Synth 8-3331] design m02_couplers_imp_14WQB4R has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design m02_couplers_imp_14WQB4R has unconnected port S_ACLK
-WARNING: [Synth 8-3331] design m02_couplers_imp_14WQB4R has unconnected port S_ARESETN
-WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port M_ACLK
-WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_ACLK
-WARNING: [Synth 8-3331] design m01_couplers_imp_XU9C55 has unconnected port S_ARESETN
-WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port M_ACLK
-WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port M_ARESETN
-WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port S_ACLK
-WARNING: [Synth 8-3331] design m00_couplers_imp_15SPJYW has unconnected port S_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M02_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M02_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port ACLK
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 510.781 ; gain = 160.906
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 503.520 ; gain = 156.457
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -95,13 +58,11 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 510.781 ; gain = 160.906
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 503.520 ; gain = 156.457
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 510.781 ; gain = 160.906
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 503.520 ; gain = 156.457
 ---------------------------------------------------------------------------------
-INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -109,16 +70,12 @@ Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
 Finished Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
-Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_DA2Pmod_0_0/design_1_DA2Pmod_0_0/design_1_DA2Pmod_0_0_in_context.xdc] for cell 'design_1_i/DA2Pmod_0'
-Finished Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_DA2Pmod_0_0/design_1_DA2Pmod_0_0/design_1_DA2Pmod_0_0_in_context.xdc] for cell 'design_1_i/DA2Pmod_0'
-Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
-Finished Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
-Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/xbar'
-Finished Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/xbar'
-Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Finished Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_PmodACL2_0_0/design_1_PmodACL2_0_0/design_1_PmodACL2_0_0_in_context.xdc] for cell 'design_1_i/PmodACL2_0'
-Finished Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_PmodACL2_0_0/design_1_PmodACL2_0_0/design_1_PmodACL2_0_0_in_context.xdc] for cell 'design_1_i/PmodACL2_0'
+Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_DA2Pmod_0_1/design_1_DA2Pmod_0_1/design_1_DA2Pmod_0_0_in_context.xdc] for cell 'design_1_i/DA2Pmod_0'
+Finished Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_DA2Pmod_0_1/design_1_DA2Pmod_0_1/design_1_DA2Pmod_0_0_in_context.xdc] for cell 'design_1_i/DA2Pmod_0'
+Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_100M'
+Finished Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_100M'
+Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [d:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
 Parsing XDC File [D:/vivado_proj/Embedded_Lab/lab_5/DA2JE7_10.xdc]
 WARNING: [Vivado 12-584] No ports matched 'CLK'. [D:/vivado_proj/Embedded_Lab/lab_5/DA2JE7_10.xdc:7]
 WARNING: [Vivado 12-584] No ports matched 'CLK'. [D:/vivado_proj/Embedded_Lab/lab_5/DA2JE7_10.xdc:8]
@@ -129,25 +86,24 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/dont_touch.xdc]
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 782.922 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 765.660 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 782.922 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 765.660 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 8 instances were transformed.
-  IOBUF => IOBUF (IBUF, OBUFT): 8 instances
+No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 782.922 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 782.922 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 765.660 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 765.660 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 782.922 ; gain = 433.047
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 765.660 ; gain = 418.598
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 782.922 ; gain = 433.047
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 765.660 ; gain = 418.598
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -416,15 +372,13 @@ Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto ge
 Applied set_property DONT_TOUCH = true for design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/DA2Pmod_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_50M. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_100M. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/PmodACL2_0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 782.922 ; gain = 433.047
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 765.660 ; gain = 418.598
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 782.922 ; gain = 433.047
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 765.660 ; gain = 418.598
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -459,16 +413,12 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M01_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M02_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M02_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port S00_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port ACLK
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port ARESETN
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_1 has unconnected port M00_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 782.922 ; gain = 433.047
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 765.660 ; gain = 418.598
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -483,13 +433,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/processing_sys
 INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/processing_system7_0/FCLK_CLK1' to pin 'design_1_i/processing_system7_0/bbstub_FCLK_CLK1/O'
 INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 824.664 ; gain = 474.789
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 822.980 ; gain = 475.918
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 824.813 ; gain = 474.938
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 823.055 ; gain = 475.992
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -501,7 +451,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 834.551 ; gain = 484.676
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 832.969 ; gain = 485.906
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -525,7 +475,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 834.551 ; gain = 484.676
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 832.969 ; gain = 485.906
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -538,7 +488,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 834.551 ; gain = 484.676
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 832.969 ; gain = 485.906
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -550,25 +500,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 834.551 ; gain = 484.676
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 832.969 ; gain = 485.906
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 834.551 ; gain = 484.676
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 832.969 ; gain = 485.906
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 834.551 ; gain = 484.676
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 832.969 ; gain = 485.906
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 834.551 ; gain = 484.676
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 832.969 ; gain = 485.906
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -578,60 +528,52 @@ Report BlackBoxes:
 +------+--------------------------------+----------+
 |      |BlackBox name                   |Instances |
 +------+--------------------------------+----------+
-|1     |design_1_xbar_0                 |         1|
-|2     |design_1_auto_pc_0              |         1|
-|3     |design_1_DA2Pmod_0_0            |         1|
-|4     |design_1_PmodACL2_0_0           |         1|
-|5     |design_1_processing_system7_0_0 |         1|
-|6     |design_1_rst_ps7_0_50M_0        |         1|
+|1     |design_1_auto_pc_1              |         1|
+|2     |design_1_DA2Pmod_0_1            |         1|
+|3     |design_1_processing_system7_0_0 |         1|
+|4     |design_1_rst_ps7_0_100M_0       |         1|
 +------+--------------------------------+----------+
 
 Report Cell Usage: 
 +------+--------------------------------+------+
 |      |Cell                            |Count |
 +------+--------------------------------+------+
-|1     |design_1_DA2Pmod_0_0            |     1|
-|2     |design_1_PmodACL2_0_0           |     1|
-|3     |design_1_auto_pc_0              |     1|
-|4     |design_1_processing_system7_0_0 |     1|
-|5     |design_1_rst_ps7_0_50M_0        |     1|
-|6     |design_1_xbar_0                 |     1|
-|7     |IOBUF                           |     8|
-|8     |OBUF                            |     4|
+|1     |design_1_DA2Pmod_0_1            |     1|
+|2     |design_1_auto_pc_1              |     1|
+|3     |design_1_processing_system7_0_0 |     1|
+|4     |design_1_rst_ps7_0_100M_0       |     1|
+|5     |OBUF                            |     4|
 +------+--------------------------------+------+
 
 Report Instance Areas: 
 +------+---------------------+----------------------------+------+
 |      |Instance             |Module                      |Cells |
 +------+---------------------+----------------------------+------+
-|1     |top                  |                            |   910|
-|2     |  design_1_i         |design_1                    |   898|
-|3     |    ps7_0_axi_periph |design_1_ps7_0_axi_periph_0 |   551|
+|1     |top                  |                            |   429|
+|2     |  design_1_i         |design_1                    |   425|
+|3     |    ps7_0_axi_periph |design_1_ps7_0_axi_periph_1 |   177|
 |4     |      s00_couplers   |s00_couplers_imp_UYSKKA     |   177|
 +------+---------------------+----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 834.551 ; gain = 484.676
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 832.969 ; gain = 485.906
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 834.551 ; gain = 212.535
-Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 834.551 ; gain = 484.676
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 832.969 ; gain = 223.766
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 832.969 ; gain = 485.906
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 847.230 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 843.957 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 8 instances were transformed.
-  IOBUF => IOBUF (IBUF, OBUFT): 8 instances
+No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-48 Infos, 39 Warnings, 0 Critical Warnings and 0 Errors encountered.
+32 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 847.301 ; gain = 504.320
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 847.301 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 844.039 ; gain = 504.176
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 844.039 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Mar 20 01:23:27 2019...
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 20 20:57:45 2019...
