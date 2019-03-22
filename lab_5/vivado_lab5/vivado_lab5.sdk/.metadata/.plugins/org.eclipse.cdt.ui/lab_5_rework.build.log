@@ -1,8 +1,49 @@
-22:01:57 **** Auto Build of configuration Debug for project lab_5_rework ****
+01:02:09 **** Auto Build of configuration Debug for project lab_5_rework ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
-make: Nothing to be done for 'main-build'.
+Building file: ../src/main-1.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main-1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_5_rework_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main-1.d" -MT"src/main-1.o" -o "src/main-1.o" "../src/main-1.c"
+../src/main-1.c: In function 'pop':
+../src/main-1.c:48:7: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+       printf("Could not retrieve data, Stack is empty.\n");
+       ^~~~~~
+../src/main-1.c:48:7: warning: incompatible implicit declaration of built-in function 'printf'
+../src/main-1.c:48:7: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main-1.c: In function 'push':
+../src/main-1.c:58:7: warning: incompatible implicit declaration of built-in function 'printf'
+       printf("Could not insert data, Stack is full.\n");
+       ^~~~~~
+../src/main-1.c:58:7: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main-1.c: In function 'main':
+../src/main-1.c:75:20: error: subscripted value is neither array nor pointer nor vector
+  output = b0 * push[3];
+                    ^
+../src/main-1.c:93:19: error: subscripted value is neither array nor pointer nor vector
+     push(4) = push[3];
+                   ^
+../src/main-1.c:94:13: error: lvalue required as left operand of assignment
+     push(3) = push(2);
+             ^
+../src/main-1.c:95:13: error: lvalue required as left operand of assignment
+     push(2) = push(1);
+             ^
+../src/main-1.c:96:13: error: lvalue required as left operand of assignment
+     push(1) = push(0);
+             ^
+../src/main-1.c:97:13: error: lvalue required as left operand of assignment
+     push(0) = y[dacdata];
+             ^
+../src/main-1.c: In function 'pop':
+../src/main-1.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/main-1.c: In function 'push':
+../src/main-1.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main-1.o] Error 1
 
-22:01:57 Build Finished (took 136ms)
+01:02:09 Build Finished (took 252ms)
 

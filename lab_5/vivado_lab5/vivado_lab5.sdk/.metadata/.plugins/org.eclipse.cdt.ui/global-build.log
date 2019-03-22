@@ -299,3 +299,244 @@ make pre-build main-build
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
+23:46:39 **** Clean-only build of configuration Debug for project lab_5_rework ****
+make clean 
+rm -rf  ./src/main-1.o  ./src/main-1.d  lab_5_rework.elf.size  lab_5_rework.elf
+ 
+
+****  of configuration Debug for project lab_5_rework ****
+
+Nothing to build for project lab_5_rework
+23:47:09 **** Clean-only build of configuration Debug for project lab_5_rework ****
+make clean 
+rm -rf  ./src/main-1.o  ./src/main-1.d  lab_5_rework.elf.size  lab_5_rework.elf
+ 
+23:47:09 **** Auto Build of configuration Debug for project lab_5_rework ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main-1.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main-1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_5_rework_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main-1.d" -MT"src/main-1.o" -o "src/main-1.o" "../src/main-1.c"
+../src/main-1.c: In function 'main':
+../src/main-1.c:26:2: error: 'output' undeclared (first use in this function); did you mean 'outbyte'?
+  output = push
+  ^~~~~~
+  outbyte
+../src/main-1.c:26:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/main-1.c:26:11: error: 'push' undeclared (first use in this function)
+  output = push
+           ^~~~
+../src/main-1.c:29:2: error: expected ';' before 'xil_printf'
+  xil_printf("\n\rStarting DA2 Pmod demo test...\n\r");
+  ^~~~~~~~~~
+../src/main-1.c:20:38: warning: unused variable 'b4' [-Wunused-variable]
+  int b0 = 2, b1 = 3, b2 = 4, b3 = 1, b4 = 1;
+                                      ^~
+../src/main-1.c:20:30: warning: unused variable 'b3' [-Wunused-variable]
+  int b0 = 2, b1 = 3, b2 = 4, b3 = 1, b4 = 1;
+                              ^~
+../src/main-1.c:20:22: warning: unused variable 'b2' [-Wunused-variable]
+  int b0 = 2, b1 = 3, b2 = 4, b3 = 1, b4 = 1;
+                      ^~
+../src/main-1.c:20:14: warning: unused variable 'b1' [-Wunused-variable]
+  int b0 = 2, b1 = 3, b2 = 4, b3 = 1, b4 = 1;
+              ^~
+../src/main-1.c:20:6: warning: unused variable 'b0' [-Wunused-variable]
+  int b0 = 2, b1 = 3, b2 = 4, b3 = 1, b4 = 1;
+      ^~
+make: *** [src/subdir.mk:23: src/main-1.o] Error 1
+23:56:25 **** Auto Build of configuration Debug for project lab_5_rework ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main-1.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main-1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_5_rework_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main-1.d" -MT"src/main-1.o" -o "src/main-1.o" "../src/main-1.c"
+../src/main-1.c: In function 'pop':
+../src/main-1.c:48:7: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+       printf("Could not retrieve data, Stack is empty.\n");
+       ^~~~~~
+../src/main-1.c:48:7: warning: incompatible implicit declaration of built-in function 'printf'
+../src/main-1.c:48:7: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main-1.c: In function 'push':
+../src/main-1.c:58:7: warning: incompatible implicit declaration of built-in function 'printf'
+       printf("Could not insert data, Stack is full.\n");
+       ^~~~~~
+../src/main-1.c:58:7: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main-1.c: In function 'main':
+../src/main-1.c:68:6: warning: variable 'output' set but not used [-Wunused-but-set-variable]
+  int output = 0;
+      ^~~~~~
+../src/main-1.c:67:38: warning: unused variable 'b4' [-Wunused-variable]
+  int b0 = 2, b1 = 3, b2 = 4, b3 = 1, b4 = 1;
+                                      ^~
+../src/main-1.c:67:30: warning: unused variable 'b3' [-Wunused-variable]
+  int b0 = 2, b1 = 3, b2 = 4, b3 = 1, b4 = 1;
+                              ^~
+../src/main-1.c:67:22: warning: unused variable 'b2' [-Wunused-variable]
+  int b0 = 2, b1 = 3, b2 = 4, b3 = 1, b4 = 1;
+                      ^~
+../src/main-1.c:67:14: warning: unused variable 'b1' [-Wunused-variable]
+  int b0 = 2, b1 = 3, b2 = 4, b3 = 1, b4 = 1;
+              ^~
+../src/main-1.c: In function 'pop':
+../src/main-1.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/main-1.c: In function 'push':
+../src/main-1.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/main-1.c
+ 
+Building target: lab_5_rework.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_5_rework_bsp/ps7_cortexa9_0/lib -o "lab_5_rework.elf"  ./src/main-1.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: lab_5_rework.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size lab_5_rework.elf  |tee "lab_5_rework.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35160	   2192	  22664	  60016	   ea70	lab_5_rework.elf
+Finished building: lab_5_rework.elf.size
+ 
+00:36:58 **** Auto Build of configuration Debug for project lab_5_rework ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main-1.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main-1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_5_rework_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main-1.d" -MT"src/main-1.o" -o "src/main-1.o" "../src/main-1.c"
+../src/main-1.c: In function 'pop':
+../src/main-1.c:48:7: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+       printf("Could not retrieve data, Stack is empty.\n");
+       ^~~~~~
+../src/main-1.c:48:7: warning: incompatible implicit declaration of built-in function 'printf'
+../src/main-1.c:48:7: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main-1.c: In function 'push':
+../src/main-1.c:58:7: warning: incompatible implicit declaration of built-in function 'printf'
+       printf("Could not insert data, Stack is full.\n");
+       ^~~~~~
+../src/main-1.c:58:7: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main-1.c: In function 'main':
+../src/main-1.c:86:6: error: 'y' undeclared (first use in this function)
+      y[i] = 20*sin((2*M_PI*i/4096));
+      ^
+../src/main-1.c:86:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/main-1.c:92:13: error: lvalue required as left operand of assignment
+     push(4) = push(3);
+             ^
+../src/main-1.c:93:13: error: lvalue required as left operand of assignment
+     push(3) = push(2);
+             ^
+../src/main-1.c:94:13: error: lvalue required as left operand of assignment
+     push(2) = push(1);
+             ^
+../src/main-1.c:95:13: error: lvalue required as left operand of assignment
+     push(1) = push(0);
+             ^
+../src/main-1.c:98:6: error: expected ';' before 'dacdav'
+      dacdav=Xil_In32(DA2dav);
+      ^~~~~~
+../src/main-1.c: In function 'pop':
+../src/main-1.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/main-1.c: In function 'push':
+../src/main-1.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main-1.o] Error 1
+00:47:51 **** Auto Build of configuration Debug for project lab_5_rework ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main-1.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main-1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_5_rework_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main-1.d" -MT"src/main-1.o" -o "src/main-1.o" "../src/main-1.c"
+../src/main-1.c: In function 'pop':
+../src/main-1.c:48:7: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+       printf("Could not retrieve data, Stack is empty.\n");
+       ^~~~~~
+../src/main-1.c:48:7: warning: incompatible implicit declaration of built-in function 'printf'
+../src/main-1.c:48:7: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main-1.c: In function 'push':
+../src/main-1.c:58:7: warning: incompatible implicit declaration of built-in function 'printf'
+       printf("Could not insert data, Stack is full.\n");
+       ^~~~~~
+../src/main-1.c:58:7: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main-1.c: In function 'main':
+../src/main-1.c:93:13: error: lvalue required as left operand of assignment
+     push(4) = push(3);
+             ^
+../src/main-1.c:94:13: error: lvalue required as left operand of assignment
+     push(3) = push(2);
+             ^
+../src/main-1.c:95:13: error: lvalue required as left operand of assignment
+     push(2) = push(1);
+             ^
+../src/main-1.c:96:13: error: lvalue required as left operand of assignment
+     push(1) = push(0);
+             ^
+../src/main-1.c:97:13: error: lvalue required as left operand of assignment
+     push(0) = y[dacdata]
+             ^
+../src/main-1.c:99:6: error: expected ';' before 'dacdav'
+      dacdav=Xil_In32(DA2dav);
+      ^~~~~~
+../src/main-1.c: In function 'pop':
+../src/main-1.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/main-1.c: In function 'push':
+../src/main-1.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main-1.o] Error 1
+01:02:09 **** Auto Build of configuration Debug for project lab_5_rework ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main-1.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main-1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_5_rework_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main-1.d" -MT"src/main-1.o" -o "src/main-1.o" "../src/main-1.c"
+../src/main-1.c: In function 'pop':
+../src/main-1.c:48:7: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+       printf("Could not retrieve data, Stack is empty.\n");
+       ^~~~~~
+../src/main-1.c:48:7: warning: incompatible implicit declaration of built-in function 'printf'
+../src/main-1.c:48:7: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main-1.c: In function 'push':
+../src/main-1.c:58:7: warning: incompatible implicit declaration of built-in function 'printf'
+       printf("Could not insert data, Stack is full.\n");
+       ^~~~~~
+../src/main-1.c:58:7: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main-1.c: In function 'main':
+../src/main-1.c:75:20: error: subscripted value is neither array nor pointer nor vector
+  output = b0 * push[3];
+                    ^
+../src/main-1.c:93:19: error: subscripted value is neither array nor pointer nor vector
+     push(4) = push[3];
+                   ^
+../src/main-1.c:94:13: error: lvalue required as left operand of assignment
+     push(3) = push(2);
+             ^
+../src/main-1.c:95:13: error: lvalue required as left operand of assignment
+     push(2) = push(1);
+             ^
+../src/main-1.c:96:13: error: lvalue required as left operand of assignment
+     push(1) = push(0);
+             ^
+../src/main-1.c:97:13: error: lvalue required as left operand of assignment
+     push(0) = y[dacdata];
+             ^
+../src/main-1.c: In function 'pop':
+../src/main-1.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/main-1.c: In function 'push':
+../src/main-1.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:23: src/main-1.o] Error 1

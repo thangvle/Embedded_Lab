@@ -4,3 +4,10 @@
 21:32:42 INFO  : Successfully done setting XSCT server connection channel  
 21:32:42 INFO  : Successfully done setting SDK workspace  
 21:32:42 INFO  : Processing command line option -hwspec D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper.hdf.
+23:38:06 INFO  : Registering command handlers for SDK TCF services
+23:38:08 INFO  : Launching XSCT server: xsct.bat -interactive D:\vivado_proj\Embedded_Lab\lab_5\vivado_lab5\vivado_lab5.sdk\temp_xsdb_launch_script.tcl
+23:38:11 INFO  : XSCT server has started successfully.
+23:38:13 INFO  : Successfully done setting XSCT server connection channel  
+23:38:14 INFO  : Successfully done setting SDK workspace  
+23:38:14 INFO  : Processing command line option -hwspec D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper.hdf.
+23:38:14 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.

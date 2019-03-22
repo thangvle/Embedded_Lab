@@ -72,7 +72,7 @@ int main(void)
 	int dacacq=0;	//DAC acquire
 	int y[4096];
 
-	output = b0 * push[3];
+	output = b0 * push(0);
 	output += b1 * push(1);
 	output += b2 * push(2);
 	output += b3 * push(3);
@@ -90,11 +90,11 @@ int main(void)
     {
     	if(dacdata==4096)
     		dacdata=0;
-    push(4) = push[3];
+    push(4) = push(3);
     push(3) = push(2);
     push(2) = push(1);
     push(1) = push(0);
-    push(0) = y[dacdata];
+    push(0) = y[dacdata]
 
     	dacdav=Xil_In32(DA2dav);
     	//xil_printf("dacdav %d  dacacq %d dacdata %d\n\r",dacdav, dacacq, dacdata);
