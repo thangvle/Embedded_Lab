@@ -15,10 +15,12 @@
 int main(void)
 {
 
-	int b0 = 2, b1 = 3, b2 = 0, b3 = 0, b4 = 0;
+	int b0 = 2, b1 = 3, b2 = 4, b3 = 1, b4 = 1;
 	int dacdata=0;	//DAC ramp data
 	int dacdav;		//DAC data available
 	int dacacq=0;	//DAC acquire
+
+	output = push
 
 	xil_printf("\n\rStarting DA2 Pmod demo test...\n\r");
     Xil_Out32(DA2acq,0);
