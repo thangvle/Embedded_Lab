@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="39" Path="D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.xpr">
+<Project Version="7" Minor="39" Path="C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="3384f0cc70194902a9a96ef7533ee053"/>

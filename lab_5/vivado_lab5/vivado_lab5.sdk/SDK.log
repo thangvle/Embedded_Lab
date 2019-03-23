@@ -11,3 +11,289 @@
 23:38:14 INFO  : Successfully done setting SDK workspace  
 23:38:14 INFO  : Processing command line option -hwspec D:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper.hdf.
 23:38:14 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:47:27 INFO  : Registering command handlers for SDK TCF services
+13:47:41 INFO  : Launching XSCT server: xsct.bat -interactive C:\vivado_proj\Embedded_Lab\lab_5\vivado_lab5\vivado_lab5.sdk\temp_xsdb_launch_script.tcl
+13:47:49 INFO  : XSCT server has started successfully.
+13:47:50 INFO  : Successfully done setting XSCT server connection channel  
+13:47:50 INFO  : Processing command line option -hwspec C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper.hdf.
+13:47:50 INFO  : Successfully done setting SDK workspace  
+15:07:24 INFO  : Registering command handlers for SDK TCF services
+15:07:25 INFO  : Launching XSCT server: xsct.bat -interactive C:\vivado_proj\Embedded_Lab\lab_5\vivado_lab5\vivado_lab5.sdk\temp_xsdb_launch_script.tcl
+15:07:28 INFO  : XSCT server has started successfully.
+15:07:28 INFO  : Successfully done setting XSCT server connection channel  
+15:07:28 INFO  : Successfully done setting SDK workspace  
+15:07:28 INFO  : Processing command line option -hwspec C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper.hdf.
+15:07:28 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+15:44:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:44:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+15:44:08 INFO  : FPGA configured successfully with bitstream "C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:21:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:22:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:22:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+18:22:44 INFO  : FPGA configured successfully with bitstream "C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+18:23:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+18:23:10 INFO  : 'fpga -state' command is executed.
+18:23:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:23:10 INFO  : Jtag cable 'Digilent Zybo 210279A42B16A' is selected.
+18:23:10 INFO  : 'jtag frequency' command is executed.
+18:23:10 INFO  : Sourcing of 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl' is done.
+18:23:10 INFO  : Context for 'APU' is selected.
+18:23:10 INFO  : Hardware design information is loaded from 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf'.
+18:23:10 INFO  : 'configparams force-mem-access 1' command is executed.
+18:23:10 INFO  : Context for 'APU' is selected.
+18:23:10 INFO  : 'stop' command is executed.
+18:23:10 INFO  : 'ps7_init' command is executed.
+18:23:10 INFO  : 'ps7_post_config' command is executed.
+18:23:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:23:11 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+18:23:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:23:11 INFO  : The application 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/lab_5_new/Debug/lab_5_new.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:23:11 INFO  : 'configparams force-mem-access 0' command is executed.
+18:23:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+loadhw -hw C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+dow C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/lab_5_new/Debug/lab_5_new.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:23:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:23:11 INFO  : 'con' command is executed.
+18:23:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+con
+----------------End of Script----------------
+
+18:23:11 INFO  : Disconnected from the channel tcfchan#1.
+18:58:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:58:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+18:58:38 INFO  : FPGA configured successfully with bitstream "C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+18:58:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+18:58:49 INFO  : 'fpga -state' command is executed.
+18:58:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:58:49 INFO  : Jtag cable 'Digilent Zybo 210279A42B16A' is selected.
+18:58:49 INFO  : 'jtag frequency' command is executed.
+18:58:49 INFO  : Sourcing of 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl' is done.
+18:58:49 INFO  : Context for 'APU' is selected.
+18:58:49 INFO  : Hardware design information is loaded from 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf'.
+18:58:49 INFO  : 'configparams force-mem-access 1' command is executed.
+18:58:49 INFO  : Context for 'APU' is selected.
+18:58:49 INFO  : 'stop' command is executed.
+18:58:49 INFO  : 'ps7_init' command is executed.
+18:58:49 INFO  : 'ps7_post_config' command is executed.
+18:58:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:58:50 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+18:58:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:58:50 INFO  : The application 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/lab_5_new/Debug/lab_5_new.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:58:50 INFO  : 'configparams force-mem-access 0' command is executed.
+18:58:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+loadhw -hw C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+dow C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/lab_5_new/Debug/lab_5_new.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:58:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:58:50 INFO  : 'con' command is executed.
+18:58:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+con
+----------------End of Script----------------
+
+18:58:50 INFO  : Disconnected from the channel tcfchan#2.
+19:09:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:09:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+19:09:35 INFO  : FPGA configured successfully with bitstream "C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+19:09:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+19:09:41 INFO  : 'fpga -state' command is executed.
+19:09:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:09:41 INFO  : Jtag cable 'Digilent Zybo 210279A42B16A' is selected.
+19:09:41 INFO  : 'jtag frequency' command is executed.
+19:09:41 INFO  : Sourcing of 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl' is done.
+19:09:42 INFO  : Context for 'APU' is selected.
+19:09:42 INFO  : Hardware design information is loaded from 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf'.
+19:09:42 INFO  : 'configparams force-mem-access 1' command is executed.
+19:09:43 INFO  : Context for 'APU' is selected.
+19:09:43 INFO  : 'stop' command is executed.
+19:09:43 INFO  : 'ps7_init' command is executed.
+19:09:43 INFO  : 'ps7_post_config' command is executed.
+19:09:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:09:43 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+19:09:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:09:43 INFO  : The application 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/lab_5_new/Debug/lab_5_new.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:09:43 INFO  : 'configparams force-mem-access 0' command is executed.
+19:09:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+loadhw -hw C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+dow C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/lab_5_new/Debug/lab_5_new.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:09:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:09:43 INFO  : 'con' command is executed.
+19:09:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+con
+----------------End of Script----------------
+
+19:09:43 INFO  : Disconnected from the channel tcfchan#3.
+21:30:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:30:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+21:30:09 INFO  : FPGA configured successfully with bitstream "C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+21:30:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:30:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+21:30:22 INFO  : FPGA configured successfully with bitstream "C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+21:30:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+21:30:29 INFO  : 'fpga -state' command is executed.
+21:30:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:30:29 INFO  : Jtag cable 'Digilent Zybo 210279A42B16A' is selected.
+21:30:29 INFO  : 'jtag frequency' command is executed.
+21:30:29 INFO  : Sourcing of 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl' is done.
+21:30:29 INFO  : Context for 'APU' is selected.
+21:30:29 INFO  : Hardware design information is loaded from 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf'.
+21:30:29 INFO  : 'configparams force-mem-access 1' command is executed.
+21:30:29 INFO  : Context for 'APU' is selected.
+21:30:29 INFO  : 'stop' command is executed.
+21:30:29 INFO  : 'ps7_init' command is executed.
+21:30:29 INFO  : 'ps7_post_config' command is executed.
+21:30:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:30:29 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:30:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:30:30 INFO  : The application 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/lab_5_new/Debug/lab_5_new.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:30:30 INFO  : 'configparams force-mem-access 0' command is executed.
+21:30:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+loadhw -hw C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+dow C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/lab_5_new/Debug/lab_5_new.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:30:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:30:30 INFO  : 'con' command is executed.
+21:30:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+con
+----------------End of Script----------------
+
+21:30:30 INFO  : Disconnected from the channel tcfchan#4.
+21:32:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:32:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+21:32:23 INFO  : FPGA configured successfully with bitstream "C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+21:32:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+21:32:40 INFO  : 'fpga -state' command is executed.
+21:32:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:32:40 INFO  : Jtag cable 'Digilent Zybo 210279A42B16A' is selected.
+21:32:40 INFO  : 'jtag frequency' command is executed.
+21:32:40 INFO  : Sourcing of 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl' is done.
+21:32:40 INFO  : Context for 'APU' is selected.
+21:32:40 INFO  : Hardware design information is loaded from 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf'.
+21:32:40 INFO  : 'configparams force-mem-access 1' command is executed.
+21:32:40 INFO  : Context for 'APU' is selected.
+21:32:40 INFO  : 'stop' command is executed.
+21:32:42 INFO  : 'ps7_init' command is executed.
+21:32:42 INFO  : 'ps7_post_config' command is executed.
+21:32:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:32:42 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:32:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:32:44 ERROR : Memory write error at 0x100000. APB AP transaction error, DAP status f0000021
+21:32:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+loadhw -hw C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+dow C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/lab_5_new/Debug/lab_5_new.elf
+----------------End of Script----------------
+
+21:32:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:32:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+21:32:53 INFO  : FPGA configured successfully with bitstream "C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+21:32:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42B16A" && level==0} -index 1' command is executed.
+21:32:59 INFO  : 'fpga -state' command is executed.
+21:32:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:33:00 INFO  : Jtag cable 'Digilent Zybo 210279A42B16A' is selected.
+21:33:00 INFO  : 'jtag frequency' command is executed.
+21:33:00 INFO  : Sourcing of 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl' is done.
+21:33:00 INFO  : Context for 'APU' is selected.
+21:33:00 INFO  : Hardware design information is loaded from 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf'.
+21:33:00 INFO  : 'configparams force-mem-access 1' command is executed.
+21:33:00 INFO  : Context for 'APU' is selected.
+21:33:00 INFO  : 'stop' command is executed.
+21:33:00 INFO  : 'ps7_init' command is executed.
+21:33:00 INFO  : 'ps7_post_config' command is executed.
+21:33:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:33:00 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:33:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:33:00 INFO  : The application 'C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/lab_5_new/Debug/lab_5_new.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:33:00 INFO  : 'configparams force-mem-access 0' command is executed.
+21:33:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+loadhw -hw C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/design_1_wrapper_hw_platform_1/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+dow C:/vivado_proj/Embedded_Lab/lab_5/vivado_lab5/vivado_lab5.sdk/lab_5_new/Debug/lab_5_new.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:33:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:33:00 INFO  : 'con' command is executed.
+21:33:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279A42B16A"} -index 0
+con
+----------------End of Script----------------
+
+21:33:00 INFO  : Disconnected from the channel tcfchan#5.

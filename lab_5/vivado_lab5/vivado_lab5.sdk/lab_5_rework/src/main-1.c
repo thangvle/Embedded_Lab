@@ -2,10 +2,11 @@
 // main.c DA2PmodTest	ECE3622
 // Dennis Silage   c2019
 
+#include <stdio.h>
 #include "xparameters.h"
 #include "xil_io.h"
 #include "xil_printf.h"
-#include "math.h"
+#include <math.h>
 
 //DAC2Pmod from Address Editor in Vivado
 #define DA2acq  0x43C00000   //DA2 acquisition    - output
@@ -66,13 +67,14 @@ int main(void)
 
 	int b0 = 2, b1 = 3, b2 = 4, b3 = 1, b4 = 1;
 	int output = 0;
+	//int push[5] = ;
 
 	int dacdata=0;	//DAC ramp data
 	int dacdav;		//DAC data available
 	int dacacq=0;	//DAC acquire
-	int y[4096];
+	float y[4096];
 
-	output = b0 * push[3];
+	output = b0 * push(0);
 	output += b1 * push(1);
 	output += b2 * push(2);
 	output += b3 * push(3);
@@ -84,18 +86,20 @@ int main(void)
     Xil_Out32(DA2acq,0);
 
     for (int i = 0; i < 4095; i++){
-    	y[i] = 20*sin((2*M_PI*i/4096));
+    	y[i] = 20*sin((2*M_PI*i/4096)) + 20;
     }
     while(1)
     {
     	if(dacdata==4096)
     		dacdata=0;
-    push(4) = push[3];
-    push(3) = push(2);
-    push(2) = push(1);
-    push(1) = push(0);
-    push(0) = y[dacdata];
-
+    	/*
+    	 * push[4] = push[3];
+    push[3] = push[2];
+    push[2] = push[1];
+    push[1] = push[0];
+    push[0] = y[dacdata];
+    	 *
+    	 */
     	dacdav=Xil_In32(DA2dav);
     	//xil_printf("dacdav %d  dacacq %d dacdata %d\n\r",dacdav, dacacq, dacdata);
     		if(dacdav==0 && dacacq==0)			//DAC not in use?

@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/vivado_proj/Embedded_Lab/lab_5/DA2JE7_10.xdc rfile:../../../../DA2JE7_10.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/vivado_proj/Embedded_Lab/lab_5/DA2JE7_10.xdc rfile:../../../../DA2JE7_10.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN L16 [get_ports CLK]
 set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]

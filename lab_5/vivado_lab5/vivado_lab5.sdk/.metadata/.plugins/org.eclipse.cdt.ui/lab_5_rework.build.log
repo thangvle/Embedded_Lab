@@ -1,49 +1,43 @@
-01:02:09 **** Auto Build of configuration Debug for project lab_5_rework ****
+15:50:53 **** Auto Build of configuration Debug for project lab_5_rework ****
 make pre-build main-build 
 a9-linaro-pre-build-step
- 
-Building file: ../src/main-1.c
-Invoking: ARM v7 gcc compiler
+' '
+'Building file: ../src/main-1.c'
+'Invoking: ARM v7 gcc compiler'
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main-1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_5_rework_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main-1.d" -MT"src/main-1.o" -o "src/main-1.o" "../src/main-1.c"
 ../src/main-1.c: In function 'pop':
-../src/main-1.c:48:7: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-       printf("Could not retrieve data, Stack is empty.\n");
-       ^~~~~~
-../src/main-1.c:48:7: warning: incompatible implicit declaration of built-in function 'printf'
-../src/main-1.c:48:7: note: include '<stdio.h>' or provide a declaration of 'printf'
-../src/main-1.c: In function 'push':
-../src/main-1.c:58:7: warning: incompatible implicit declaration of built-in function 'printf'
-       printf("Could not insert data, Stack is full.\n");
-       ^~~~~~
-../src/main-1.c:58:7: note: include '<stdio.h>' or provide a declaration of 'printf'
-../src/main-1.c: In function 'main':
-../src/main-1.c:75:20: error: subscripted value is neither array nor pointer nor vector
-  output = b0 * push[3];
-                    ^
-../src/main-1.c:93:19: error: subscripted value is neither array nor pointer nor vector
-     push(4) = push[3];
-                   ^
-../src/main-1.c:94:13: error: lvalue required as left operand of assignment
-     push(3) = push(2);
-             ^
-../src/main-1.c:95:13: error: lvalue required as left operand of assignment
-     push(2) = push(1);
-             ^
-../src/main-1.c:96:13: error: lvalue required as left operand of assignment
-     push(1) = push(0);
-             ^
-../src/main-1.c:97:13: error: lvalue required as left operand of assignment
-     push(0) = y[dacdata];
-             ^
-../src/main-1.c: In function 'pop':
-../src/main-1.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+../src/main-1.c:51:1: warning: control reaches end of non-void function [-Wreturn-type]
  }
  ^
 ../src/main-1.c: In function 'push':
-../src/main-1.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+../src/main-1.c:61:1: warning: control reaches end of non-void function [-Wreturn-type]
  }
  ^
-make: *** [src/subdir.mk:23: src/main-1.o] Error 1
+'Finished building: ../src/main-1.c'
+' '
+'Building target: lab_5_rework.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_5_rework_bsp/ps7_cortexa9_0/lib -o "lab_5_rework.elf"  ./src/main-1.o   
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _vector_table; defaulting to 0000000000100000
+./src/main-1.o: In function `main':
+C:\vivado_proj\Embedded_Lab\lab_5\vivado_lab5\vivado_lab5.sdk\lab_5_rework\Debug/../src/main-1.c:85: undefined reference to `xil_printf'
+C:\vivado_proj\Embedded_Lab\lab_5\vivado_lab5\vivado_lab5.sdk\lab_5_rework\Debug/../src/main-1.c:89: undefined reference to `sin'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-sbrkr.o): In function `_sbrk_r':
+sbrkr.c:(.text+0x1c): undefined reference to `_sbrk'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-writer.o): In function `_write_r':
+writer.c:(.text+0x28): undefined reference to `_write'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-closer.o): In function `_close_r':
+closer.c:(.text+0x1c): undefined reference to `_close'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-lseekr.o): In function `_lseek_r':
+lseekr.c:(.text+0x28): undefined reference to `_lseek'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-readr.o): In function `_read_r':
+readr.c:(.text+0x28): undefined reference to `_read'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-fstatr.o): In function `_fstat_r':
+fstatr.c:(.text+0x24): undefined reference to `_fstat'
+c:/xilinx/sdk/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/lib/v7-a/fpv3/hard\libc.a(lib_a-isattyr.o): In function `_isatty_r':
+isattyr.c:(.text+0x1c): undefined reference to `_isatty'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: lab_5_rework.elf] Error 1
 
-01:02:09 Build Finished (took 252ms)
+15:50:54 Build Finished (took 737ms)
 
