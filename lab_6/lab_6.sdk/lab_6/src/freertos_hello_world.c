@@ -202,7 +202,7 @@ const TickType_t x1second = pdMS_TO_TICKS( DELAY_1_SECOND );
 	for( ;; )
 	{
 		/* Delay for 1 second. */
-		vTaskDelay( x1second );
+		//vTaskDelay( x1second );
 
 		/* Send the next value on the queue.  The queue should always be
 		empty at this point so a block time of 0 is used. */
