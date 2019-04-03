@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr  2 22:12:00 2019
+# Process ID: 28324
+# Current directory: D:/vivado_proj/Embedded_Lab/lab_7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24352 D:\vivado_proj\Embedded_Lab\lab_7\lab_7.xpr
+# Log file: D:/vivado_proj/Embedded_Lab/lab_7/vivado.log
+# Journal file: D:/vivado_proj/Embedded_Lab/lab_7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivado_proj/Embedded_Lab/lab_7/lab_7.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace D:/vivado_proj/Embedded_Lab/lab_7/lab_7.sdk -hwspec D:/vivado_proj/Embedded_Lab/lab_7/lab_7.sdk/design_1_wrapper.hdf
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+file copy -force D:/vivado_proj/Embedded_Lab/lab_7/lab_7.runs/impl_1/design_1_wrapper.sysdef D:/vivado_proj/Embedded_Lab/lab_7/lab_7.sdk/design_1_wrapper.hdf
+

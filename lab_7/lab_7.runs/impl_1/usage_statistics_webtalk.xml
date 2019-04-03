@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Mon Apr  1 12:45:24 2019'>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Wed Apr  3 15:41:33 2019'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="2405991" description="" />
-  <keyValuePair key="date_generated" value="Mon Apr  1 12:45:24 2019" description="" />
+  <keyValuePair key="date_generated" value="Wed Apr  3 15:41:33 2019" description="" />
   <keyValuePair key="os_platform" value="WIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2018.3 (64-bit)" description="" />
   <keyValuePair key="project_id" value="92a256ef69234bd88335fade64b02f31" description="" />
-  <keyValuePair key="project_iteration" value="1" description="" />
-  <keyValuePair key="random_id" value="37afd4aab6c05d8d8fe95891bc54b0d6" description="" />
-  <keyValuePair key="registration_id" value="37afd4aab6c05d8d8fe95891bc54b0d6" description="" />
+  <keyValuePair key="project_iteration" value="2" description="" />
+  <keyValuePair key="random_id" value="72e20da3cfd45b4cbd3b9bf9b2fb1f09" description="" />
+  <keyValuePair key="registration_id" value="211664212_0_0_165" description="" />
   <keyValuePair key="route_design" value="TRUE" description="" />
   <keyValuePair key="target_device" value="xc7z010" description="" />
   <keyValuePair key="target_family" value="zynq" description="" />
@@ -19,11 +19,11 @@
   <keyValuePair key="tool_flow" value="Vivado" description="" />
  </section>
  <section name="user_environment" level="1" order="2" description="">
-  <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz" description="" />
-  <keyValuePair key="cpu_speed" value="1992 MHz" description="" />
+  <keyValuePair key="cpu_name" value="Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz" description="" />
+  <keyValuePair key="cpu_speed" value="4200 MHz" description="" />
   <keyValuePair key="os_name" value="Microsoft Windows 8 or later , 64-bit" description="" />
   <keyValuePair key="os_release" value="major release  (build 9200)" description="" />
-  <keyValuePair key="system_ram" value="16.000 GB" description="" />
+  <keyValuePair key="system_ram" value="17.000 GB" description="" />
   <keyValuePair key="total_processors" value="1" description="" />
  </section>
  <section name="ip_statistics" level="1" order="3" description="">
@@ -670,7 +670,7 @@
    <keyValuePair key="output_load" value="5.000000" description="" />
    <keyValuePair key="output_toggle" value="12.500000" description="" />
    <keyValuePair key="package" value="clg400" description="" />
-   <keyValuePair key="pct_clock_constrained" value="1.000000" description="" />
+   <keyValuePair key="pct_clock_constrained" value="2.000000" description="" />
    <keyValuePair key="pct_inputs_defined" value="0" description="" />
    <keyValuePair key="platform" value="nt64" description="" />
    <keyValuePair key="process" value="typical" description="" />
@@ -1041,10 +1041,10 @@
    <keyValuePair key="-verilog_define" value="default::[not_specified]" description="" />
   </section>
   <section name="usage" level="2" order="2" description="">
-   <keyValuePair key="elapsed" value="00:00:20s" description="" />
+   <keyValuePair key="elapsed" value="00:00:22s" description="" />
    <keyValuePair key="hls_ip" value="0" description="" />
-   <keyValuePair key="memory_gain" value="491.582MB" description="" />
-   <keyValuePair key="memory_peak" value="835.340MB" description="" />
+   <keyValuePair key="memory_gain" value="485.039MB" description="" />
+   <keyValuePair key="memory_peak" value="875.379MB" description="" />
   </section>
  </section>
  <section name="unisim_transformation" level="1" order="9" description="">
@@ -1092,21 +1092,33 @@
  <section name="vivado_usage" level="1" order="10" description="">
   <section name="gui_handlers" level="2" order="1" description="">
    <keyValuePair key="applyrsbmultiautomationdialog_checkbox_tree" value="6" description="" />
-   <keyValuePair key="basedialog_ok" value="7" description="" />
-   <keyValuePair key="basedialog_yes" value="1" description="" />
+   <keyValuePair key="basedialog_ok" value="13" description="" />
+   <keyValuePair key="basedialog_yes" value="2" description="" />
    <keyValuePair key="boardchooser_board_table" value="1" description="" />
    <keyValuePair key="cmdmsgdialog_ok" value="1" description="" />
    <keyValuePair key="coretreetablepanel_core_tree_table" value="10" description="" />
-   <keyValuePair key="filesetpanel_file_set_panel_tree" value="1" description="" />
-   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="2" description="" />
+   <keyValuePair key="filesetpanel_file_set_panel_tree" value="3" description="" />
+   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="3" description="" />
    <keyValuePair key="gettingstartedview_create_new_project" value="1" description="" />
+   <keyValuePair key="mainmenumgr_checkpoint" value="4" description="" />
+   <keyValuePair key="mainmenumgr_constraints" value="2" description="" />
+   <keyValuePair key="mainmenumgr_export" value="2" description="" />
+   <keyValuePair key="mainmenumgr_file" value="8" description="" />
+   <keyValuePair key="mainmenumgr_import" value="3" description="" />
+   <keyValuePair key="mainmenumgr_ip" value="3" description="" />
+   <keyValuePair key="mainmenumgr_project" value="4" description="" />
+   <keyValuePair key="mainmenumgr_text_editor" value="4" description="" />
+   <keyValuePair key="newexporthardwaredialog_include_bitstream" value="1" description="" />
    <keyValuePair key="pacommandnames_create_top_hdl" value="1" description="" />
+   <keyValuePair key="pacommandnames_export_hardware" value="1" description="" />
+   <keyValuePair key="pacommandnames_launch_hardware" value="3" description="" />
    <keyValuePair key="pacommandnames_validate_rsb_design" value="1" description="" />
-   <keyValuePair key="paviews_project_summary" value="1" description="" />
+   <keyValuePair key="paviews_project_summary" value="2" description="" />
    <keyValuePair key="projectnamechooser_project_name" value="1" description="" />
    <keyValuePair key="rsbapplyautomationbar_run_block_automation" value="1" description="" />
    <keyValuePair key="rsbapplyautomationbar_run_connection_automation" value="2" description="" />
    <keyValuePair key="saveprojectutils_save" value="1" description="" />
+   <keyValuePair key="syntheticagettingstartedview_recent_projects" value="1" description="" />
    <keyValuePair key="systembuildermenu_add_ip" value="2" description="" />
    <keyValuePair key="systembuilderview_add_ip" value="2" description="" />
    <keyValuePair key="systembuilderview_pinning" value="1" description="" />
@@ -1116,12 +1128,15 @@
    <keyValuePair key="createtophdl" value="1" description="" />
    <keyValuePair key="customizersbblock" value="1" description="" />
    <keyValuePair key="editundo" value="7" description="" />
+   <keyValuePair key="newexporthardware" value="1" description="" />
+   <keyValuePair key="newlaunchhardware" value="3" description="" />
    <keyValuePair key="newproject" value="1" description="" />
-   <keyValuePair key="runbitgen" value="1" description="" />
+   <keyValuePair key="runbitgen" value="2" description="" />
    <keyValuePair key="validatersbdesign" value="1" description="" />
+   <keyValuePair key="viewtaskimplementation" value="1" description="" />
   </section>
   <section name="other_data" level="2" order="3" description="">
-   <keyValuePair key="guimode" value="1" description="" />
+   <keyValuePair key="guimode" value="3" description="" />
   </section>
   <section name="project_data" level="2" order="4" description="">
    <keyValuePair key="constraintsetcount" value="0" description="" />

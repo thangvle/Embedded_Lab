@@ -1,0 +1,160 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr  2 22:12:00 2019
+# Process ID: 28324
+# Current directory: D:/vivado_proj/Embedded_Lab/lab_7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24352 D:\vivado_proj\Embedded_Lab\lab_7\lab_7.xpr
+# Log file: D:/vivado_proj/Embedded_Lab/lab_7/vivado.log
+# Journal file: D:/vivado_proj/Embedded_Lab/lab_7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivado_proj/Embedded_Lab/lab_7/lab_7.xpr
+INFO: [Project 1-313] Project file moved from 'C:/vivado_proj/Embedded_Lab/lab_7' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/Users/tshot/Documents/Embedded System/vivado-library', nor could it be found using path 'C:/Users/tshot/Documents/Embedded System/vivado-library'.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/vivado_proj/Embedded_Lab/lab_7/lab_7.ip_user_files', nor could it be found using path 'C:/vivado_proj/Embedded_Lab/lab_7/lab_7.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Users/tshot/Documents/Embedded System/vivado-library'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 827.609 ; gain = 242.227
+update_compile_order -fileset sources_1
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace D:/vivado_proj/Embedded_Lab/lab_7/lab_7.sdk -hwspec D:/vivado_proj/Embedded_Lab/lab_7/lab_7.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/vivado_proj/Embedded_Lab/lab_7/lab_7.sdk -hwspec D:/vivado_proj/Embedded_Lab/lab_7/lab_7.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Apr  3 15:39:35 2019] Launched synth_1...
+Run output will be captured here: D:/vivado_proj/Embedded_Lab/lab_7/lab_7.runs/synth_1/runme.log
+[Wed Apr  3 15:39:35 2019] Launched impl_1...
+Run output will be captured here: D:/vivado_proj/Embedded_Lab/lab_7/lab_7.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.297 . Memory (MB): peak = 1717.652 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.298 . Memory (MB): peak = 1717.652 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1717.652 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 4 instances
+
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+WARNING: [Designutils 20-3303] unexpected site type 'IOPAD' in HDPYFinalizeIO
+INFO: [Common 17-14] Message 'Designutils 20-3303' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 1834.504 ; gain = 756.230
+file copy -force D:/vivado_proj/Embedded_Lab/lab_7/lab_7.runs/impl_1/design_1_wrapper.sysdef D:/vivado_proj/Embedded_Lab/lab_7/lab_7.sdk/design_1_wrapper.hdf
+
