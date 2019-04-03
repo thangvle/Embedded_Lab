@@ -1,0 +1,194 @@
+
+
+================================================================
+== Vivado HLS Report for 'Mat2AXIM'
+================================================================
+* Date:           Mon Mar 25 16:43:16 2019
+
+* Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
+* Project:        fpga_test
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     8.750|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +---------+---------+---------+---------+---------+
+    |      Latency      |      Interval     | Pipeline|
+    |   min   |   max   |   min   |   max   |   Type  |
+    +---------+---------+---------+---------+---------+
+    |  2083322|  2083322|  2083322|  2083322|   none  |
+    +---------+---------+---------+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        +---------------------+-----------+---------+---------+---------+---------+---------+
+        |                     |           |      Latency      |      Interval     | Pipeline|
+        |       Instance      |   Module  |   min   |   max   |   min   |   max   |   Type  |
+        +---------------------+-----------+---------+---------+---------+---------+---------+
+        |grp_Mat2Array_fu_60  |Mat2Array  |  2083321|  2083321|  2083321|  2083321|   none  |
+        +---------------------+-----------+---------+---------+---------+---------+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       0|      2|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|     122|    270|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|     69|
+|Register         |        -|      -|      36|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|     158|    341|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|   ~0   |   ~0  |
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +---------------------+-----------+---------+-------+-----+-----+
+    |       Instance      |   Module  | BRAM_18K| DSP48E|  FF | LUT |
+    +---------------------+-----------+---------+-------+-----+-----+
+    |grp_Mat2Array_fu_60  |Mat2Array  |        0|      0|  122|  270|
+    +---------------------+-----------+---------+-------+-----+-----+
+    |Total                |           |        0|      0|  122|  270|
+    +---------------------+-----------+---------+-------+-----+-----+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------+----------+-------+---+----+------------+------------+
+    |  Variable Name  | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------+----------+-------+---+----+------------+------------+
+    |ap_block_state1  |    or    |      0|  0|   2|           1|           1|
+    +-----------------+----------+-------+---+----+------------+------------+
+    |Total            |          |      0|  0|   2|           1|           1|
+    +-----------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +------------------------+----+-----------+-----+-----------+
+    |          Name          | LUT| Input Size| Bits| Total Bits|
+    +------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm               |  15|          3|    1|          3|
+    |ap_done                 |   9|          2|    1|          2|
+    |fb_offset_blk_n         |   9|          2|    1|          2|
+    |img_data_stream_V_read  |   9|          2|    1|          2|
+    |m_axi_fb_AWVALID        |   9|          2|    1|          2|
+    |m_axi_fb_BREADY         |   9|          2|    1|          2|
+    |m_axi_fb_WVALID         |   9|          2|    1|          2|
+    +------------------------+----+-----------+-----+-----------+
+    |Total                   |  69|         15|    7|         15|
+    +------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------+----+----+-----+-----------+
+    |               Name               | FF | LUT| Bits| Const Bits|
+    +----------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                         |   2|   0|    2|          0|
+    |ap_done_reg                       |   1|   0|    1|          0|
+    |fb_offset_read_reg_70             |  32|   0|   32|          0|
+    |grp_Mat2Array_fu_60_ap_start_reg  |   1|   0|    1|          0|
+    +----------------------------------+----+----+-----+-----------+
+    |Total                             |  36|   0|   36|          0|
+    +----------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------------+-----+-----+------------+-------------------+--------------+
+|         RTL Ports         | Dir | Bits|  Protocol  |   Source Object   |    C Type    |
++---------------------------+-----+-----+------------+-------------------+--------------+
+|ap_clk                     |  in |    1| ap_ctrl_hs |      Mat2AXIM     | return value |
+|ap_rst                     |  in |    1| ap_ctrl_hs |      Mat2AXIM     | return value |
+|ap_start                   |  in |    1| ap_ctrl_hs |      Mat2AXIM     | return value |
+|ap_done                    | out |    1| ap_ctrl_hs |      Mat2AXIM     | return value |
+|ap_continue                |  in |    1| ap_ctrl_hs |      Mat2AXIM     | return value |
+|ap_idle                    | out |    1| ap_ctrl_hs |      Mat2AXIM     | return value |
+|ap_ready                   | out |    1| ap_ctrl_hs |      Mat2AXIM     | return value |
+|img_data_stream_V_dout     |  in |    8|   ap_fifo  | img_data_stream_V |    pointer   |
+|img_data_stream_V_empty_n  |  in |    1|   ap_fifo  | img_data_stream_V |    pointer   |
+|img_data_stream_V_read     | out |    1|   ap_fifo  | img_data_stream_V |    pointer   |
+|m_axi_fb_AWVALID           | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWREADY           |  in |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWADDR            | out |   32|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWID              | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWLEN             | out |   32|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWSIZE            | out |    3|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWBURST           | out |    2|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWLOCK            | out |    2|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWCACHE           | out |    4|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWPROT            | out |    3|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWQOS             | out |    4|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWREGION          | out |    4|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_AWUSER            | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_WVALID            | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_WREADY            |  in |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_WDATA             | out |    8|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_WSTRB             | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_WLAST             | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_WID               | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_WUSER             | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARVALID           | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARREADY           |  in |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARADDR            | out |   32|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARID              | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARLEN             | out |   32|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARSIZE            | out |    3|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARBURST           | out |    2|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARLOCK            | out |    2|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARCACHE           | out |    4|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARPROT            | out |    3|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARQOS             | out |    4|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARREGION          | out |    4|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_ARUSER            | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_RVALID            |  in |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_RREADY            | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_RDATA             |  in |    8|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_RLAST             |  in |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_RID               |  in |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_RUSER             |  in |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_RRESP             |  in |    2|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_BVALID            |  in |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_BREADY            | out |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_BRESP             |  in |    2|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_BID               |  in |    1|    m_axi   |         fb        |    pointer   |
+|m_axi_fb_BUSER             |  in |    1|    m_axi   |         fb        |    pointer   |
+|fb_offset_dout             |  in |   32|   ap_fifo  |     fb_offset     |    pointer   |
+|fb_offset_empty_n          |  in |    1|   ap_fifo  |     fb_offset     |    pointer   |
+|fb_offset_read             | out |    1|   ap_fifo  |     fb_offset     |    pointer   |
++---------------------------+-----+-----+------------+-------------------+--------------+
+

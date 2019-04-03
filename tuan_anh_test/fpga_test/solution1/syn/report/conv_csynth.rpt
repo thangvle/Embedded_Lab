@@ -1,0 +1,226 @@
+
+
+================================================================
+== Vivado HLS Report for 'conv'
+================================================================
+* Date:           Mon Mar 25 16:43:16 2019
+
+* Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
+* Project:        fpga_test
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     8.750|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +---------+---------+---------+---------+----------+
+    |      Latency      |      Interval     | Pipeline |
+    |   min   |   max   |   min   |   max   |   Type   |
+    +---------+---------+---------+---------+----------+
+    |  2083334|  2088034|  2083323|  2088026| dataflow |
+    +---------+---------+---------+---------+----------+
+
+    + Detail: 
+        * Instance: 
+        +-----------------+--------------+---------+---------+---------+---------+---------+
+        |                 |              |      Latency      |      Interval     | Pipeline|
+        |     Instance    |    Module    |   min   |   max   |   min   |   max   |   Type  |
+        +-----------------+--------------+---------+---------+---------+---------+---------+
+        |Filter2D_U0      |Filter2D      |      145|  2088025|      145|  2088025|   none  |
+        |AXIM2Mat_U0      |AXIM2Mat      |        2|  2085482|        2|  2085482|   none  |
+        |Mat2AXIM_U0      |Mat2AXIM      |  2083322|  2083322|  2083322|  2083322|   none  |
+        |Block_proc19_U0  |Block_proc19  |        0|        0|        0|        0|   none  |
+        +-----------------+--------------+---------+---------+---------+---------+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       0|     32|
+|FIFO             |        0|      -|      40|    224|
+|Instance         |        5|      -|    1738|   3088|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|     36|
+|Register         |        -|      -|       6|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        5|      0|    1784|   3380|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        1|      0|       1|      6|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +-----------------------+---------------------+---------+-------+-----+------+
+    |        Instance       |        Module       | BRAM_18K| DSP48E|  FF |  LUT |
+    +-----------------------+---------------------+---------+-------+-----+------+
+    |AXIM2Mat_U0            |AXIM2Mat             |        0|      0|  311|   425|
+    |Block_proc19_U0        |Block_proc19         |        0|      0|    3|    56|
+    |Filter2D_U0            |Filter2D             |        3|      0|  606|  1398|
+    |Mat2AXIM_U0            |Mat2AXIM             |        0|      0|  158|   341|
+    |conv_CRTL_BUS_m_axi_U  |conv_CRTL_BUS_m_axi  |        2|      0|  548|   700|
+    |conv_CRTL_BUS_s_axi_U  |conv_CRTL_BUS_s_axi  |        0|      0|  112|   168|
+    +-----------------------+---------------------+---------+-------+-----+------+
+    |Total                  |                     |        5|      0| 1738|  3088|
+    +-----------------------+---------------------+---------+-------+-----+------+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    +-----------------------+---------+---+----+------+-----+---------+
+    |          Name         | BRAM_18K| FF| LUT| Depth| Bits| Size:D*B|
+    +-----------------------+---------+---+----+------+-----+---------+
+    |dst_data_stream_0_V_U  |        0|  5|  20|     2|    8|       16|
+    |image_in_c_U           |        0|  5|  44|     2|   32|       64|
+    |image_out_c_U          |        0|  5|  44|     4|   32|      128|
+    |src_cols_V_c11_U       |        0|  5|  24|     2|   12|       24|
+    |src_cols_V_c_U         |        0|  5|  24|     2|   12|       24|
+    |src_data_stream_0_V_U  |        0|  5|  20|     2|    8|       16|
+    |src_rows_V_c10_U       |        0|  5|  24|     2|   12|       24|
+    |src_rows_V_c_U         |        0|  5|  24|     2|   12|       24|
+    +-----------------------+---------+---+----+------+-----+---------+
+    |Total                  |        0| 40| 224|    18|  128|      320|
+    +-----------------------+---------+---+----+------+-----+---------+
+
+    * Expression: 
+    +----------------------------------+----------+-------+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+-------+---+----+------------+------------+
+    |AXIM2Mat_U0_ap_ready_count        |     +    |      0|  0|  10|           2|           1|
+    |Block_proc19_U0_ap_ready_count    |     +    |      0|  0|  10|           2|           1|
+    |AXIM2Mat_U0_ap_start              |    and   |      0|  0|   2|           1|           1|
+    |Block_proc19_U0_ap_start          |    and   |      0|  0|   2|           1|           1|
+    |ap_idle                           |    and   |      0|  0|   2|           1|           1|
+    |ap_sync_ready                     |    and   |      0|  0|   2|           1|           1|
+    |ap_sync_AXIM2Mat_U0_ap_ready      |    or    |      0|  0|   2|           1|           1|
+    |ap_sync_Block_proc19_U0_ap_ready  |    or    |      0|  0|   2|           1|           1|
+    +----------------------------------+----------+-------+---+----+------------+------------+
+    |Total                             |          |      0|  0|  32|          10|           8|
+    +----------------------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------------------------------+----+-----------+-----+-----------+
+    |                 Name                 | LUT| Input Size| Bits| Total Bits|
+    +--------------------------------------+----+-----------+-----+-----------+
+    |AXIM2Mat_U0_ap_ready_count            |   9|          2|    2|          4|
+    |Block_proc19_U0_ap_ready_count        |   9|          2|    2|          4|
+    |ap_sync_reg_AXIM2Mat_U0_ap_ready      |   9|          2|    1|          2|
+    |ap_sync_reg_Block_proc19_U0_ap_ready  |   9|          2|    1|          2|
+    +--------------------------------------+----+-----------+-----+-----------+
+    |Total                                 |  36|          8|    6|         12|
+    +--------------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------------+---+----+-----+-----------+
+    |                 Name                 | FF| LUT| Bits| Const Bits|
+    +--------------------------------------+---+----+-----+-----------+
+    |AXIM2Mat_U0_ap_ready_count            |  2|   0|    2|          0|
+    |Block_proc19_U0_ap_ready_count        |  2|   0|    2|          0|
+    |ap_sync_reg_AXIM2Mat_U0_ap_ready      |  1|   0|    1|          0|
+    |ap_sync_reg_Block_proc19_U0_ap_ready  |  1|   0|    1|          0|
+    +--------------------------------------+---+----+-----+-----------+
+    |Total                                 |  6|   0|    6|          0|
+    +--------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------------+-----+-----+------------+--------------+--------------+
+|        RTL Ports        | Dir | Bits|  Protocol  | Source Object|    C Type    |
++-------------------------+-----+-----+------------+--------------+--------------+
+|s_axi_CRTL_BUS_AWVALID   |  in |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_AWREADY   | out |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_AWADDR    |  in |    5|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_WVALID    |  in |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_WREADY    | out |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_WDATA     |  in |   32|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_WSTRB     |  in |    4|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_ARVALID   |  in |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_ARREADY   | out |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_ARADDR    |  in |    5|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_RVALID    | out |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_RREADY    |  in |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_RDATA     | out |   32|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_RRESP     | out |    2|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_BVALID    | out |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_BREADY    |  in |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_BRESP     | out |    2|    s_axi   |   CRTL_BUS   |    scalar    |
+|ap_clk                   |  in |    1| ap_ctrl_hs |     conv     | return value |
+|ap_rst_n                 |  in |    1| ap_ctrl_hs |     conv     | return value |
+|interrupt                | out |    1| ap_ctrl_hs |     conv     | return value |
+|m_axi_CRTL_BUS_AWVALID   | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWREADY   |  in |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWADDR    | out |   32|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWID      | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWLEN     | out |    8|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWSIZE    | out |    3|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWBURST   | out |    2|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWLOCK    | out |    2|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWCACHE   | out |    4|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWPROT    | out |    3|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWQOS     | out |    4|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWREGION  | out |    4|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_AWUSER    | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_WVALID    | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_WREADY    |  in |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_WDATA     | out |   32|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_WSTRB     | out |    4|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_WLAST     | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_WID       | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_WUSER     | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARVALID   | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARREADY   |  in |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARADDR    | out |   32|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARID      | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARLEN     | out |    8|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARSIZE    | out |    3|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARBURST   | out |    2|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARLOCK    | out |    2|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARCACHE   | out |    4|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARPROT    | out |    3|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARQOS     | out |    4|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARREGION  | out |    4|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_ARUSER    | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_RVALID    |  in |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_RREADY    | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_RDATA     |  in |   32|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_RLAST     |  in |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_RID       |  in |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_RUSER     |  in |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_RRESP     |  in |    2|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_BVALID    |  in |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_BREADY    | out |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_BRESP     |  in |    2|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_BID       |  in |    1|    m_axi   |   CRTL_BUS   |    pointer   |
+|m_axi_CRTL_BUS_BUSER     |  in |    1|    m_axi   |   CRTL_BUS   |    pointer   |
++-------------------------+-----+-----+------------+--------------+--------------+
+

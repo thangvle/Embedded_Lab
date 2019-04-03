@@ -1,0 +1,10 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+WARNING: [COSIM-369] AXI_master port 'image_in' has a depth of '230400'. Insufficient depth may result in simulation mismatch or freeze.
+WARNING: [COSIM-369] AXI_master port 'image_out' has a depth of '230400'. Insufficient depth may result in simulation mismatch or freeze.
+   Build using "D:/Xilinx/Vivado/2018.3/msys64/mingw64/bin/g++"
+   Compiling test_bench_file.cpp_pre.cpp.tb.cpp
+   Compiling core.cpp_pre.cpp.tb.cpp
+   Compiling apatb_conv.cpp
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 

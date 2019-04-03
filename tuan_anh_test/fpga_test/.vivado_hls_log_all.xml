@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'Block__proc19' to 'Block_proc19'." projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:12.797-0400" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[3]' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:400)." projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:12.458-0400" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[5]' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:400)." projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:12.387-0400" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[4]' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:400)." projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:12.382-0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::AXIM2Mat&lt;1920, unsigned char, 1080, 1920, 0>' to 'AXIM2Mat' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:206:9)" projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:12.378-0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::Array2Mat&lt;1920, unsigned char, 1080, 1920, 0>' to 'Array2Mat' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:174:46)" projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:12.309-0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::Filter2D&lt;0, 0, char, int, 1080, 1920, 3, 3>' to 'Filter2D' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:118:33)" projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:12.305-0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::Mat2AXIM&lt;1920, unsigned char, 1080, 1920, 0>' to 'Mat2AXIM' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:273:9)" projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:12.299-0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::Mat2Array&lt;1920, unsigned char, 1080, 1920, 0>' to 'Mat2Array' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:240:46)" projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:12.292-0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-152] Cannot apply array mapping directives with instance name 'coefficients': cannot find another array to be merged with." projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:12.288-0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 0 to 1080 for loop 'loop_pixel' in function 'hls::Mat2Array&lt;1920, unsigned char, 1080, 1920, 0>'." projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:11.879-0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 0 to 1920 for loop 'Loop-0-0' in function 'hls::Mat2Array&lt;1920, unsigned char, 1080, 1920, 0>'." projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:11.843-0400" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'src.data_stream.V' (HLS/core.cpp:13)." projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:11.212-0400" type="Warning"/>
+        <logs message="WARNING: [HLS 200-471] Dataflow form checks found 1 issue(s) in file HLS/core.cpp" projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:09.405-0400" type="Warning"/>
+        <logs message="WARNING: [HLS 214-114] Only function calls and local variable declarations are allowed in a dataflow region: HLS/core.cpp:19:4" projectName="fpga_test" solutionName="solution1" date="2019-03-25T16:43:02.731-0400" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,1179 @@
+INFO-FLOW: Workspace D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1 opened at Mon Mar 25 16:42:57 -0400 2019
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     config_clock -quiet -name default -uncertainty 1.25 -unit % 
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 1.25ns.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/plb46.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/fsl.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/axi4.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/dds_compiler.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfft.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfir.lib 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_old.lib 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_vivado.lib 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/target_info.tcl 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/dsp48e1.hlp 
+Execute       get_default_platform 
+Execute       config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute       config_chip_info -quiet -speed medium 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/target_info.tcl 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Execute     source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq.gen 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/virtex.gen 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/plb46.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/fsl.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/axi4.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/util.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfft.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfir.gen 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.gen 
+Execute     open_platform DefaultPlatform 
+Execute     import_lib D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_fpv6 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_hp.lib 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/target_info.tcl 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_hp.hlp 
+Execute     source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute     set_part xc7z020clg400-1 
+Execute       add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
+Execute         get_default_platform 
+Execute         license_isbetapart xc7z020 
+Command         license_isbetapart done; error code: 1; 
+Execute         get_default_platform 
+Execute         config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute         config_chip_info -quiet -speed slow 
+Execute       add_library xilinx/zynq/zynq_fpv6 
+Execute         get_default_platform 
+Execute         open_platform DefaultPlatform 
+Execute         import_lib D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_fpv6 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_hp.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.hlp 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/target_info.tcl 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute                 source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
+Execute                 source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_hp.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv6.gen 
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+Execute       get_default_platform 
+Execute     get_default_platform 
+Execute     config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute     config_chip_info -quiet -speed slow 
+Execute     config_compile -no_signed_zeros=0 
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+Execute     config_compile -unsafe_math_optimizations=0 
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+INFO: [XFORM 203-1173] Reordering floating point operations aggressively.
+INFO: [XFORM 203-1176] Optimizing floating point comparison without checking NaN.
+Execute     config_schedule -effort=medium 
+Execute     config_schedule -enable_dsp_full_reg=0 
+Execute     config_schedule -relax_ii_for_timing=0 
+Execute     config_schedule -verbose=0 
+Execute     config_export -format=ip_catalog 
+Execute     config_export -rtl=verilog 
+Execute     config_export -vivado_phys_opt=place 
+Execute     config_export -vivado_report_level=0 
+Execute     config_bind -effort=medium 
+Execute     config_sdx -optimization_level=none 
+Execute       get_config_export -vivado_synth_design_args 
+Execute       get_config_export -vivado_impl_strategy 
+Execute       get_config_export -vivado_synth_strategy 
+Execute       get_config_export -vivado_phys_opt 
+Execute       get_config_bind -effort 
+Execute       get_config_schedule -effort 
+Execute     config_sdx -target=none 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' config_sdx -optimization_level=none 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_sdx -optimization_level=none
+Execute       config_sdx -optimization_level=none 
+Execute         get_config_export -vivado_synth_design_args 
+Execute         get_config_export -vivado_impl_strategy 
+Execute         get_config_export -vivado_synth_strategy 
+Execute         get_config_export -vivado_phys_opt 
+Execute         get_config_bind -effort 
+Execute         get_config_schedule -effort 
+Execute       get_config_compile -pipeline_loops 
+Execute       get_config_compile -name_max_length 
+Execute       get_config_schedule -relax_ii_for_timing 
+Execute       get_config_schedule -enable_dsp_full_reg 
+Execute       get_config_rtl -register_reset_num 
+Execute       get_config_rtl -auto_prefix 
+Execute       get_config_rtl -enable_maxiConservative 
+Execute       get_config_interface -m_axi_addr64 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' set_clock_uncertainty default 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: set_clock_uncertainty default
+Execute       set_clock_uncertainty default 
+Command   open_solution done; 0.215 sec.
+Execute   set_part xc7z020clg400-1 
+Execute     add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
+Execute       get_default_platform 
+Execute       license_isbetapart xc7z020 
+Command       license_isbetapart done; error code: 1; 
+Execute       get_default_platform 
+Execute       config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute       config_chip_info -quiet -speed slow 
+Execute     add_library xilinx/zynq/zynq_fpv6 
+Execute       get_default_platform 
+Execute       open_platform DefaultPlatform 
+Execute       import_lib D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_fpv6 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_hp.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.hlp 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/target_info.tcl 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_hp.hlp 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv6.gen 
+Execute     get_default_platform 
+Execute   create_clock -period 10 -name default 
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute   config_compile -no_signed_zeros=0 -unsafe_math_optimizations=0 
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+INFO: [XFORM 203-1173] Reordering floating point operations aggressively.
+INFO: [XFORM 203-1176] Optimizing floating point comparison without checking NaN.
+Execute   config_schedule -effort medium -enable_dsp_full_reg=0 -relax_ii_for_timing=0 -verbose=0 
+Execute   config_export -format ip_catalog -rtl verilog -vivado_phys_opt place -vivado_report_level 0 
+Execute   config_bind -effort medium 
+Execute   config_sdx -optimization_level none -target none 
+Execute     get_config_export -vivado_synth_design_args 
+Execute     get_config_export -vivado_impl_strategy 
+Execute     get_config_export -vivado_synth_strategy 
+Execute     get_config_export -vivado_phys_opt 
+Execute     get_config_bind -effort 
+Execute     get_config_schedule -effort 
+Execute     get_config_compile -pipeline_loops 
+Execute     get_config_compile -name_max_length 
+Execute     get_config_schedule -relax_ii_for_timing 
+Execute     get_config_schedule -enable_dsp_full_reg 
+Execute     get_config_rtl -register_reset_num 
+Execute     get_config_rtl -auto_prefix 
+Execute     get_config_rtl -enable_maxiConservative 
+Execute     get_config_interface -m_axi_addr64 
+Execute     send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' set_clock_uncertainty default 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: set_clock_uncertainty default
+Execute     set_clock_uncertainty default 
+Execute   csynth_design 
+Execute     get_config_compile -effort 
+Execute     get_config_compile -enable_clang39 
+Execute     get_config_compile -g 
+Execute     get_config_compile -lm 
+Execute     get_config_compile -ng 
+Execute     get_config_compile -opt_fp 
+Execute     get_config_compile -skip_cdt 
+Execute     get_config_compile -skip_syncheck 
+Execute     get_config_compile -skip_transform 
+Execute     config_compile -blackbox  
+Execute     get_config_compile -keep_printf 
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -lm=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+Execute       get_config_schedule -relax_ii_for_timing 
+Execute       get_config_schedule -suppress_dependence_error_break 
+INFO: [HLS 200-10] Analyzing design file 'HLS/core.cpp' ... 
+INFO-FLOW: Compiling one TU...
+Execute       is_m_axi_addr64 
+INFO-FLOW: Handling HLS/core.cpp as C++
+Execute       get_default_platform 
+Execute       is_encrypted HLS/core.cpp 
+Execute       get_default_platform 
+INFO-FLOW: Running: GCC PP
+INFO-FLOW: Source preprocessing
+Execute       clang  -fno-limit-debug-info -gcc-toolchain "D:/Xilinx/Vivado/2018.3/msys" -hls  -fno-exceptions  -D__llvm__  -E "HLS/core.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "D:/Xilinx/Vivado/2018.3/common/technology/autopilot" -I "D:/Xilinx/Vivado/2018.3/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  -o "D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp" 
+INFO-FLOW: exec D:/Xilinx/Vivado/2018.3/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain D:/Xilinx/Vivado/2018.3/msys -hls -fno-exceptions -D__llvm__ -E HLS/core.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I D:/Xilinx/Vivado/2018.3/common/technology/autopilot -I D:/Xilinx/Vivado/2018.3/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp
+Command       clang done; 0.614 sec.
+Execute       tidy_31 xilinx-xfmat-array-geometry D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp std=gnu++98 
+INFO-FLOW: exec D:/Xilinx/Vivado/2018.3/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-xfmat-array-geometry -quiet -fix D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 0.648 sec.
+INFO-FLOW: Syntax Checking before pre-processing...
+Execute       clang -syntaxcheck -src D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp  -fno-limit-debug-info -gcc-toolchain "D:/Xilinx/Vivado/2018.3/msys" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "D:/Xilinx/Vivado/2018.3/common/technology/autopilot" -I "D:/Xilinx/Vivado/2018.3/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__  "D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp"  -o "D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/useless.bc"  
+INFO-FLOW: exec D:/Xilinx/Vivado/2018.3/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain D:/Xilinx/Vivado/2018.3/msys -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I D:/Xilinx/Vivado/2018.3/common/technology/autopilot -I D:/Xilinx/Vivado/2018.3/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/useless.bc
+Command       clang done; 2.304 sec.
+INFO-FLOW: Done: GCC PP time: 3.6 seconds per iteration
+Execute       list_core -type functional_unit 
+Execute       tidy_31 xilinx-systemc-detector D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp std=gnu++98 -directive=D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec D:/Xilinx/Vivado/2018.3/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-systemc-detector -import-directive=D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/.systemc_flag -quiet -fix-errors D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 0.601 sec.
+INFO-FLOW: Running: tidy-3.1 CDT preprocess
+Execute       tidy_31 xilinx-directive2pragma D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp std=gnu++98 -directive=D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec D:/Xilinx/Vivado/2018.3/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-directive2pragma -import-directive=D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/all.directive.json -quiet -fix-errors D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 0.581 sec.
+Execute       get_config_dataflow -strict_mode 
+Execute       ap_eval exec -ignorestderr D:/Xilinx/Vivado/2018.3/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/xilinx-dataflow-lawyer.core.pp.0.cpp.diag.yml D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 -fstrict-dataflow > D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/xilinx-dataflow-lawyer.core.pp.0.cpp.out.log 2> D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/xilinx-dataflow-lawyer.core.pp.0.cpp.err.log 
+Command       ap_eval done; 0.57 sec.
+WARNING: [HLS 214-114] Only function calls and local variable declarations are allowed in a dataflow region: HLS/core.cpp:19:4
+Execute       send_msg_by_id WARNING @200-471@%s%s 1 HLS/core.cpp 
+WARNING: [HLS 200-471] Dataflow form checks found 1 issue(s) in file HLS/core.cpp
+Execute       tidy_31 -errorcheck xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp std=gnu++98 
+Execute         ap_eval exec -ignorestderr D:/Xilinx/Vivado/2018.3/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -export-fixes=D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/tidy-3.1.core.pp.0.cpp.diag.yml -header-filter=.* -checks=-*,xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry -quiet -fix-errors D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 > D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/tidy-3.1.core.pp.0.cpp.out.log 2> D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/tidy-3.1.core.pp.0.cpp.err.log 
+Command         ap_eval done; 1.216 sec.
+Execute         ap_eval exec -ignorestderr D:/Xilinx/Vivado/2018.3/win64/tools/clang-3.9-csynth/bin/xilinx-legacy-rewriter D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 > D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/xilinx-legacy-rewriter.core.pp.0.cpp.out.log 2> D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/xilinx-legacy-rewriter.core.pp.0.cpp.err.log 
+Command         ap_eval done; 0.572 sec.
+Command       tidy_31 done; 1.801 sec.
+INFO-FLOW: Done: tidy-3.1 CDT preprocess time: 3 seconds per iteration
+INFO-FLOW: Pragma Handling...
+Execute       tidy_31 xilinx-ssdm-intrinsics-arguments D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pragma.1.cpp std=gnu++98 
+INFO-FLOW: exec D:/Xilinx/Vivado/2018.3/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-ssdm-intrinsics-arguments -quiet -fix-errors D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pragma.1.cpp -- -std=gnu++98 -fhls -ferror-limit=0
+Command       tidy_31 done; 1.259 sec.
+Execute       get_default_platform 
+INFO-FLOW: Processing labels
+Execute       clang -src D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pragma.2.cpp  -fno-limit-debug-info -gcc-toolchain D:/Xilinx/Vivado/2018.3/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pragma.2.cpp"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "D:/Xilinx/Vivado/2018.3/common/technology/autopilot" -I "D:/Xilinx/Vivado/2018.3/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o "D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.bc" 
+INFO-FLOW: exec D:/Xilinx/Vivado/2018.3/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain D:/Xilinx/Vivado/2018.3/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.pragma.2.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I D:/Xilinx/Vivado/2018.3/common/technology/autopilot -I D:/Xilinx/Vivado/2018.3/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.bc
+Command       clang done; 2.447 sec.
+INFO-FLOW: Linking Debug ...
+Execute       llvm-ld D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/core.g.bc -hls-opt -except-internalize conv -LD:/Xilinx/Vivado/2018.3/win64/lib -lhlsm -lhlsmc++ -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.g 
+Command       llvm-ld done; 0.864 sec.
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 104.996 ; gain = 20.012
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 104.996 ; gain = 20.012
+Execute       get_config_sdx -target 
+Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute         cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+Execute         transform -promote-dbg-pointer D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.pp.bc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.pp.0.bc -f 
+Command         transform done; 0.13 sec.
+Execute         llvm-ld D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.pp.0.bc -disable-opt -LD:/Xilinx/Vivado/2018.3/win64/lib -lfloatconversion -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.g.0 
+Command         llvm-ld done; 0.524 sec.
+INFO-FLOW: Running Standard Transforms...
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -lower-blackbox -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -prune-eh -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top conv -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.g.0.bc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [HLS 200-489] Unrolling loop 'loop_channels' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:247) in function 'int hls::Mat2Array<1920, unsigned char, 1080, 1920, 0>(hls::Mat<FORWARD_REFERENCE, FORWARD_REFERENCE, FORWARD_REFERENCE>&, FORWARD_REFERENCE*, int)' completely with a factor of 1.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_core.h:677) in function 'hls::Mat<1080, 1920, 0>::read()' completely with a factor of 1.
+INFO: [HLS 200-489] Unrolling loop 'loop_channels' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:182) in function 'int hls::Array2Mat<1920, unsigned char, 1080, 1920, 0>(FORWARD_REFERENCE*, int, hls::Mat<FORWARD_REFERENCE, FORWARD_REFERENCE, FORWARD_REFERENCE>&)' completely with a factor of 1.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_core.h:701) in function 'hls::Mat<1080, 1920, 0>::write(hls::Scalar<1, unsigned char>)' completely with a factor of 1.
+INFO: [XFORM 203-603] Inlining function 'hls::Mat<1080, 1920, 0>::init' into 'hls::Mat<1080, 1920, 0>::Mat.1' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_core.h:636).
+INFO: [XFORM 203-603] Inlining function 'hls::AXISetBitFields<8, unsigned char>' into 'hls::Array2Mat<1920, unsigned char, 1080, 1920, 0>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:180).
+INFO: [XFORM 203-603] Inlining function 'hls::AXISetBitFields<8, unsigned char>' into 'hls::Mat2Array<1920, unsigned char, 1080, 1920, 0>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:249).
+INFO: [XFORM 203-603] Inlining function 'hls::AXIGetBitFields<8, unsigned char>' into 'hls::Mat2Array<1920, unsigned char, 1080, 1920, 0>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:252).
+INFO: [XFORM 203-603] Inlining function 'hls::AXIGetBitFields<8, unsigned char>' into 'hls::Array2Mat<1920, unsigned char, 1080, 1920, 0>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:184).
+INFO: [XFORM 203-603] Inlining function 'hls::Mat<1080, 1920, 0>::write' into 'hls::Mat<1080, 1920, 0>::operator<<' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_core.h:717).
+INFO: [XFORM 203-603] Inlining function 'hls::Mat<1080, 1920, 0>::operator<<' into 'hls::Array2Mat<1920, unsigned char, 1080, 1920, 0>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:186).
+INFO: [XFORM 203-603] Inlining function 'hls::normalizeAnchor<int, int>' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:424).
+INFO: [XFORM 203-603] Inlining function 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::get_parameters<3, 3, int>' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:434).
+INFO: [XFORM 203-603] Inlining function 'hls::borderInterpolate' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:452).
+INFO: [XFORM 203-603] Inlining function 'hls::borderInterpolate' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:470).
+INFO: [XFORM 203-603] Inlining function 'hls::borderInterpolate' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:506).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::getval' into 'hls::Window<3, 3, unsigned char>::operator()' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_mem.h:501).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:507).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:503).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:484).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:481).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:481).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:458).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 1, unsigned char>::getval' into 'hls::Window<3, 1, unsigned char>::operator()' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_mem.h:501).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 1, unsigned char>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:458).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 1, unsigned char>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:460).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 1, unsigned char>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:484).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 1, unsigned char>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:503).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 1, unsigned char>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:507).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<6, 1920, unsigned char, 0>::getval' into 'hls::LineBuffer<6, 1920, unsigned char, 0>::operator()' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_mem.h:843).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<6, 1920, unsigned char, 0>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:493).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<6, 1920, unsigned char, 0>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:489).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<6, 1920, unsigned char, 0>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:489).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<6, 1920, unsigned char, 0>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:472).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<6, 1920, unsigned char, 0>::operator()' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:460).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::shift_pixels_right' into 'hls::Window<3, 3, unsigned char>::shift_right' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_mem.h:543).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::shift_right' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:499).
+INFO: [XFORM 203-603] Inlining function 'hls::filter2d_kernel::apply<unsigned char, ap_fixed<20, 20, (ap_q_mode)5, (ap_o_mode)3, 0>, char, 3, 3>' into 'hls::filter2d_kernel::apply<unsigned char, unsigned char, char, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:303).
+INFO: [XFORM 203-603] Inlining function 'hls::filter2d_kernel::apply<unsigned char, unsigned char, char, 3, 3>' into 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:514).
+INFO: [XFORM 203-603] Inlining function 'hls::filter_opr<hls::filter2d_kernel, hls::BORDER_DEFAULT>::filter<0, 0, char, int, 1080, 1920, 3, 3>' into 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:1305).
+INFO: [XFORM 203-603] Inlining function 'hls::Mat<1080, 1920, 0>::read' into 'hls::Mat<1080, 1920, 0>::operator>>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_core.h:711).
+INFO: [XFORM 203-603] Inlining function 'hls::Mat<1080, 1920, 0>::operator>>' into 'hls::Mat2Array<1920, unsigned char, 1080, 1920, 0>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:245).
+Command         transform done; 0.507 sec.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 160.223 ; gain = 75.238
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute         transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -pag -array-normalize -instcombine -dce -warn-fifo-pointer -array-seg-normalize -instcombine -dce -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce -check-dspbuiltin D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.g.1.bc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.g.2.prechk.bc -f 
+INFO: [XFORM 203-602] Inlining function 'hls::sr_cast_class<ap_uint<8> >::operator()<20, 20, (ap_q_mode)5, (ap_o_mode)3>' into 'hls::sr_cast<unsigned char, ap_fixed<20, 20, (ap_q_mode)5, (ap_o_mode)3, 0> >' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_types.h:500) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::sr_cast<unsigned char, ap_fixed<20, 20, (ap_q_mode)5, (ap_o_mode)3, 0> >' into 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:304->D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:514->D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:1305) automatically.
+Command         transform done; 0.251 sec.
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute         transform -syn-check D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.g.2.prechk.bc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
+Command         transform done; 0.129 sec.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 197.016 ; gain = 112.031
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.g.1.bc to D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute         transform -hls -tmp D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db -interface-port-rename -type-info -function-uniquify -directive-preproc -mem2reg -dse -dce -disaggr -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -function-uniquify -resource-proc -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -ptrArgReplace -mem2reg -instcombine -dce -array-seg-normalize -deadargelim -instcombine -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -auto-par -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -instcombine -dce -global-constprop -deadargelim -mem2reg -instcombine -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -instcombine -dce -ptrArgReplace -mem2reg -instcombine -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -instcombine -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -inst-simplify -dce -norm-name -function-inline -globaldce -func-inst -constprop -instcombine -simplifycfg -dce -func-legal -dce -loop-bound -arraycheck -bitwidthmin -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -check-dataflow-syntax -legalize-stream-variable -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -deadargelim -annotate-dataflow-channels -scalar-propagation -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -function-uniquify -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -norm-name D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.o.1.bc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.o.1.tmp.bc -f 
+WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'src.data_stream.V' (HLS/core.cpp:13).
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-1' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:398) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' automatically.
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-2' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:400) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' automatically.
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-3' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:403) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' automatically.
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-4' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:405) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' automatically.
+INFO: [XFORM 203-502] Unrolling all sub-loops inside loop 'loop_width' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:444) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' for pipelining.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:398) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 0.
+INFO: [HLS 200-489] Unrolling loop 'Loop-2' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:400) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 0.
+INFO: [HLS 200-489] Unrolling loop 'Loop-3' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:403) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 0.
+INFO: [HLS 200-489] Unrolling loop 'Loop-4' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:405) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 0.
+INFO: [HLS 200-489] Unrolling loop 'Loop-5.1.1' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:456) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 3.
+INFO: [HLS 200-489] Unrolling loop 'Loop-5.1.2' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:469) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 6.
+INFO: [HLS 200-489] Unrolling loop 'Loop-5.1.3' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:478) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 3.
+INFO: [HLS 200-489] Unrolling loop 'Loop-5.1.3.1' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:479) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 2.
+INFO: [HLS 200-489] Unrolling loop 'Loop-5.1.4' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:487) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 5.
+INFO: [HLS 200-489] Unrolling loop 'Loop-5.1.5' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_mem.h:161) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 3.
+INFO: [HLS 200-489] Unrolling loop 'Loop-5.1.5.1' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_mem.h:163) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 2.
+INFO: [HLS 200-489] Unrolling loop 'Loop-5.1.6' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:501) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 3.
+INFO: [HLS 200-489] Unrolling loop 'loop_height' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:285) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 3.
+INFO: [HLS 200-489] Unrolling loop 'loop_width' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:286) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' completely with a factor of 3.
+INFO: [XFORM 203-102] Automatically partitioning streamed array 'src.data_stream.V' (HLS/core.cpp:13) .
+INFO: [XFORM 203-102] Automatically partitioning streamed array 'dst.data_stream.V' (HLS/core.cpp:14) .
+INFO: [XFORM 203-101] Partitioning array 'src_kernel_win.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:398) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'k_buf.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:400) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'right_border_buf.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:403) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'col_buf.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:405) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'kernel.val'  in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'pix.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:238) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'scl.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_core.h:670) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'pix.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:172) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'src.data_stream.V' (HLS/core.cpp:13) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'dst.data_stream.V' (HLS/core.cpp:14) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'src_kernel_win.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:398) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'k_buf.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:400) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'right_border_buf.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:403) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'col_buf.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:405) in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'kernel.val'  in dimension 2 completely.
+INFO: [XFORM 203-101] Partitioning array 'src_kernel_win.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:398) in dimension 3 completely.
+INFO: [XFORM 203-101] Partitioning array 'right_border_buf.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:403) in dimension 3 completely.
+INFO: [XFORM 203-101] Partitioning array 'col_buf.val' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:405) in dimension 3 completely.
+INFO: [XFORM 203-602] Inlining function 'hls::sr_cast_class<ap_uint<8> >::operator()<20, 20, (ap_q_mode)5, (ap_o_mode)3>' into 'hls::sr_cast<unsigned char, ap_fixed<20, 20, (ap_q_mode)5, (ap_o_mode)3, 0> >' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_types.h:500) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::sr_cast<unsigned char, ap_fixed<20, 20, (ap_q_mode)5, (ap_o_mode)3, 0> >' into 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:304->D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:514->D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:1305) automatically.
+INFO: [XFORM 203-721] Changing loop 'Loop_1_proc' (HLS/core.cpp:17) to a process function for dataflow in function 'conv'.
+INFO: [XFORM 203-712] Applying dataflow to function 'conv', detected/extracted 5 process function(s): 
+	 'Block__proc'
+	 'hls::AXIM2Mat<1920, unsigned char, 1080, 1920, 0>'
+	 'Loop_1_proc'
+	 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>'
+	 'hls::Mat2AXIM<1920, unsigned char, 1080, 1920, 0>'.
+Command         transform done; 0.75 sec.
+INFO-FLOW: Presyn 2...
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -norm-name D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.o.1.tmp.bc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
+WARNING: [XFORM 203-561] Updating loop lower bound from 0 to 1920 for loop 'Loop-0-0' in function 'hls::Mat2Array<1920, unsigned char, 1080, 1920, 0>'.
+WARNING: [XFORM 203-561] Updating loop lower bound from 0 to 1080 for loop 'loop_pixel' in function 'hls::Mat2Array<1920, unsigned char, 1080, 1920, 0>'.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:444:57) to (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:465:21) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>'... converting 13 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_mem.h:165:17) to (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:512:24) in function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>'... converting 11 basic blocks.
+Command         transform done; 0.347 sec.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 258.086 ; gain = 173.102
+INFO-FLOW: Building ssdm...
+Execute         transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -instcombine -dce -reset-lda -loop-simplify -indvars -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -axi4-lower -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -bitwidthmin -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation -deadargelim -globaldce -mem2reg -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -loop-rewind -pointer-simplify -dce -cfgopt -dce -bitwidth -loop-bound -loop-dep -read-loop-dep -dce -check-stream -norm-name -legalize -validate-dataflow -inst-clarity -cdfg-build D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.o.2.bc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+WARNING: [XFORM 203-152] Cannot apply array mapping directives with instance name 'coefficients': cannot find another array to be merged with.
+WARNING: [XFORM 203-631] Renaming function 'hls::Mat2Array<1920, unsigned char, 1080, 1920, 0>' to 'Mat2Array' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:240:46)
+WARNING: [XFORM 203-631] Renaming function 'hls::Mat2AXIM<1920, unsigned char, 1080, 1920, 0>' to 'Mat2AXIM' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:273:9)
+WARNING: [XFORM 203-631] Renaming function 'hls::Filter2D<0, 0, char, int, 1080, 1920, 3, 3>' to 'Filter2D' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:118:33)
+WARNING: [XFORM 203-631] Renaming function 'hls::Array2Mat<1920, unsigned char, 1080, 1920, 0>' to 'Array2Mat' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:174:46)
+WARNING: [XFORM 203-631] Renaming function 'hls::AXIM2Mat<1920, unsigned char, 1080, 1920, 0>' to 'AXIM2Mat' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:206:9)
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[4]' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:400).
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[5]' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:400).
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'k_buf[0].val[3]' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_imgproc.h:400).
+INFO: [HLS 200-444] Inferring multiple bus burst write of a total cumulative length 1920 on port 'fb' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:253:16). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+INFO: [HLS 200-444] Inferring multiple bus burst read of variable length on port 'fb' (D:/Xilinx/Vivado/2018.3/common/technology/autopilot/hls/hls_video_io.h:178:30). These data requests might be further partitioned to multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.
+Command         transform done; 0.695 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 325.977 ; gain = 240.992
+INFO-FLOW: Finish building internal data model.
+Command       opt_and_import_c done; 3.366 sec.
+Command     elaborate done; 15.388 sec.
+Execute     autosyn -from_csynth_design=1 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'conv' ...
+Execute       ap_set_top_model conv 
+WARNING: [SYN 201-103] Legalizing function name 'Block__proc19' to 'Block_proc19'.
+Execute       get_model_list conv -filter all-wo-channel -topdown 
+Execute       preproc_iomode -model conv 
+Execute       preproc_iomode -model Mat2AXIM 
+Execute       preproc_iomode -model Mat2Array 
+Execute       preproc_iomode -model Filter2D 
+Execute       preproc_iomode -model AXIM2Mat 
+Execute       preproc_iomode -model Array2Mat 
+Execute       preproc_iomode -model Block__proc19 
+Execute       get_model_list conv -filter all-wo-channel 
+INFO-FLOW: Model list for configure: Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv
+INFO-FLOW: Configuring Module : Block__proc19 ...
+Execute       set_default_model Block__proc19 
+Execute       apply_spec_resource_limit Block__proc19 
+INFO-FLOW: Configuring Module : Array2Mat ...
+Execute       set_default_model Array2Mat 
+Execute       apply_spec_resource_limit Array2Mat 
+INFO-FLOW: Configuring Module : AXIM2Mat ...
+Execute       set_default_model AXIM2Mat 
+Execute       apply_spec_resource_limit AXIM2Mat 
+INFO-FLOW: Configuring Module : Filter2D ...
+Execute       set_default_model Filter2D 
+Execute       apply_spec_resource_limit Filter2D 
+INFO-FLOW: Configuring Module : Mat2Array ...
+Execute       set_default_model Mat2Array 
+Execute       apply_spec_resource_limit Mat2Array 
+INFO-FLOW: Configuring Module : Mat2AXIM ...
+Execute       set_default_model Mat2AXIM 
+Execute       apply_spec_resource_limit Mat2AXIM 
+INFO-FLOW: Configuring Module : conv ...
+Execute       set_default_model conv 
+Execute       apply_spec_resource_limit conv 
+INFO-FLOW: Model list for preprocess: Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv
+INFO-FLOW: Preprocessing Module: Block__proc19 ...
+Execute       set_default_model Block__proc19 
+Execute       cdfg_preprocess -model Block__proc19 
+Execute       rtl_gen_preprocess Block__proc19 
+INFO-FLOW: Preprocessing Module: Array2Mat ...
+Execute       set_default_model Array2Mat 
+Execute       cdfg_preprocess -model Array2Mat 
+Execute       rtl_gen_preprocess Array2Mat 
+INFO-FLOW: Preprocessing Module: AXIM2Mat ...
+Execute       set_default_model AXIM2Mat 
+Execute       cdfg_preprocess -model AXIM2Mat 
+Execute       rtl_gen_preprocess AXIM2Mat 
+INFO-FLOW: Preprocessing Module: Filter2D ...
+Execute       set_default_model Filter2D 
+Execute       cdfg_preprocess -model Filter2D 
+Execute       rtl_gen_preprocess Filter2D 
+INFO-FLOW: Preprocessing Module: Mat2Array ...
+Execute       set_default_model Mat2Array 
+Execute       cdfg_preprocess -model Mat2Array 
+Execute       rtl_gen_preprocess Mat2Array 
+INFO-FLOW: Preprocessing Module: Mat2AXIM ...
+Execute       set_default_model Mat2AXIM 
+Execute       cdfg_preprocess -model Mat2AXIM 
+Execute       rtl_gen_preprocess Mat2AXIM 
+INFO-FLOW: Preprocessing Module: conv ...
+Execute       set_default_model conv 
+Execute       cdfg_preprocess -model conv 
+Execute       rtl_gen_preprocess conv 
+INFO-FLOW: Model list for synthesis: Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Block_proc19' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model Block__proc19 
+Execute       schedule -model Block__proc19 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.11 sec.
+INFO: [HLS 200-111]  Elapsed time: 16.174 seconds; current allocated memory: 267.593 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.verbose.sched.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.sched.adb -f 
+INFO-FLOW: Finish scheduling Block__proc19.
+Execute       set_default_model Block__proc19 
+Execute       bind -model Block__proc19 
+BIND OPTION: effort=medium
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=Block__proc19
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.057 seconds; current allocated memory: 267.717 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.verbose.bind.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.bind.adb -f 
+INFO-FLOW: Finish binding Block__proc19.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Array2Mat' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model Array2Mat 
+Execute       schedule -model Array2Mat 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_pixel.1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.11 seconds; current allocated memory: 267.857 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.verbose.sched.rpt -verbose -f 
+INFO: [HLS 200-434] Only 1 loops out of a total 2 loops have been pipelined in this design.
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.sched.adb -f 
+INFO-FLOW: Finish scheduling Array2Mat.
+Execute       set_default_model Array2Mat 
+Execute       bind -model Array2Mat 
+BIND OPTION: effort=medium
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=Array2Mat
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.093 seconds; current allocated memory: 268.031 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.verbose.bind.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.bind.adb -f 
+INFO-FLOW: Finish binding Array2Mat.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'AXIM2Mat' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model AXIM2Mat 
+Execute       schedule -model AXIM2Mat 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.133 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.219 seconds; current allocated memory: 268.080 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.verbose.sched.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.sched.adb -f 
+INFO-FLOW: Finish scheduling AXIM2Mat.
+Execute       set_default_model AXIM2Mat 
+Execute       bind -model AXIM2Mat 
+BIND OPTION: effort=medium
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=AXIM2Mat
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.063 seconds; current allocated memory: 268.240 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.verbose.bind.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.bind.adb -f 
+INFO-FLOW: Finish binding AXIM2Mat.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Filter2D' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model Filter2D 
+Execute       schedule -model Filter2D 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_width'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 5.
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.218 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.278 seconds; current allocated memory: 268.903 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.verbose.sched.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.sched.adb -f 
+INFO-FLOW: Finish scheduling Filter2D.
+Execute       set_default_model Filter2D 
+Execute       bind -model Filter2D 
+BIND OPTION: effort=medium
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=Filter2D
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.181 seconds; current allocated memory: 269.602 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.verbose.bind.rpt -verbose -f 
+Command       report done; 0.114 sec.
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.bind.adb -f 
+INFO-FLOW: Finish binding Filter2D.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Mat2Array' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model Mat2Array 
+Execute       schedule -model Mat2Array 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'loop_pixel.1'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.261 seconds; current allocated memory: 269.800 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.verbose.sched.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.sched.adb -f 
+INFO-FLOW: Finish scheduling Mat2Array.
+Execute       set_default_model Mat2Array 
+Execute       bind -model Mat2Array 
+BIND OPTION: effort=medium
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=Mat2Array
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.087 seconds; current allocated memory: 269.992 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.verbose.bind.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.bind.adb -f 
+INFO-FLOW: Finish binding Mat2Array.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Mat2AXIM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model Mat2AXIM 
+Execute       schedule -model Mat2AXIM 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.105 seconds; current allocated memory: 270.025 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.verbose.sched.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.sched.adb -f 
+INFO-FLOW: Finish scheduling Mat2AXIM.
+Execute       set_default_model Mat2AXIM 
+Execute       bind -model Mat2AXIM 
+BIND OPTION: effort=medium
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=Mat2AXIM
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.066 seconds; current allocated memory: 270.102 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.verbose.bind.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.bind.adb -f 
+INFO-FLOW: Finish binding Mat2AXIM.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model conv 
+Execute       schedule -model conv 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.08 seconds; current allocated memory: 270.167 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.verbose.sched.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.sched.adb -f 
+INFO-FLOW: Finish scheduling conv.
+Execute       set_default_model conv 
+Execute       bind -model conv 
+BIND OPTION: effort=medium
+BIND OPTION: fu_weight=[ 0.0 -- 1.0 ]
+BIND OPTION: model=conv
+BIND OPTION: reg_weight=[ 0.0 -- 1.0 ]
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.117 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.161 seconds; current allocated memory: 270.463 MB.
+Execute       report -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.verbose.bind.rpt -verbose -f 
+Execute       db_write -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.bind.adb -f 
+INFO-FLOW: Finish binding conv.
+Execute       get_model_list conv -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute       rtl_gen_preprocess Block__proc19 
+Execute       rtl_gen_preprocess Array2Mat 
+Execute       rtl_gen_preprocess AXIM2Mat 
+Execute       rtl_gen_preprocess Filter2D 
+Execute       rtl_gen_preprocess Mat2Array 
+Execute       rtl_gen_preprocess Mat2AXIM 
+Execute       rtl_gen_preprocess conv 
+INFO-FLOW: Model list for RTL generation: Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Block_proc19' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -prefix 
+Execute       get_config_rtl -auto_prefix 
+Execute       create_rtl_model Block__proc19 -vendor xilinx -mg_file D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Block_proc19'.
+INFO: [HLS 200-111]  Elapsed time: 0.159 seconds; current allocated memory: 270.729 MB.
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.rtl_wrap.cfg.tcl 
+Execute       gen_rtl Block__proc19 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/systemc/Block_proc19 -synmodules Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv 
+Execute       gen_rtl Block__proc19 -style xilinx -f -lang vhdl -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/vhdl/Block_proc19 
+Execute       gen_rtl Block__proc19 -style xilinx -f -lang vlog -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/verilog/Block_proc19 
+Execute       gen_tb_info Block__proc19 -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19 -p D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db 
+Execute       report -model Block__proc19 -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/Block_proc19_csynth.rpt -f 
+Execute       report -model Block__proc19 -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/Block_proc19_csynth.xml -f -x 
+Execute       report -model Block__proc19 -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.verbose.rpt -verbose -f 
+Execute       db_write -model Block__proc19 -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.adb -f 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Array2Mat' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -prefix 
+Execute       get_config_rtl -auto_prefix 
+Execute       create_rtl_model Array2Mat -vendor xilinx -mg_file D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Array2Mat'.
+INFO: [HLS 200-111]  Elapsed time: 0.103 seconds; current allocated memory: 271.197 MB.
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.rtl_wrap.cfg.tcl 
+Execute       gen_rtl Array2Mat -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/systemc/Array2Mat -synmodules Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv 
+Execute       gen_rtl Array2Mat -style xilinx -f -lang vhdl -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/vhdl/Array2Mat 
+Execute       gen_rtl Array2Mat -style xilinx -f -lang vlog -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/verilog/Array2Mat 
+Execute       gen_tb_info Array2Mat -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat -p D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db 
+Execute       report -model Array2Mat -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/Array2Mat_csynth.rpt -f 
+Execute       report -model Array2Mat -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/Array2Mat_csynth.xml -f -x 
+Execute       report -model Array2Mat -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.verbose.rpt -verbose -f 
+Execute       db_write -model Array2Mat -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.adb -f 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'AXIM2Mat' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -prefix 
+Execute       get_config_rtl -auto_prefix 
+Execute       create_rtl_model AXIM2Mat -vendor xilinx -mg_file D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIM2Mat'.
+INFO: [HLS 200-111]  Elapsed time: 0.157 seconds; current allocated memory: 271.648 MB.
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.rtl_wrap.cfg.tcl 
+Execute       gen_rtl AXIM2Mat -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/systemc/AXIM2Mat -synmodules Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv 
+Execute       gen_rtl AXIM2Mat -style xilinx -f -lang vhdl -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/vhdl/AXIM2Mat 
+Execute       gen_rtl AXIM2Mat -style xilinx -f -lang vlog -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/verilog/AXIM2Mat 
+Execute       gen_tb_info AXIM2Mat -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat -p D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db 
+Execute       report -model AXIM2Mat -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/AXIM2Mat_csynth.rpt -f 
+Execute       report -model AXIM2Mat -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/AXIM2Mat_csynth.xml -f -x 
+Execute       report -model AXIM2Mat -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.verbose.rpt -verbose -f 
+Execute       db_write -model AXIM2Mat -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.adb -f 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Filter2D' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -prefix 
+Execute       get_config_rtl -auto_prefix 
+Execute       create_rtl_model Filter2D -vendor xilinx -mg_file D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.compgen.tcl 
+INFO: [SYN 201-210] Renamed object name 'Filter2D_k_buf_0_val_3' to 'Filter2D_k_buf_0_bkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'Filter2D_k_buf_0_val_4' to 'Filter2D_k_buf_0_cud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'Filter2D_k_buf_0_val_5' to 'Filter2D_k_buf_0_dEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'conv_mux_32_8_1_1': 5 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Filter2D'.
+INFO: [HLS 200-111]  Elapsed time: 0.175 seconds; current allocated memory: 272.996 MB.
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.rtl_wrap.cfg.tcl 
+Execute       gen_rtl Filter2D -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/systemc/Filter2D -synmodules Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv 
+Execute       gen_rtl Filter2D -style xilinx -f -lang vhdl -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/vhdl/Filter2D 
+Execute       gen_rtl Filter2D -style xilinx -f -lang vlog -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/verilog/Filter2D 
+Execute       gen_tb_info Filter2D -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D -p D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db 
+Execute       report -model Filter2D -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/Filter2D_csynth.rpt -f 
+Execute       report -model Filter2D -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/Filter2D_csynth.xml -f -x 
+Execute       report -model Filter2D -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.verbose.rpt -verbose -f 
+Command       report done; 0.15 sec.
+Execute       db_write -model Filter2D -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.adb -f 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Mat2Array' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -prefix 
+Execute       get_config_rtl -auto_prefix 
+Execute       create_rtl_model Mat2Array -vendor xilinx -mg_file D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Mat2Array'.
+INFO: [HLS 200-111]  Elapsed time: 0.533 seconds; current allocated memory: 273.800 MB.
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.rtl_wrap.cfg.tcl 
+Execute       gen_rtl Mat2Array -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/systemc/Mat2Array -synmodules Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv 
+Execute       gen_rtl Mat2Array -style xilinx -f -lang vhdl -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/vhdl/Mat2Array 
+Execute       gen_rtl Mat2Array -style xilinx -f -lang vlog -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/verilog/Mat2Array 
+Execute       gen_tb_info Mat2Array -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array -p D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db 
+Execute       report -model Mat2Array -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/Mat2Array_csynth.rpt -f 
+Execute       report -model Mat2Array -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/Mat2Array_csynth.xml -f -x 
+Execute       report -model Mat2Array -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.verbose.rpt -verbose -f 
+Execute       db_write -model Mat2Array -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.adb -f 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Mat2AXIM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -prefix 
+Execute       get_config_rtl -auto_prefix 
+Execute       create_rtl_model Mat2AXIM -vendor xilinx -mg_file D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Mat2AXIM'.
+INFO: [HLS 200-111]  Elapsed time: 0.174 seconds; current allocated memory: 274.206 MB.
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.rtl_wrap.cfg.tcl 
+Execute       gen_rtl Mat2AXIM -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/systemc/Mat2AXIM -synmodules Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv 
+Execute       gen_rtl Mat2AXIM -style xilinx -f -lang vhdl -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/vhdl/Mat2AXIM 
+Execute       gen_rtl Mat2AXIM -style xilinx -f -lang vlog -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/verilog/Mat2AXIM 
+Execute       gen_tb_info Mat2AXIM -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM -p D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db 
+Execute       report -model Mat2AXIM -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/Mat2AXIM_csynth.rpt -f 
+Execute       report -model Mat2AXIM -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/Mat2AXIM_csynth.xml -f -x 
+Execute       report -model Mat2AXIM -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.verbose.rpt -verbose -f 
+Execute       db_write -model Mat2AXIM -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.adb -f 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       get_config_rtl -prefix 
+Execute       get_config_rtl -auto_prefix 
+Execute       create_rtl_model conv -vendor xilinx -mg_file D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.compgen.tcl 
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv/CRTL_BUS' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv/image_in' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'conv/image_out' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'conv' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return', 'image_in' and 'image_out' to AXI-Lite port CRTL_BUS.
+INFO: [SYN 201-210] Renamed object name 'start_for_Mat2AXIM_U0' to 'start_for_Mat2AXIeOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'start_for_Filter2D_U0' to 'start_for_Filter2fYi' due to the length limit 20
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv'.
+INFO: [HLS 200-111]  Elapsed time: 0.18 seconds; current allocated memory: 275.355 MB.
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.rtl_wrap.cfg.tcl 
+Execute       gen_rtl conv -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/systemc/conv -synmodules Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv 
+Execute       gen_rtl conv -istop -style xilinx -f -lang vhdl -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/vhdl/conv 
+Execute       gen_rtl conv -istop -style xilinx -f -lang vlog -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/verilog/conv 
+Execute       export_constraint_db -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.constraint.tcl -f -tool general 
+Execute       report -model conv -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.design.xml -verbose -f -dv 
+Command       report done; 0.122 sec.
+Execute       report -model conv -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.sdaccel.xml -verbose -f -sdaccel 
+Execute       gen_tb_info conv -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv -p D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db 
+Execute       report -model conv -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/conv_csynth.rpt -f 
+Execute       report -model conv -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/syn/report/conv_csynth.xml -f -x 
+Execute       report -model conv -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.verbose.rpt -verbose -f 
+Command       report done; 0.114 sec.
+Execute       db_write -model conv -o D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.adb -f 
+Execute       sc_get_clocks conv 
+Execute       get_config_export -vivado_clock 
+Execute       sc_get_portdomain conv 
+INFO-FLOW: Model list for RTL component generation: Block__proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv
+INFO-FLOW: Handling components in module [Block_proc19] ... 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.compgen.tcl 
+INFO-FLOW: Handling components in module [Array2Mat] ... 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.compgen.tcl 
+INFO-FLOW: Handling components in module [AXIM2Mat] ... 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.compgen.tcl 
+INFO-FLOW: Handling components in module [Filter2D] ... 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.compgen.tcl 
+INFO-FLOW: Found component conv_mux_32_8_1_1.
+INFO-FLOW: Append model conv_mux_32_8_1_1
+INFO-FLOW: Found component Filter2D_k_buf_0_bkb.
+INFO-FLOW: Append model Filter2D_k_buf_0_bkb
+INFO-FLOW: Handling components in module [Mat2Array] ... 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.compgen.tcl 
+INFO-FLOW: Handling components in module [Mat2AXIM] ... 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.compgen.tcl 
+INFO-FLOW: Handling components in module [conv] ... 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.compgen.tcl 
+INFO-FLOW: Found component fifo_w12_d2_A.
+INFO-FLOW: Append model fifo_w12_d2_A
+INFO-FLOW: Found component fifo_w12_d2_A.
+INFO-FLOW: Append model fifo_w12_d2_A
+INFO-FLOW: Found component fifo_w32_d2_A.
+INFO-FLOW: Append model fifo_w32_d2_A
+INFO-FLOW: Found component fifo_w32_d4_A.
+INFO-FLOW: Append model fifo_w32_d4_A
+INFO-FLOW: Found component fifo_w8_d2_A.
+INFO-FLOW: Append model fifo_w8_d2_A
+INFO-FLOW: Found component fifo_w12_d2_A.
+INFO-FLOW: Append model fifo_w12_d2_A
+INFO-FLOW: Found component fifo_w12_d2_A.
+INFO-FLOW: Append model fifo_w12_d2_A
+INFO-FLOW: Found component fifo_w8_d2_A.
+INFO-FLOW: Append model fifo_w8_d2_A
+INFO-FLOW: Found component start_for_Mat2AXIeOg.
+INFO-FLOW: Append model start_for_Mat2AXIeOg
+INFO-FLOW: Found component start_for_Filter2fYi.
+INFO-FLOW: Append model start_for_Filter2fYi
+INFO-FLOW: Found component conv_CRTL_BUS_s_axi.
+INFO-FLOW: Append model conv_CRTL_BUS_s_axi
+INFO-FLOW: Found component conv_CRTL_BUS_m_axi.
+INFO-FLOW: Append model conv_CRTL_BUS_m_axi
+INFO-FLOW: Append model Block_proc19
+INFO-FLOW: Append model Array2Mat
+INFO-FLOW: Append model AXIM2Mat
+INFO-FLOW: Append model Filter2D
+INFO-FLOW: Append model Mat2Array
+INFO-FLOW: Append model Mat2AXIM
+INFO-FLOW: Append model conv
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: conv_mux_32_8_1_1 Filter2D_k_buf_0_bkb fifo_w12_d2_A fifo_w12_d2_A fifo_w32_d2_A fifo_w32_d4_A fifo_w8_d2_A fifo_w12_d2_A fifo_w12_d2_A fifo_w8_d2_A start_for_Mat2AXIeOg start_for_Filter2fYi conv_CRTL_BUS_s_axi conv_CRTL_BUS_m_axi Block_proc19 Array2Mat AXIM2Mat Filter2D Mat2Array Mat2AXIM conv
+INFO-FLOW: To file: write model conv_mux_32_8_1_1
+INFO-FLOW: To file: write model Filter2D_k_buf_0_bkb
+INFO-FLOW: To file: write model fifo_w12_d2_A
+INFO-FLOW: To file: write model fifo_w12_d2_A
+INFO-FLOW: To file: write model fifo_w32_d2_A
+INFO-FLOW: To file: write model fifo_w32_d4_A
+INFO-FLOW: To file: write model fifo_w8_d2_A
+INFO-FLOW: To file: write model fifo_w12_d2_A
+INFO-FLOW: To file: write model fifo_w12_d2_A
+INFO-FLOW: To file: write model fifo_w8_d2_A
+INFO-FLOW: To file: write model start_for_Mat2AXIeOg
+INFO-FLOW: To file: write model start_for_Filter2fYi
+INFO-FLOW: To file: write model conv_CRTL_BUS_s_axi
+INFO-FLOW: To file: write model conv_CRTL_BUS_m_axi
+INFO-FLOW: To file: write model Block_proc19
+INFO-FLOW: To file: write model Array2Mat
+INFO-FLOW: To file: write model AXIM2Mat
+INFO-FLOW: To file: write model Filter2D
+INFO-FLOW: To file: write model Mat2Array
+INFO-FLOW: To file: write model Mat2AXIM
+INFO-FLOW: To file: write model conv
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+INFO-FLOW: DBG:CMD: auto_generate_csynth_design
+INFO-FLOW: DBG:CMD:     auto_generate --sim-model -phase csynth_design -d D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: read_platform_lib D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/generic/autopilot/common.gen 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/generic/autopilot/op.gen 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/generic/autopilot/interface.gen 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq.gen 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/virtex.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/plb46.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/fsl.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/axi4.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.gen 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/util.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfft.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfir.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.gen 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv6.gen 
+INFO-FLOW: DBG:CMD:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=1 export=0 expOnly=0 dstVlogDir=syn/verilog
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.compgen.tcl 
+INFO: [RTMG 210-278] Implementing memory 'Filter2D_k_buf_0_bkb_ram (RAM)' using block RAMs.
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.compgen.tcl 
+INFO: [RTMG 210-285] Implementing FIFO 'src_rows_V_c_U(fifo_w12_d2_A)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'src_cols_V_c_U(fifo_w12_d2_A)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'image_in_c_U(fifo_w32_d2_A)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'image_out_c_U(fifo_w32_d4_A)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'src_data_stream_0_V_U(fifo_w8_d2_A)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'src_rows_V_c10_U(fifo_w12_d2_A)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'src_cols_V_c11_U(fifo_w12_d2_A)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'dst_data_stream_0_V_U(fifo_w8_d2_A)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'start_for_Mat2AXIeOg_U(start_for_Mat2AXIeOg)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'start_for_Filter2fYi_U(start_for_Filter2fYi)' using Shift Registers.
+Execute         source ./CRTL_BUS.slave.tcl 
+Execute         is_m_axi_addr64 
+Command       ap_source done; 0.222 sec.
+INFO-FLOW: DBG:CMD:     auto_generate -export -impltomg_flag -rtl both -tool Vivado -pcore_version 1.00.a -phase csynth_design -d D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:CMD: read_platform_lib D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/generic/autopilot/common.gen 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/generic/autopilot/op.gen 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/generic/autopilot/interface.gen 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq.gen 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/virtex.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/plb46.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/fsl.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/axi4.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.gen 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/util.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfft.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfir.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.gen 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv6.gen 
+INFO-FLOW: DBG:CMD:       initCTypeInfo top_module=conv xml_exists=0
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.rtl_wrap.cfg.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.rtl_wrap.cfg.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.rtl_wrap.cfg.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.tbgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.tbgen.tcl 
+INFO-FLOW: DBG:CMD:       export_impl_rtl
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=0 expOnly=0 dstVlogDir=impl/.verilog
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.compgen.tcl 
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=1 expOnly=1 dstVlogDir=impl/.pcores/verilog
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.compgen.tcl 
+INFO-FLOW: DBG:CMD:       generate_ip_cores sim=0 export=0 expOnly=0 dstVlogDir=impl/.pcores/verilog_sim
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Block_proc19.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Array2Mat.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/AXIM2Mat.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Filter2D.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2Array.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/Mat2AXIM.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.compgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.constraint.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.tbgen.tcl 
+INFO-FLOW: DBG:CMD:       hasPcoreIpAdapter=false #gSsdmPorts=0
+INFO-FLOW: DBG:CMD: Skipping loadAnalyze_DB, #g_database=3
+INFO-FLOW: DBG:CMD:       generate_json is_phase_csynth=1 g_has_adaptors=false generate_bd_files=0 #modelList=21 #gSsdmPorts=0
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.tbgen.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       get_config_sdx -target 
+Execute       get_config_export -xo 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/conv.constraint.tcl 
+Execute       sc_get_clocks conv 
+Execute       source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+Execute       get_config_sdx -target 
+Execute       get_config_sdx -profile 
+Execute       ::config_rtl 
+INFO-FLOW: DBG:CMD: add_json_sdx_info kernel file does not exist: D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/kernel.internal.xml
+INFO-FLOW: DBG:CMD:       delete-temp-dirs (skipped for debug)
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 340.570 ; gain = 255.586
+INFO: [SYSC 207-301] Generating SystemC RTL for conv.
+INFO: [VHDL 208-304] Generating VHDL RTL for conv.
+INFO: [VLOG 209-307] Generating Verilog RTL for conv.
+Command     autosyn done; 5.094 sec.
+Execute     get_part 
+Execute     get_config_export -sdx_tcl 
+Command   csynth_design done; 20.492 sec.
+Command ap_source done; 20.779 sec.
+Execute cleanup_all 
+INFO-FLOW: Workspace D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1 opened at Mon Mar 25 16:45:54 -0400 2019
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     open_platform DefaultPlatform 
+Execute     import_lib D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/plb46.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/fsl.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/axi4.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/dds_compiler.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfft.lib 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfir.lib 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_old.lib 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_vivado.lib 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/target_info.tcl 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/dsp48e1.hlp 
+Execute       get_default_platform 
+Execute       config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute       config_chip_info -quiet -speed medium 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/target_info.tcl 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Execute     source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq.gen 
+Execute       source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/virtex.gen 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/plb46.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/fsl.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/axi4.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.gen 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/dds_compiler.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/util.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfft.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/ip/xfir.gen 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.gen 
+Execute     set_part xc7z020clg400-1 
+Execute       add_library xilinx/zynq/zynq:xc7z020:clg400:-1 
+Execute         get_default_platform 
+Execute         license_isbetapart xc7z020 
+Command         license_isbetapart done; error code: 1; 
+Execute         get_default_platform 
+Execute         config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute         config_chip_info -quiet -speed slow 
+Execute       add_library xilinx/zynq/zynq_fpv6 
+Execute         get_default_platform 
+Execute         open_platform DefaultPlatform 
+Execute         import_lib D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_fpv6 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv7.lib 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_hp.lib 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv.hlp 
+Execute             source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx.hlp 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/target_info.tcl 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute                 source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/maxi.hlp 
+Execute                 source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/interface/saxilite.hlp 
+Execute               source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/dsp48.hlp 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_hp.hlp 
+Execute         source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/zynq/zynq_fpv6.gen 
+Execute           source D:/Xilinx/Vivado/2018.3/common/technology/xilinx/common/xilinx_fpv6.gen 
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+Execute       get_default_platform 
+Execute     get_default_platform 
+Execute     config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  
+Execute     config_chip_info -quiet -speed slow 
+Execute     config_compile -no_signed_zeros=0 
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+Execute     config_compile -unsafe_math_optimizations=0 
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+INFO: [XFORM 203-1173] Reordering floating point operations aggressively.
+INFO: [XFORM 203-1176] Optimizing floating point comparison without checking NaN.
+Execute     config_schedule -effort=medium 
+Execute     config_schedule -enable_dsp_full_reg=0 
+Execute     config_schedule -relax_ii_for_timing=0 
+Execute     config_schedule -verbose=0 
+Execute     config_export -format=ip_catalog 
+Execute     config_export -rtl=verilog 
+Execute     config_export -vivado_phys_opt=place 
+Execute     config_export -vivado_report_level=0 
+Execute     config_bind -effort=medium 
+Execute     config_sdx -optimization_level=none 
+Execute       get_config_export -vivado_synth_design_args 
+Execute       get_config_export -vivado_impl_strategy 
+Execute       get_config_export -vivado_synth_strategy 
+Execute       get_config_export -vivado_phys_opt 
+Execute       get_config_bind -effort 
+Execute       get_config_schedule -effort 
+Execute     config_sdx -target=none 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' config_sdx -optimization_level=none 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_sdx -optimization_level=none
+Execute       config_sdx -optimization_level=none 
+Execute         get_config_export -vivado_synth_design_args 
+Execute         get_config_export -vivado_impl_strategy 
+Execute         get_config_export -vivado_synth_strategy 
+Execute         get_config_export -vivado_phys_opt 
+Execute         get_config_bind -effort 
+Execute         get_config_schedule -effort 
+Execute       get_config_compile -pipeline_loops 
+Execute       get_config_compile -name_max_length 
+Execute       get_config_schedule -relax_ii_for_timing 
+Execute       get_config_schedule -enable_dsp_full_reg 
+Execute       get_config_rtl -register_reset_num 
+Execute       get_config_rtl -auto_prefix 
+Execute       get_config_rtl -enable_maxiConservative 
+Execute       get_config_interface -m_axi_addr64 
+Execute       send_msg_by_id INFO @200-435@%s%s 'config_sdx -target' set_clock_uncertainty default 
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: set_clock_uncertainty default
+Execute       set_clock_uncertainty default 
+Execute         get_clock_period -default -name=default 
+Execute         config_clock -quiet -name default -uncertainty 1.25 -unit % 
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 1.25ns.
+Command   open_solution done; 0.196 sec.
+Execute   csim_design -quiet 
+Execute     source D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     is_encrypted D:/vivado_proj/Embedded_Lab/tuan_anh_test/HLS/test_bench_file.cpp 
+Execute     is_xip D:/vivado_proj/Embedded_Lab/tuan_anh_test/HLS/test_bench_file.cpp 
+Execute     is_encrypted D:/vivado_proj/Embedded_Lab/tuan_anh_test/HLS/core.cpp 
+Execute     is_xip D:/vivado_proj/Embedded_Lab/tuan_anh_test/HLS/core.cpp 
+Execute     get_default_platform 
+Execute     source run_sim.tcl 

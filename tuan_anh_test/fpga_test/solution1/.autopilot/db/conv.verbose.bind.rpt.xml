@@ -1,0 +1,49 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'conv'" level="0">
+<item name = "Date">Mon Mar 25 16:43:14 2019
+</item>
+<item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
+<item name = "Project">fpga_test</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 8.750, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">2083334, 2088034, 2083323, 2088026, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+<column name="grp_Filter2D_fu_236">Filter2D, 145, 2088025, 145, 2088025, none</column>
+<column name="grp_AXIM2Mat_fu_244">AXIM2Mat, 2, 2085482, 2, 2085482, none</column>
+<column name="grp_Mat2AXIM_fu_256">Mat2AXIM, 2083322, 2083322, 2083322, 2083322, none</column>
+<column name="StgValue_18_Block_proc19_fu_264">Block_proc19, 0, 0, 0, 0, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

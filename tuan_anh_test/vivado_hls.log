@@ -1,0 +1,17 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'tshot' on host 'desktop-1i8v5j3' (Windows NT_amd64 version 6.2) on Mon Mar 25 16:45:54 -0400 2019
+INFO: [HLS 200-10] In directory 'D:/vivado_proj/Embedded_Lab/tuan_anh_test'
+INFO: [HLS 200-10] Opening project 'D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test'.
+INFO: [HLS 200-10] Opening solution 'D:/vivado_proj/Embedded_Lab/tuan_anh_test/fpga_test/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020clg400-1'
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+INFO: [XFORM 203-1172] Optimizing floating point zeros and discarding its signedness.
+INFO: [XFORM 203-1173] Reordering floating point operations aggressively.
+INFO: [XFORM 203-1176] Optimizing floating point comparison without checking NaN.
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_sdx -optimization_level=none
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: set_clock_uncertainty default
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 1.25ns.
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+make: 'csim.exe' is up to date.
