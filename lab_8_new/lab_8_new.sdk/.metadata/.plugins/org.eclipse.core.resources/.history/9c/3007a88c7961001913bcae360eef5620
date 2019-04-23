@@ -1,0 +1,171 @@
+
+#include "xparameters.h"
+#include "xil_io.h"
+#include <stdio.h>
+#include "xil_printf.h"
+#include "sleep.h"
+
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "timers.h"
+
+//AD1Pmod from Address Editor in Vivado, first IP
+#define AD1acq 	0x43C00000	//AD1 acquisition	  - output
+#define AD1dav 	0x43C00004	//AD1 data available  - input
+#define AD1dat1	0x43C00008	//AD1 channel 1 data  - input
+#define AD1dat2	0x43C0000C	//AD1 channel 2 data  - input
+
+//DAC2Pmod from Address Editor in Vivado, second IP
+#define DA2acq  0x43C10000   //DA2 acquisition    - output
+#define DA2dav	0x43C10004	 //DA2 data available - input
+#define DA2dat1	0x43C10008	 //DA2 channel 1 data - output
+#define DA2dat2 0x43C1000C	 //DA2 channel 2 data - output
+
+/*
+ * Create task AD1 and DA2
+ * DA1 takes A signal and convert to D
+ * DA2 takes D signal and convert to A
+ * queue send AD1 data
+ * queue receive DA2 data
+ *
+ */
+
+// Initialize global variable
+
+static TaskHandle_t xAD1Task;
+static TaskHandle_t xDA2Task;
+static TaskHandle_t FIRTask;
+static QueueHandle_t xQueue1 = NULL;
+static QueueHandle_t xQueue2 = NULL;
+
+int adcdav;
+int dacdav;
+
+static void prvAD1Task(void *pvParameters){
+
+			//ADC data available
+	int adcdata1;
+	int adcdata2;
+
+	while(1) {
+		Xil_Out32(AD1acq,1); 			//ADC acquire
+		while (adcdav==0)				//ADC data available?
+			adcdav=Xil_In32(AD1dav);
+		Xil_Out32(AD1acq,0);			//ADC stop acquire
+		adcdata1=Xil_In32(AD1dat1);		//input ADC data
+
+		adcdata2=Xil_In32(AD1dat2);
+
+		while (adcdav==1)				//wait for reset
+			adcdav=Xil_In32(AD1dav);
+
+
+
+
+		//vTaskDelay(x1s);				// for testing purposes
+		xQueueSend(xQueue1, &adcdata1, 0UL); // Send adcdata to queue
+		xQueueSend(xQueue1, &adcdata2, 0UL);
+	}
+}
+
+static void prvDA2Task(void *pvParameters){
+
+	static int dacdata1;
+	static int dacdata2;
+
+
+	while(1){
+		xQueueReceive(xQueue1, &dacdata1, portMAX_DELAY);
+		xQueueReceive(xQueue1, &dacdata2, portMAX_DELAY);
+
+		Xil_Out32(DA2dat1, dacdata1);	//output DAC data
+		Xil_Out32(DA2dat2, dacdata2);
+		Xil_Out32(DA2acq,1);			//DAC acquire
+		while (dacdav==0)				//DAC data output?
+			dacdav=Xil_In32(DA2dav);
+		Xil_Out32(DA2acq,0);			//stop DAC acquire
+		while(dacdav==1)				//wait for reset
+			dacdav=Xil_In32(DA2dav);
+	}
+}
+
+//Create FIR filter task
+
+/*
+static void FIRfilter (void* parameter){
+	int adcdata1, adcdata2;
+	int b0 = 2, b1=3, b2=4, b3=1, b4=1;
+	int push[5];
+	int output;
+
+
+
+	while(1){
+		xQueueReceive(xQueue1, &adcdata1, portMAX_DELAY);
+		xQueueReceive(xQueue1, &adcdata2, portMAX_DELAY);
+
+		push[4]=push[3];
+		push[3]=push[2];
+		push[2]=push[1];
+		push[1]=push[0];
+		push[0]=adcdata1;
+
+		output = b0*push[0];
+		output += b1*push[1];
+		output += b2*push[2];
+		output += b3*push[3];
+		output += b4*push[4];
+
+		xQueueSend(xQueue2, &output, portMAX_DELAY);
+		xQueueSend(xQueue2, &output, portMAX_DELAY);
+
+	}
+
+
+}
+*/
+int main(void)
+{
+	int data;
+
+	Xil_Out32(AD1acq,0);		//ADC stop acquire
+		adcdav=Xil_In32(AD1dav);	//ADC available?
+		while(adcdav==1)			// what happen when adcdav == 1
+			adcdav=Xil_In32(AD1dav);
+		Xil_Out32(DA2acq,0);		//DAC stop acquire
+		dacdav=Xil_In32(DA2dav);	//DAC available?
+		while(dacdav==1)
+			dacdav=Xil_In32(DA2dav);
+
+
+	xTaskCreate(prvAD1Task,
+				(const char*) "AD1",
+				configMINIMAL_STACK_SIZE,
+				NULL,
+				1,
+				&xAD1Task);
+	xTaskCreate(prvDA2Task,
+				(const char*) "DA2",
+				configMINIMAL_STACK_SIZE,
+				NULL,
+				3,
+				&xDA2Task);
+
+	/*
+	xTaskCreate(FIRfilter,
+				(const char*) "FIR",
+				configMINIMAL_STACK_SIZE,
+				NULL,
+				3,
+				&FIRTask);
+
+				*/
+
+	xQueue1 = xQueueCreate(2, sizeof(data));
+	xQueue2 = xQueueCreate(2, sizeof(data));
+
+	vTaskStartScheduler();
+
+	while (1);
+}

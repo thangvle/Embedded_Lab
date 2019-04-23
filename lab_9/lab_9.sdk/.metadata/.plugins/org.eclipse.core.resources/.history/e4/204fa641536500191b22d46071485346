@@ -1,0 +1,71 @@
+#include 'FreeRTOS.h'
+#include 'timers.h'
+#include 'task.h'
+#include 'queue.h'
+
+#include 'xparameters.h'
+#include "xgpio.h"
+#include "xstatus.h"
+#include "xil_printf.h"
+
+#define BTN_DEVICE_ID	XPAR_AXI_GPIO_0_DEVICE_ID
+#define SW_DEVICE_ID	XPAR_AXI_GPIO_0_DEVICE_ID
+#define LED_DEVICE_ID	XPAR_AXI_GPIO_1_DEVICE_ID
+#define BTN_CHANNEL		1
+#define SW_CHANNEL		2
+#define	LED_CHANNEL		1
+#define TIMER_ID		1
+
+/* Task BTN with priority 4
+ * One shot timer1 of 4000 msec and callback func
+ * BTN depressed -> callback Timer1 -> light LEDn for 4000ms
+ * SWn is on in Task TBN && BTN depressed -> LEDn is not on, other LED is lit for 4000 ms
+ */
+
+XGpio BTNInst, SWInst, LEDInst;
+int btn = 0, sws = 0;
+
+static void taskBTNSW( void* pvParameters){
+	btn = XGpio_DiscreteRead(&BTNInst, BTN_CHANNEL);
+	sws = XGpio_DiscreteRead(&SWInst, SW_CHANNEL);
+	int n=0;
+
+	while(1){
+		if (btn == 0b0001){
+			if (btn != 0b0001)
+				n = 0b0001;
+		}
+		else if (btn == 0b0010){
+			if (btn != 0b0010)
+				n = 0b0010;
+		}
+		else if (btn == 0b0100){
+			if (btn != 0b0100)
+				n = 0b0100;
+		}
+		else if (btn == 0b1000){
+			if (btn != 0b1000)
+				n = 0b1000;
+		}
+	}
+}
+
+int main (void){
+	XGpio_Initialize(&BTNInst, BTN_DEVICE_ID);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+	XGpio_Initialize(&LEDInst, LED_DEVICE_ID);
+	if (Status != XST_SUCCESS) {
+			return XST_FAILURE;
+		}
+	XGpio_Initialize(&SWInst, SW_DEVICE_ID);
+	if (Status != XST_SUCCESS) {
+			return XST_FAILURE;
+		}
+	XGpio_SetDataDirection(&BTNInst, BTN_CHANNEL, 0xFF);
+	XGpio_SetDataDirection(&SWInst, SW_CHANNEL, 0xFF);
+	XGpio_SetDataDirection(&LEDInst, LED_CHANNEL, 0x00);
+
+
+}
