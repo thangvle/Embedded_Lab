@@ -1,0 +1,524 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jan  7 20:13:11 2019
+# Process ID: 3804
+# Current directory: C:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.runs/design_1_PmodAD1_0_0_synth_1
+# Command line: vivado.exe -log design_1_PmodAD1_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_PmodAD1_0_0.tcl
+# Log file: C:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.runs/design_1_PmodAD1_0_0_synth_1/design_1_PmodAD1_0_0.vds
+# Journal file: C:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.runs/design_1_PmodAD1_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_PmodAD1_0_0.tcl -notrace
+Command: synth_design -top design_1_PmodAD1_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6620 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 415.391 ; gain = 97.867
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_PmodAD1_0_0' [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/synth/design_1_PmodAD1_0_0.v:56]
+INFO: [Synth 8-6157] synthesizing module 'PmodAD1_v1_0' [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/hdl/PmodAD1_v1_0.v:4]
+	Parameter INCLUDE_DEBUG_INTERFACE bound to: 1'b0 
+	Parameter AD1_CLOCKS_PER_BIT bound to: 20 - type: integer 
+	Parameter AD1_CLOCKS_BEFORE_DATA bound to: 60 - type: integer 
+	Parameter AD1_CLOCKS_AFTER_DATA bound to: 500 - type: integer 
+	Parameter AD1_CLOCKS_BETWEEN_TRANSACTIONS bound to: 400 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'PmodAD1_v1_0_S00_AXI' [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/hdl/PmodAD1_v1_0_S00_AXI.v:4]
+	Parameter INCLUDE_DEBUG_INTERFACE bound to: 1'b0 
+	Parameter AD1_CLOCKS_PER_BIT bound to: 20 - type: integer 
+	Parameter AD1_CLOCKS_BEFORE_DATA bound to: 60 - type: integer 
+	Parameter AD1_CLOCKS_AFTER_DATA bound to: 500 - type: integer 
+	Parameter AD1_CLOCKS_BETWEEN_TRANSACTIONS bound to: 400 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/hdl/PmodAD1_v1_0_S00_AXI.v:234]
+INFO: [Synth 8-226] default block is never used [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/hdl/PmodAD1_v1_0_S00_AXI.v:375]
+INFO: [Synth 8-6157] synthesizing module 'ad1_spi' [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/src/ad1_spi.v:18]
+	Parameter INCLUDE_DEBUG_INTERFACE bound to: 1'b0 
+	Parameter CLOCKS_PER_BIT bound to: 20 - type: integer 
+	Parameter CLOCKS_BEFORE_DATA bound to: 60 - type: integer 
+	Parameter CLOCKS_AFTER_DATA bound to: 500 - type: integer 
+	Parameter CLOCKS_BETWEEN_TRANSACTIONS bound to: 400 - type: integer 
+	Parameter BITS_PER_TRANSACTION bound to: 16 - type: integer 
+	Parameter BIT_HALFWAY_CLOCK bound to: 10 - type: integer 
+	Parameter S_HOLD bound to: 0 - type: integer 
+	Parameter S_FRONT_PORCH bound to: 1 - type: integer 
+	Parameter S_SHIFTING bound to: 2 - type: integer 
+	Parameter S_BACK_PORCH bound to: 3 - type: integer 
+WARNING: [Synth 8-3848] Net led in module/entity ad1_spi does not have driver. [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/src/ad1_spi.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'ad1_spi' (1#1) [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/src/ad1_spi.v:18]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg0_reg was removed.  [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/hdl/PmodAD1_v1_0_S00_AXI.v:226]
+INFO: [Synth 8-6155] done synthesizing module 'PmodAD1_v1_0_S00_AXI' (2#1) [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/hdl/PmodAD1_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6157] synthesizing module 'pmod_bridge_0' [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/src/pmod_bridge_0/synth/pmod_bridge_0.v:56]
+INFO: [Synth 8-6157] synthesizing module 'pmod_concat' [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/src/pmod_bridge_0/src/pmod_concat.v:12]
+	Parameter Top_Row_Interface bound to: SPI - type: string 
+	Parameter Bottom_Row_Interface bound to: Disabled - type: string 
+WARNING: [Synth 8-3848] Net in_top_bus_I in module/entity pmod_concat does not have driver. [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/src/pmod_bridge_0/src/pmod_concat.v:84]
+WARNING: [Synth 8-3848] Net in_top_uart_gpio_bus_I in module/entity pmod_concat does not have driver. [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/src/pmod_bridge_0/src/pmod_concat.v:87]
+WARNING: [Synth 8-3848] Net in_top_i2c_gpio_bus_I in module/entity pmod_concat does not have driver. [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/src/pmod_bridge_0/src/pmod_concat.v:90]
+WARNING: [Synth 8-3848] Net in_bottom_bus_I in module/entity pmod_concat does not have driver. [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/src/pmod_bridge_0/src/pmod_concat.v:94]
+WARNING: [Synth 8-3848] Net in_bottom_uart_gpio_bus_I in module/entity pmod_concat does not have driver. [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/src/pmod_bridge_0/src/pmod_concat.v:97]
+WARNING: [Synth 8-3848] Net in_bottom_i2c_gpio_bus_I in module/entity pmod_concat does not have driver. [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/src/pmod_bridge_0/src/pmod_concat.v:100]
+INFO: [Synth 8-6155] done synthesizing module 'pmod_concat' (3#1) [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/src/pmod_bridge_0/src/pmod_concat.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'pmod_bridge_0' (4#1) [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/src/pmod_bridge_0/synth/pmod_bridge_0.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'PmodAD1_v1_0' (5#1) [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/hdl/PmodAD1_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_PmodAD1_0_0' (6#1) [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/synth/design_1_PmodAD1_0_0.v:56]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design ad1_spi has unconnected port led[1]
+WARNING: [Synth 8-3331] design ad1_spi has unconnected port led[0]
+WARNING: [Synth 8-3331] design PmodAD1_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design PmodAD1_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design PmodAD1_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design PmodAD1_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design PmodAD1_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design PmodAD1_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 471.527 ; gain = 154.004
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin PmodAD1_pmod_bridge_0_0:in1_O to constant 0 [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/hdl/PmodAD1_v1_0.v:118]
+WARNING: [Synth 8-3295] tying undriven pin PmodAD1_pmod_bridge_0_0:in2_O to constant 0 [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ipshared/18c7/hdl/PmodAD1_v1_0.v:118]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 471.527 ; gain = 154.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 471.527 ; gain = 154.004
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+WARNING: [Designutils 20-1758] instance inst wraps a black box. Constraint reading is skipped for elaborated designs in this case. Skipping constraint file 'c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/src/pmod_bridge_0/pmod_bridge_0_board.xdc'.
+Parsing XDC File [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/design_1_PmodAD1_0_0_board.xdc] for cell 'inst'
+CRITICAL WARNING: [Common 17-69] Command failed: BOARD_PART_PIN cannot be assigned to more than one port [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/design_1_PmodAD1_0_0_board.xdc:3]
+CRITICAL WARNING: [Common 17-69] Command failed: BOARD_PART_PIN cannot be assigned to more than one port [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/design_1_PmodAD1_0_0_board.xdc:4]
+CRITICAL WARNING: [Common 17-69] Command failed: BOARD_PART_PIN cannot be assigned to more than one port [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/design_1_PmodAD1_0_0_board.xdc:5]
+CRITICAL WARNING: [Common 17-69] Command failed: BOARD_PART_PIN cannot be assigned to more than one port [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/design_1_PmodAD1_0_0_board.xdc:6]
+CRITICAL WARNING: [Common 17-69] Command failed: BOARD_PART_PIN cannot be assigned to more than one port [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/design_1_PmodAD1_0_0_board.xdc:7]
+CRITICAL WARNING: [Common 17-69] Command failed: BOARD_PART_PIN cannot be assigned to more than one port [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/design_1_PmodAD1_0_0_board.xdc:8]
+CRITICAL WARNING: [Common 17-69] Command failed: BOARD_PART_PIN cannot be assigned to more than one port [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/design_1_PmodAD1_0_0_board.xdc:9]
+CRITICAL WARNING: [Common 17-69] Command failed: BOARD_PART_PIN cannot be assigned to more than one port [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/design_1_PmodAD1_0_0_board.xdc:10]
+Finished Parsing XDC File [c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/design_1_PmodAD1_0_0_board.xdc] for cell 'inst'
+Parsing XDC File [C:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.runs/design_1_PmodAD1_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.runs/design_1_PmodAD1_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.runs/design_1_PmodAD1_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_PmodAD1_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_PmodAD1_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 796.605 ; gain = 0.375
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 796.605 ; gain = 479.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 796.605 ; gain = 479.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst/PmodAD1_pmod_bridge_0_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/PmodAD1_pmod_bridge_0_0/inst. (constraint file  C:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.runs/design_1_PmodAD1_0_0_synth_1/dont_touch.xdc, line 11).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  C:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.runs/design_1_PmodAD1_0_0_synth_1/dont_touch.xdc, line 17).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 796.605 ; gain = 479.082
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ad1_spi'
+INFO: [Synth 8-5545] ROM "drdy" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "drdy" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "cs" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  S_HOLD |                               00 |                               00
+           S_FRONT_PORCH |                               01 |                               01
+              S_SHIFTING |                               10 |                               10
+            S_BACK_PORCH |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'ad1_spi'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 796.605 ; gain = 479.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 7     
+	               16 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   4 Input     32 Bit        Muxes := 6     
+	   4 Input     16 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 11    
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ad1_spi 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 2     
+	   4 Input     16 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+Module PmodAD1_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "PmodAD1_v1_0_S00_AXI_inst/m_ad1_spi/drdy" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "PmodAD1_v1_0_S00_AXI_inst/m_ad1_spi/drdy" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "PmodAD1_v1_0_S00_AXI_inst/m_ad1_spi/state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "PmodAD1_v1_0_S00_AXI_inst/m_ad1_spi/state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "PmodAD1_v1_0_S00_AXI_inst/m_ad1_spi/count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "PmodAD1_v1_0_S00_AXI_inst/m_ad1_spi/count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "PmodAD1_v1_0_S00_AXI_inst/m_ad1_spi/count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "PmodAD1_v1_0_S00_AXI_inst/m_ad1_spi/count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "PmodAD1_v1_0_S00_AXI_inst/m_ad1_spi/count1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_I[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_i2c_gpio_bus_I[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_uart_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_top_i2c_gpio_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[3]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[2]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_bus_T[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_O[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_O[0]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_T[1]
+WARNING: [Synth 8-3331] design pmod_concat has unconnected port in_bottom_uart_gpio_bus_T[0]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'inst/PmodAD1_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/PmodAD1_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\PmodAD1_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/PmodAD1_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/PmodAD1_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\PmodAD1_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (PmodAD1_v1_0_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module PmodAD1_v1_0.
+WARNING: [Synth 8-3332] Sequential element (PmodAD1_v1_0_S00_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module PmodAD1_v1_0.
+WARNING: [Synth 8-3332] Sequential element (PmodAD1_v1_0_S00_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module PmodAD1_v1_0.
+WARNING: [Synth 8-3332] Sequential element (PmodAD1_v1_0_S00_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module PmodAD1_v1_0.
+WARNING: [Synth 8-3332] Sequential element (PmodAD1_v1_0_S00_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module PmodAD1_v1_0.
+WARNING: [Synth 8-3332] Sequential element (PmodAD1_v1_0_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module PmodAD1_v1_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 796.605 ; gain = 479.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 800.527 ; gain = 483.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 800.750 ; gain = 483.227
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 813.449 ; gain = 495.926
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin PmodAD1_pmod_bridge_0_0:in1_O to constant 0
+INFO: [Synth 8-3295] tying undriven pin PmodAD1_pmod_bridge_0_0:in2_O to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 813.449 ; gain = 495.926
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 813.449 ; gain = 495.926
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 813.449 ; gain = 495.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 813.449 ; gain = 495.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 813.449 ; gain = 495.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 813.449 ; gain = 495.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    16|
+|2     |LUT1   |     2|
+|3     |LUT2   |    69|
+|4     |LUT3   |     7|
+|5     |LUT4   |    31|
+|6     |LUT5   |    44|
+|7     |LUT6   |    46|
+|8     |FDRE   |   300|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------------+---------------------+------+
+|      |Instance                      |Module               |Cells |
++------+------------------------------+---------------------+------+
+|1     |top                           |                     |   515|
+|2     |  inst                        |PmodAD1_v1_0         |   515|
+|3     |    PmodAD1_pmod_bridge_0_0   |pmod_bridge_0        |     0|
+|4     |      inst                    |pmod_concat          |     0|
+|5     |    PmodAD1_v1_0_S00_AXI_inst |PmodAD1_v1_0_S00_AXI |   515|
+|6     |      m_ad1_spi               |ad1_spi              |   291|
++------+------------------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 813.449 ; gain = 495.926
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 62 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 813.449 ; gain = 170.848
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 813.449 ; gain = 495.926
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 117 Warnings, 8 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 826.527 ; gain = 517.031
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.runs/design_1_PmodAD1_0_0_synth_1/design_1_PmodAD1_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.srcs/sources_1/bd/design_1/ip/design_1_PmodAD1_0_0/design_1_PmodAD1_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 5 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/zybo_Pmod_Projects/zybo_PmodAD1/zybo_PmodAD1.runs/design_1_PmodAD1_0_0_synth_1/design_1_PmodAD1_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_PmodAD1_0_0_utilization_synth.rpt -pb design_1_PmodAD1_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 826.527 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jan  7 20:13:55 2019...

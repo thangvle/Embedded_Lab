@@ -33,6 +33,7 @@ pzplot(sys);    %ploting zero-pole plane
 
 %% FIR filter in a window of 4096 discrete points
 % initialize a window of 4096 discrete points
+% generate signal
 for i = 1:4096
     x(i) = sin(2*pi*i/4096);    % i/4096 represents the Fs
 end

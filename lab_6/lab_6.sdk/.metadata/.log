@@ -14335,3 +14335,46 @@ java.lang.NullPointerException
 
 !ENTRY com.xilinx.sdk.utils 1 0 2019-03-28 15:44:38.271
 !MESSAGE Executed Webtalk command
+!SESSION 2019-04-03 17:00:26.027 -----------------------------------------------
+eclipse.buildId=2018.3
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/vivado_proj/Embedded_Lab/lab_6/lab_6.sdk
+
+!ENTRY org.eclipse.ui 2 0 2019-04-03 17:00:28.336
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-04-03 17:00:28.336
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2019-04-03 17:00:29.097
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-04-03 17:00:29.097
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-04-03 17:00:38.523
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-04-03 17:00:38.524
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-04-03 17:00:38.533
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-04-03 17:00:38.537
+!MESSAGE XSCT Command: [setws C:/vivado_proj/Embedded_Lab/lab_6/lab_6.sdk], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-04-03 17:00:39.301
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-04-03 17:00:39.303
+!MESSAGE XSCT command with result: [setws C:/vivado_proj/Embedded_Lab/lab_6/lab_6.sdk], Result: [null, ]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-04-03 17:00:39.325
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/vivado_proj/Embedded_Lab/lab_6/lab_6.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2019-04-03 17:00:43.440
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/vivado_proj/Embedded_Lab/lab_6/lab_6.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-1
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-03 17:01:17.238
+!MESSAGE Indexed 'lab_7_updated' (1 sources, 49 headers) in 0.621 sec: 1,146 declarations; 2,344 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

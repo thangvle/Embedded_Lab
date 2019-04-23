@@ -1,0 +1,156 @@
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "timers.h"
+
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xgpio.h"
+//Defining GPIO and constants
+#define BTN_GPIO	XPAR_AXI_GPIO_0_DEVICE_ID
+#define SWS_GPIO	XPAR_AXI_GPIO_0_DEVICE_ID
+#define LED_GPIO	XPAR_AXI_GPIO_1_DEVICE_ID
+#define	BTN_CHANNEL 1
+#define SWS_CHANNEL	2
+#define	LED_CHANNEL	1
+#define TIMER_ID 1
+#define TMR_THRESHOLD 9
+#define LED_DELAY 10000000
+
+XGpio BTNInst;
+XGpio SWInst, LEDInst;
+static TaskHandle_t xTaskLED, xTaskBTN, xTaskSW;
+
+
+/*
+ * 1. Create a TaskLED increment a 4 bits counter with priority +1
+ * 2. Create a TaskBTN read BTN at Idle task with priority +1
+ * 3. Create a TaskSW read SW with Idle task with priority +1
+ *    if(SW0 == 1){
+ *        TaskSuspend();
+ *    } else{
+ *        TaskResume();
+ *    }
+ *
+ */
+
+/* TaskLED increment the LED from 0b0000 to 0b1111 in a while loop*/
+
+static void TaskLED(void *pvParameters){
+	int led = 0;
+
+	while(1){
+		// Set the threshold from LED to increment to
+		if (led == 15){
+			led = 0;
+		}
+		XGpio_DiscreteWrite(&LEDInst, LED_CHANNEL, led);	// Write LED value to output
+		for (int Delay = 0; Delay < LED_DELAY; Delay++);	// Delay by 1 sec
+		led++;												// Increment by 1
+	}
+}
+
+/* TaskBTN read the BTN input,
+ * suspend the LED task when BTN0  is depressed
+ * resume the LED task when BTN1 is depressed
+ */
+static void TaskBTN(void *pvParameters){
+
+	int btn;
+
+	for(;;){
+
+		// input from BTN
+		btn = XGpio_DiscreteRead(&BTNInst, BTN_CHANNEL);
+
+			if (btn == 0b0001){	// btn0 on
+				if (btn != 0b0001){ // depressed btn0
+					break;
+				}
+				else if (btn == 0b0001) {
+					vTaskSuspend(xTaskLED);		// Suspend the LED task
+				}
+			}
+
+			if (btn == 0b0010){ 		//btn 1 is on
+				if (btn != 0b0010){		//btn 1 is depressed
+					break;
+				}
+				else if (btn == 0b0010){
+					vTaskResume(xTaskLED);		// Resume the LED Task
+				}
+			}
+	}
+
+}
+
+/* TaskSW read the SW input,
+ * if sw0 on, suspend the BTN task
+ * if sw0 off, resume the BTN task
+ */
+static void TaskSW(void *pvParameters){
+
+	int sw;
+
+	for(;;){
+		// Input from SW
+		sw = XGpio_DiscreteRead(&SWInst, SWS_GPIO);
+
+		// when sw0 is on, suspend the BTN task using BTN handler
+		if (sw = 0b0001){
+
+			vTaskSuspend(xTaskBTN);
+
+		} else {
+			// Resume the task
+			vTaskResume(xTaskBTN);
+		}
+	}
+}
+
+// Task creation in main
+int main(void)
+{
+	//Set up GPIOs for LED, BTN, and SW
+	int statusLED, statusBTN, statusSW;
+
+	statusLED = XGpio_Initialize(&LEDInst, LED_GPIO);
+	if (statusLED != XST_SUCCESS) return XST_FAILURE;
+	statusBTN = XGpio_Initialize(&BTNInst, BTN_GPIO);
+	if (statusBTN != XST_SUCCESS) return XST_FAILURE;
+	statusSW = XGpio_Initialize(&SWInst, SWS_GPIO);
+	if (statusSW != XST_SUCCESS) return XST_FAILURE;
+
+	//	Set data direction for each GPIO
+	XGpio_SetDataDirection(&LEDInst, LED_CHANNEL, 0x00);	// LED as output
+	XGpio_SetDataDirection(&BTNInst, BTN_CHANNEL, 0xFF);	// BTN as channel 1 input
+	XGpio_SetDataDirection(&SWInst, SWS_CHANNEL, 0xFF);		// SW as channel 2 input
+
+
+
+	xTaskCreate(TaskLED,				// Function call
+			(const char*) "Task LED",	// Task Name
+			configMINIMAL_STACK_SIZE,	// Task Stack
+			NULL,						// pvParameters
+			(tskIDLE_PRIORITY+1),		// priority of task
+			&xTaskLED);					// Task Handler of LED
+
+	xTaskCreate(TaskBTN,				// Function call
+			(const char*) "Task BTN",	// Task name
+			configMINIMAL_STACK_SIZE,	// Task Stack size
+			NULL,						// pvParameters
+			(tskIDLE_PRIORITY+1),		// Task priority is same as LED
+			&xTaskBTN);					// Task Handler of BTN
+
+	xTaskCreate(TaskSW,					// Function call
+			(const char*) "Task SW",	// Task name
+			configMINIMAL_STACK_SIZE,	// Task Stack size
+			NULL,						// pvParameter
+			(tskIDLE_PRIORITY+1),		// Task Priority is same as BTN
+			&xTaskSW);					// SW Task Handler
+
+
+	vTaskStartScheduler();				// Starts the task in the loop
+	for(;;);
+
+}
