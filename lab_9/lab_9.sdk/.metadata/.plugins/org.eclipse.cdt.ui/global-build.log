@@ -1236,3 +1236,401 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 C:\vivado_proj\Embedded_Lab\lab_9\lab_9.sdk\lab_9\Debug/../src/main.c:192: undefined reference to `vPrintStringandNumber'
 collect2.exe: error: ld returned 1 exit status
 make: *** [makefile:41: lab_9.elf] Error 1
+22:23:42 **** Auto Build of project lab_9_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_2/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_2/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/freertos10_xilinx_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+"Compiling FreeRTOS"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+D:/Xilinx/SDK/2018.3/gnuwin/bin/make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+22:24:04 **** Clean-only build of configuration Debug for project lab_9 ****
+make clean 
+make: *** No rule to make target 'clean'.  Stop.
+22:24:04 **** Auto Build of configuration Debug for project lab_9 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_9_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'taskBTNSW':
+../src/main.c:134:6: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+  int n=0;
+      ^
+../src/main.c: In function 'oneShotCallback':
+../src/main.c:191:12: warning: comparison between pointer and integer
+  if (xTime == xOneShotTimer){
+            ^~
+../src/main.c:192:3: warning: implicit declaration of function 'vPrintStringandNumber' [-Wimplicit-function-declaration]
+   vPrintStringandNumber("One shot timer callback executing", xTime);
+   ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:215:31: warning: character constant too long for its type
+  xOneShotTimer = xTimerCreate('Oneshot', ONE_SHOT_PERIOD, pdFALSE, 0, &oneShotCallback);
+                               ^~~~~~~~~
+../src/main.c:215:31: warning: passing argument 1 of 'xTimerCreate' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ../src/main.c:101:0:
+../../lab_9_bsp/ps7_cortexa9_0/include/timers.h:228:16: note: expected 'const char * const' but argument is of type 'int'
+  TimerHandle_t xTimerCreate( const char * const pcTimerName,   /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+                ^~~~~~~~~~~~
+At top level:
+../src/main.c:131:13: warning: 'taskBTNSW' defined but not used [-Wunused-function]
+ static void taskBTNSW( void* pvParameters){
+             ^~~~~~~~~
+In file included from ../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOS.h:57:0,
+                 from ../src/main.c:98:
+../src/main.c: In function 'oneShotCallback':
+../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h:87:29: warning: 'xTime' is used uninitialized in this function [-Wuninitialized]
+ #define configASSERT( x ) if( ( x ) == 0 ) vApplicationAssert( __FILE__, __LINE__ )
+                             ^
+../src/main.c:185:13: note: 'xTime' was declared here
+  TickType_t xTime;
+             ^~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab_9.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_9_bsp/ps7_cortexa9_0/lib -o "lab_9.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+./src/main.o: In function `oneShotCallback':
+D:\vivado_proj\Embedded_Lab\lab_9\lab_9.sdk\lab_9\Debug/../src/main.c:192: undefined reference to `vPrintStringandNumber'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: lab_9.elf] Error 1
+22:33:20 **** Clean-only build of configuration Debug for project lab_9 ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  lab_9.elf.size  lab_9.elf
+ 
+22:33:20 **** Auto Build of configuration Debug for project lab_9 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_9_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'taskBTNSW':
+../src/main.c:38:6: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+  int n=0;
+      ^
+../src/main.c: In function 'oneShotCallback':
+../src/main.c:95:12: warning: comparison between pointer and integer
+  if (xTime == xOneShotTimer){
+            ^~
+../src/main.c:96:3: warning: implicit declaration of function 'vPrintStringandNumber' [-Wimplicit-function-declaration]
+   vPrintStringandNumber("One shot timer callback executing", xTime);
+   ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:118:31: warning: character constant too long for its type
+  xOneShotTimer = xTimerCreate('Oneshot', ONE_SHOT_PERIOD, pdFALSE, 0, &oneShotCallback);
+                               ^~~~~~~~~
+../src/main.c:118:31: warning: passing argument 1 of 'xTimerCreate' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ../src/main.c:5:0:
+../../lab_9_bsp/ps7_cortexa9_0/include/timers.h:228:16: note: expected 'const char * const' but argument is of type 'int'
+  TimerHandle_t xTimerCreate( const char * const pcTimerName,   /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+                ^~~~~~~~~~~~
+At top level:
+../src/main.c:35:13: warning: 'taskBTNSW' defined but not used [-Wunused-function]
+ static void taskBTNSW( void* pvParameters){
+             ^~~~~~~~~
+In file included from ../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOS.h:57:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'oneShotCallback':
+../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h:87:29: warning: 'xTime' is used uninitialized in this function [-Wuninitialized]
+ #define configASSERT( x ) if( ( x ) == 0 ) vApplicationAssert( __FILE__, __LINE__ )
+                             ^
+../src/main.c:89:13: note: 'xTime' was declared here
+  TickType_t xTime;
+             ^~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab_9.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_9_bsp/ps7_cortexa9_0/lib -o "lab_9.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+./src/main.o: In function `oneShotCallback':
+D:\vivado_proj\Embedded_Lab\lab_9\lab_9.sdk\lab_9\Debug/../src/main.c:96: undefined reference to `vPrintStringandNumber'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: lab_9.elf] Error 1
+22:48:59 **** Auto Build of configuration Debug for project lab_9 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_9_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'taskBTNSW':
+../src/main.c:38:6: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+  int n=0;
+      ^
+../src/main.c: In function 'oneShotCallback':
+../src/main.c:95:12: warning: comparison between pointer and integer
+  if (xTime == xOneShotTimer){
+            ^~
+../src/main.c:96:3: warning: implicit declaration of function 'vPrintStringandNumber' [-Wimplicit-function-declaration]
+   vPrintStringandNumber("One shot timer callback executing", xTime);
+   ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:118:44: warning: character constant too long for its type
+  xOneShotTimer = xTimerCreate((const char*)'Oneshot', ONE_SHOT_PERIOD, pdFALSE, 0, oneShotCallback);
+                                            ^~~~~~~~~
+At top level:
+../src/main.c:35:13: warning: 'taskBTNSW' defined but not used [-Wunused-function]
+ static void taskBTNSW( void* pvParameters){
+             ^~~~~~~~~
+In file included from ../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOS.h:57:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'oneShotCallback':
+../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h:87:29: warning: 'xTime' is used uninitialized in this function [-Wuninitialized]
+ #define configASSERT( x ) if( ( x ) == 0 ) vApplicationAssert( __FILE__, __LINE__ )
+                             ^
+../src/main.c:89:13: note: 'xTime' was declared here
+  TickType_t xTime;
+             ^~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab_9.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_9_bsp/ps7_cortexa9_0/lib -o "lab_9.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+./src/main.o: In function `oneShotCallback':
+D:\vivado_proj\Embedded_Lab\lab_9\lab_9.sdk\lab_9\Debug/../src/main.c:96: undefined reference to `vPrintStringandNumber'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: lab_9.elf] Error 1
+22:51:32 **** Auto Build of configuration Debug for project lab_9 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_9_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'taskBTNSW':
+../src/main.c:38:6: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+  int n=0;
+      ^
+../src/main.c: In function 'oneShotCallback':
+../src/main.c:95:12: warning: comparison between pointer and integer
+  if (xTime == xOneShotTimer){
+            ^~
+../src/main.c:96:3: warning: implicit declaration of function 'vPrintStringandNumber' [-Wimplicit-function-declaration]
+   vPrintStringandNumber("One shot timer callback executing", xTime);
+   ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:118:39: warning: character constant too long for its type
+  xTaskCreate(taskBTNSW, (const char*) 'BTN_SW', configMINIMAL_STACK_SIZE, NULL, 4, &xTaskBTNSW);
+                                       ^~~~~~~~
+../src/main.c:119:44: warning: character constant too long for its type
+  xOneShotTimer = xTimerCreate((const char*)'Oneshot', ONE_SHOT_PERIOD, pdFALSE, TIMER_ID, oneShotCallback);
+                                            ^~~~~~~~~
+../src/main.c:13:19: warning: passing argument 4 of 'xTimerCreate' makes pointer from integer without a cast [-Wint-conversion]
+ #define TIMER_ID  1
+                   ^
+../src/main.c:119:81: note: in expansion of macro 'TIMER_ID'
+  xOneShotTimer = xTimerCreate((const char*)'Oneshot', ONE_SHOT_PERIOD, pdFALSE, TIMER_ID, oneShotCallback);
+                                                                                 ^~~~~~~~
+In file included from ../src/main.c:5:0:
+../../lab_9_bsp/ps7_cortexa9_0/include/timers.h:228:16: note: expected 'void * const' but argument is of type 'int'
+  TimerHandle_t xTimerCreate( const char * const pcTimerName,   /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+                ^~~~~~~~~~~~
+In file included from ../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOS.h:57:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'oneShotCallback':
+../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h:87:29: warning: 'xTime' is used uninitialized in this function [-Wuninitialized]
+ #define configASSERT( x ) if( ( x ) == 0 ) vApplicationAssert( __FILE__, __LINE__ )
+                             ^
+../src/main.c:89:13: note: 'xTime' was declared here
+  TickType_t xTime;
+             ^~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab_9.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_9_bsp/ps7_cortexa9_0/lib -o "lab_9.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+./src/main.o: In function `oneShotCallback':
+D:\vivado_proj\Embedded_Lab\lab_9\lab_9.sdk\lab_9\Debug/../src/main.c:96: undefined reference to `vPrintStringandNumber'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: lab_9.elf] Error 1
+08:08:13 **** Auto Build of configuration Debug for project lab_9 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_9_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'taskBTNSW':
+../src/main.c:38:6: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+  int n=0;
+      ^
+../src/main.c: In function 'oneShotCallback':
+../src/main.c:95:12: warning: comparison between pointer and integer
+  if (xTime == xOneShotTimer){
+            ^~
+../src/main.c:96:3: warning: implicit declaration of function 'vPrintStringandNumber' [-Wimplicit-function-declaration]
+   vPrintStringandNumber("One shot timer callback executing", xTime);
+   ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:117:39: warning: multi-character character constant [-Wmultichar]
+  xTaskCreate(taskBTNSW, (const char*) 'BTN', configMINIMAL_STACK_SIZE, NULL, 4, &xTaskBTNSW);
+                                       ^~~~~
+../src/main.c:118:44: warning: character constant too long for its type
+  xOneShotTimer = xTimerCreate((const char*)'Oneshot', ONE_SHOT_PERIOD, pdFALSE, TIMER_ID, oneShotCallback);
+                                            ^~~~~~~~~
+../src/main.c:13:19: warning: passing argument 4 of 'xTimerCreate' makes pointer from integer without a cast [-Wint-conversion]
+ #define TIMER_ID  1
+                   ^
+../src/main.c:118:81: note: in expansion of macro 'TIMER_ID'
+  xOneShotTimer = xTimerCreate((const char*)'Oneshot', ONE_SHOT_PERIOD, pdFALSE, TIMER_ID, oneShotCallback);
+                                                                                 ^~~~~~~~
+In file included from ../src/main.c:5:0:
+../../lab_9_bsp/ps7_cortexa9_0/include/timers.h:228:16: note: expected 'void * const' but argument is of type 'int'
+  TimerHandle_t xTimerCreate( const char * const pcTimerName,   /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+                ^~~~~~~~~~~~
+In file included from ../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOS.h:57:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'oneShotCallback':
+../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h:87:29: warning: 'xTime' is used uninitialized in this function [-Wuninitialized]
+ #define configASSERT( x ) if( ( x ) == 0 ) vApplicationAssert( __FILE__, __LINE__ )
+                             ^
+../src/main.c:89:13: note: 'xTime' was declared here
+  TickType_t xTime;
+             ^~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab_9.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_9_bsp/ps7_cortexa9_0/lib -o "lab_9.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+./src/main.o: In function `oneShotCallback':
+D:\vivado_proj\Embedded_Lab\lab_9\lab_9.sdk\lab_9\Debug/../src/main.c:96: undefined reference to `vPrintStringandNumber'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: lab_9.elf] Error 1
+08:08:20 **** Auto Build of configuration Debug for project lab_9 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab_9_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'taskBTNSW':
+../src/main.c:38:6: warning: variable 'n' set but not used [-Wunused-but-set-variable]
+  int n=0;
+      ^
+../src/main.c: In function 'oneShotCallback':
+../src/main.c:95:12: warning: comparison between pointer and integer
+  if (xTime == xOneShotTimer){
+            ^~
+../src/main.c:96:3: warning: implicit declaration of function 'vPrintStringandNumber' [-Wimplicit-function-declaration]
+   vPrintStringandNumber("One shot timer callback executing", xTime);
+   ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:117:39: warning: character constant too long for its type
+  xTaskCreate(taskBTNSW, (const char*) 'BTN_SW', configMINIMAL_STACK_SIZE, NULL, 4, &xTaskBTNSW);
+                                       ^~~~~~~~
+../src/main.c:118:44: warning: character constant too long for its type
+  xOneShotTimer = xTimerCreate((const char*)'Oneshot', ONE_SHOT_PERIOD, pdFALSE, TIMER_ID, oneShotCallback);
+                                            ^~~~~~~~~
+../src/main.c:13:19: warning: passing argument 4 of 'xTimerCreate' makes pointer from integer without a cast [-Wint-conversion]
+ #define TIMER_ID  1
+                   ^
+../src/main.c:118:81: note: in expansion of macro 'TIMER_ID'
+  xOneShotTimer = xTimerCreate((const char*)'Oneshot', ONE_SHOT_PERIOD, pdFALSE, TIMER_ID, oneShotCallback);
+                                                                                 ^~~~~~~~
+In file included from ../src/main.c:5:0:
+../../lab_9_bsp/ps7_cortexa9_0/include/timers.h:228:16: note: expected 'void * const' but argument is of type 'int'
+  TimerHandle_t xTimerCreate( const char * const pcTimerName,   /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+                ^~~~~~~~~~~~
+In file included from ../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOS.h:57:0,
+                 from ../src/main.c:2:
+../src/main.c: In function 'oneShotCallback':
+../../lab_9_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h:87:29: warning: 'xTime' is used uninitialized in this function [-Wuninitialized]
+ #define configASSERT( x ) if( ( x ) == 0 ) vApplicationAssert( __FILE__, __LINE__ )
+                             ^
+../src/main.c:89:13: note: 'xTime' was declared here
+  TickType_t xTime;
+             ^~~~~
+Finished building: ../src/main.c
+ 
+Building target: lab_9.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab_9_bsp/ps7_cortexa9_0/lib -o "lab_9.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+./src/main.o: In function `oneShotCallback':
+D:\vivado_proj\Embedded_Lab\lab_9\lab_9.sdk\lab_9\Debug/../src/main.c:96: undefined reference to `vPrintStringandNumber'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: lab_9.elf] Error 1

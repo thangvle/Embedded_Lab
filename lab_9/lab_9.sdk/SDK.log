@@ -5,3 +5,9 @@
 17:11:35 INFO  : Successfully done setting SDK workspace  
 17:11:35 INFO  : Processing command line option -hwspec C:/vivado_proj/Embedded_Lab/lab_9/lab_9.sdk/design_1_wrapper.hdf.
 19:00:34 ERROR : Unable to load properties file .sdkproject for project lab_9_bsp.
+22:23:28 INFO  : Registering command handlers for SDK TCF services
+22:23:29 INFO  : Launching XSCT server: xsct.bat -interactive D:\vivado_proj\Embedded_Lab\lab_9\lab_9.sdk\temp_xsdb_launch_script.tcl
+22:23:32 INFO  : XSCT server has started successfully.
+22:23:36 INFO  : Successfully done setting XSCT server connection channel  
+22:23:36 INFO  : Processing command line option -hwspec D:/vivado_proj/Embedded_Lab/lab_9/lab_9.sdk/design_1_wrapper.hdf.
+22:23:36 INFO  : Successfully done setting SDK workspace  
