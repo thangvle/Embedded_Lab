@@ -15854,3 +15854,6 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-39
 
 !ENTRY com.xilinx.sdk.utils 0 0 2019-04-03 15:54:51.010
 !MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-724
+
+!ENTRY com.xilinx.sdk.utils 1 0 2019-04-03 16:08:47.167
+!MESSAGE Executed Webtalk command

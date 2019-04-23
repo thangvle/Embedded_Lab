@@ -158,3 +158,5 @@ INFO: [Common 17-14] Message 'Designutils 20-3303' appears 100 times and further
 open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 1834.504 ; gain = 756.230
 file copy -force D:/vivado_proj/Embedded_Lab/lab_7/lab_7.runs/impl_1/design_1_wrapper.sysdef D:/vivado_proj/Embedded_Lab/lab_7/lab_7.sdk/design_1_wrapper.hdf
 
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  3 20:03:25 2019...
